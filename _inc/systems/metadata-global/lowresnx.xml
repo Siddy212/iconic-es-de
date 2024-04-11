@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>LowRes NX</systemName>
+      <systemDescription>LowRes NX was inspired by real 8-bit and 16-bit systems and simulates chips for graphics, sound and I/O, which actually work like classic hardware. It supports hardware sprites as well as hardware parallax scrolling, and even offers vertical blank and raster interrupts to create authentic retro effects.  Imagine LowRes NX as a handheld game console with a d-pad, two action buttons and a little rubber keyboard below a slidable touchscreen.</systemDescription>
+      <systemManufacturer>Timo Kloss</systemManufacturer>
+      <systemReleaseYear>2017</systemReleaseYear>
+      <systemReleaseDate>2017</systemReleaseDate>
+      <systemReleaseDateFormated>2017</systemReleaseDateFormated>
+      <systemHardwareType>Engine</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>00AAAA</systemColor>
+      <systemColorPalette1>FF8300</systemColorPalette1>
+      <systemColorPalette2>56A0A2</systemColorPalette2>
+      <systemColorPalette3>F8EA32</systemColorPalette3>
+      <systemColorPalette4>FF5700</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

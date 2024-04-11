@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>Atari Jaguar</systemName>
+      <systemDescription>The Atari Jaguar is a fifth generation (1993–2005) video game console developed and distributed by Atari Corporation. It was released in November 1993 in North America at a retail price of $249.99. The console was later released in Europe (1994), Australia (1994), and Japan (1994). The Jaguar was marketed as being the first 64-bit video game console; however this claim was widely criticized. The console was discontinued in early 1996, possibly at the time of the company's sale on April 8, 1996.</systemDescription>
+      <systemManufacturer>Atari</systemManufacturer>
+      <systemReleaseYear>1993</systemReleaseYear>
+      <systemReleaseDate>1993-11-23</systemReleaseDate>
+      <systemReleaseDateFormated>November 23, 1993</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>CD3C3B</systemColor>
+      <systemColorPalette1>FF0000</systemColorPalette1>
+      <systemColorPalette2>FDC007</systemColorPalette2>
+      <systemColorPalette3>232326</systemColorPalette3>
+      <systemColorPalette4>0F0E0E</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

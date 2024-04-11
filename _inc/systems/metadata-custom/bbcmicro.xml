@@ -1,0 +1,10 @@
+<theme>
+   <variables>
+      <systemColor>B33D26</systemColor>
+   </variables>
+   <view name="system">
+      <text name="system-title-1-line">
+         <text>BBC Micro</text>
+      </text>
+   </view>
+</theme>

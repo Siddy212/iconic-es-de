@@ -1,0 +1,19 @@
+<theme>
+   <variables>
+      <systemName>N-Gage</systemName>
+      <systemDescription>The N-Gage is a smartphone combining features of a mobile phone and a handheld game system developed by Nokia, announced on 4 November 2002 and released on 7 October 2003. It runs the original Series 60 platform on Symbian OS v6.1.
+
+N-Gage attempted to lure gamers away from the Game Boy Advance by including telephone functionality. This was unsuccessful, partly because the buttons, designed for a telephone, were not well-suited for gaming. The original N-Gage was described as resembling a taco, which led to its mocking nickname "taco phone".</systemDescription>
+      <systemManufacturer>Nokia</systemManufacturer>
+      <systemReleaseYear>2003</systemReleaseYear>
+      <systemReleaseDate>2003-10-07</systemReleaseDate>
+      <systemReleaseDateFormated>October 7th, 2003</systemReleaseDateFormated>
+      <systemHardwareType>Portable</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>CC7236</systemColor>
+      <systemColorPalette1>F6DD08</systemColorPalette1>
+      <systemColorPalette2>800000</systemColorPalette2>
+      <systemColorPalette3>FF0000</systemColorPalette3>
+      <systemColorPalette4>303030</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

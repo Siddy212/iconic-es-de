@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>Nintendo</systemName>
+      <systemDescription>The Nintendo Entertainment System is an 8-bit video game console that was released by Nintendo in North America during 1985, in Europe during 1986 and Australia in 1987. In most of Asia, including Japan (where it was first launched in 1983), China, Vietnam, Singapore, the Middle East and Hong Kong, it was released as the Family Computer, commonly shortened as either the romanized contraction Famicom, or abbreviated to FC. In South Korea, it was known as the Hyundai Comboy, and was distributed by Hynix which then was known as Hyundai Electronics.</systemDescription>
+      <systemManufacturer>Nintendo</systemManufacturer>
+      <systemReleaseYear>1985</systemReleaseYear>
+      <systemReleaseDate>1985-10-18</systemReleaseDate>
+      <systemReleaseDateFormated>October 18, 1985</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>B93041</systemColor>
+      <systemColorPalette1>CD3332</systemColorPalette1>
+      <systemColorPalette2>FFFFFF</systemColorPalette2>
+      <systemColorPalette3>666666</systemColorPalette3>
+      <systemColorPalette4>212121</systemColorPalette4>
+	  <systemCartSize>373-436</systemCartSize>    </variables>
+</theme>

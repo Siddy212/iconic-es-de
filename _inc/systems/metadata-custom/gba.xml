@@ -1,0 +1,10 @@
+<theme>
+   <variables>
+      <systemColor>9300CC</systemColor>
+   </variables>
+   <view name="system">
+      <text name="system-title-1-line">
+         <text>Gameboy Advance</text>
+      </text>
+   </view>
+</theme>

@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>Open Beats of Rage</systemName>
+      <systemDescription>Beats of Rage is a fan-made tribute game to Sega's Streets of Rage series. It supplants the original graphics and characters with resources taken from The King of Fighters series, albeit with tongue-in-cheek renames. Originally developed by Senile Team, the underlying engine powering Beats of Rage later went on to become the Open Beats of Rage (OpenBOR) game engine project.</systemDescription>
+      <systemManufacturer>Senile Team</systemManufacturer>
+      <systemReleaseYear>2003</systemReleaseYear>
+      <systemReleaseDate>2003-11</systemReleaseDate>
+      <systemReleaseDateFormated>November 2003</systemReleaseDateFormated>
+      <systemHardwareType>Engine</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>8BA7AE</systemColor>
+      <systemColorPalette1>E17930</systemColorPalette1>
+      <systemColorPalette2>407AC0</systemColorPalette2>
+      <systemColorPalette3>EBE470</systemColorPalette3>
+      <systemColorPalette4>404040</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

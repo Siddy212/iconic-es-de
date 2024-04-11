@@ -1,0 +1,19 @@
+<theme>
+   <variables>
+      <systemName>Commodore Plus/4</systemName>
+      <systemDescription>The Commodore Plus/4 is a home computer released by Commodore International in 1984. The "Plus/4" name refers to the four-application ROM-resident office suite (word processor, spreadsheet, database, and graphing); it was billed as "the productivity computer with software built in".
+
+Internally, the Plus/4 shared the same basic architecture as the lower-end Commodore 16 and 116 models, and was able to use software and peripherals designed for them. The Plus/4 was incompatible with the Commodore 64's software and some of its hardware. Although the Commodore 64 was more established, the Plus/4 was aimed at the more business-oriented part of the personal computer market.</systemDescription>
+      <systemManufacturer>Commodore</systemManufacturer>
+      <systemReleaseYear>1984</systemReleaseYear>
+      <systemReleaseDate>1984</systemReleaseDate>
+      <systemReleaseDateFormated>1984</systemReleaseDateFormated>
+      <systemHardwareType>Computer</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>5891AE</systemColor>
+      <systemColorPalette1>BBAD93</systemColorPalette1>
+	  <systemCartSize>1-1</systemCartSize>
+      <systemColorPalette2>968971</systemColorPalette2>
+      <systemColorPalette3>FD4120</systemColorPalette3>
+      <systemColorPalette4>00A0C6</systemColorPalette4>    </variables>
+</theme>

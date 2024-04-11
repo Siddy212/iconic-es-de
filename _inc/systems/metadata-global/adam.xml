@@ -1,0 +1,18 @@
+
+<theme>
+   <variables>
+      <systemName>Coleco Adam</systemName>
+      <systemDescription>The Coleco Adam is a home computer and expansion device for the ColecoVision by American toy and video game manufacturer Coleco. The Adam was an attempt to follow on the success of the company's ColecoVision video game console. It was available as Expansion Module #3 for the ColecoVision, converting it into a home computer, and as a standalone unit. As such, it had the benefit of being entirely compatible with all ColecoVision games and peripherals. The computer came with 64 KB of memory, a tape drive for a proprietary medium called Digital Data Packs, a daisy wheel printer, and productivity applications, along with two DDPs for SmartBASIC and Buck Rogers: Planet of Zoom Super Game. It was released in October 1983 with the initial price of $700.</systemDescription>
+      <systemManufacturer>Coleco</systemManufacturer>
+      <systemReleaseYear>1983</systemReleaseYear>
+      <systemReleaseDate>1983-10</systemReleaseDate>
+      <systemReleaseDateFormated>October 1983</systemReleaseDateFormated>
+      <systemHardwareType>Computer</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>5A93AF</systemColor>
+      <systemColorPalette1>999999</systemColorPalette1>
+      <systemColorPalette2>777777</systemColorPalette2>
+      <systemColorPalette3>555555</systemColorPalette3>
+      <systemColorPalette4>333333</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

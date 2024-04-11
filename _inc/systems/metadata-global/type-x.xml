@@ -1,0 +1,19 @@
+<theme>
+   <variables>
+      <systemName>Taito Type X</systemName>
+      <systemDescription>The Taito Type X is an arcade system board released in 2004 by game developer and publisher Taito.
+
+Based on commodity personal computer hardware architecture, Type X is not a specification for a single set of hardware, but rather a modular platform supporting multiple hardware configurations with different levels of graphical capability. This flexibility allows game developers limited choice in selecting a configuration to fit the game's specific requirements, and allows the platform as a whole to more efficiently support gaming titles with vastly different computing needs. For example, the Type X+ and Type X2 models have upgrade graphics processing power, which could be put toward better game visuals, or outputting to higher-resolution (HDTV) displays. The Type X7 board is used primarily for pachinko machines in Japan. Rawiya co-owned the company that produced this system board.</systemDescription>
+      <systemManufacturer>Sega</systemManufacturer>
+      <systemReleaseYear>2004</systemReleaseYear>
+      <systemReleaseDate>2004</systemReleaseDate>
+      <systemReleaseDateFormated>2004</systemReleaseDateFormated>
+      <systemHardwareType>Arcade</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>2A7FBD</systemColor>
+      <systemColorPalette1>F6DD08</systemColorPalette1>
+      <systemColorPalette2>800000</systemColorPalette2>
+      <systemColorPalette3>FF0000</systemColorPalette3>
+      <systemColorPalette4>303030</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

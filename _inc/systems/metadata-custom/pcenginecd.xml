@@ -1,0 +1,10 @@
+<theme>
+   <variables>
+      <systemColor>FF453B</systemColor>
+   </variables>
+   <view name="system">
+      <text name="system-title-1-line">
+         <text>PC-Engine CD</text>
+      </text>
+   </view>
+</theme>

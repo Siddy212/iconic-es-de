@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>Steam</systemName>
+      <systemDescription>Steam is a video game digital distribution service and storefront by Valve. It was launched as a software client in September 2003 as a way for Valve to provide automatic updates for their games, and expanded to distributing and offering third-party game publishers' titles in late 2005.</systemDescription>
+      <systemManufacturer>Valve</systemManufacturer>
+      <systemReleaseYear>2003</systemReleaseYear>
+      <systemReleaseDate>2003-09-12</systemReleaseDate>
+      <systemReleaseDateFormated>September 12, 2003</systemReleaseDateFormated>
+      <systemHardwareType>Folder</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>215D90</systemColor>
+      <systemColorPalette1>2F3B50</systemColorPalette1>
+      <systemColorPalette2>0A7CAF</systemColorPalette2>
+      <systemColorPalette3>EEEEEE</systemColorPalette3>
+      <systemColorPalette4>2A2E33</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

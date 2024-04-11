@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>Desktop Shorcuts</systemName>
+      <systemDescription>View and run your Desktop shortcuts</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>Folder</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>39B1DE</systemColor>
+      <systemColorPalette1>5475B7</systemColorPalette1>
+      <systemColorPalette2>503E7A</systemColorPalette2>
+      <systemColorPalette3>A05745</systemColorPalette3>
+      <systemColorPalette4>5C5599</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

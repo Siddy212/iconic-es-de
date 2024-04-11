@@ -1,0 +1,19 @@
+<theme>
+   <variables>
+      <systemName>Naomi 2</systemName>
+      <systemDescription>The Sega NAOMI 2 is an arcade board developed by Sega and is a successor to Sega NAOMI hardware. It was originally released in 2000. Since it uses similar NAOMI architecture (but significantly beefed up), it is also fully backwards compatible with its predecessor.
+
+The NAOMI 2 is significantly more powerful than the NAOMI, including a dual CPU setup, new T&amp;L GPU, dual rasterizer GPU, increased memory, and faster bandwidth. This leads to games with much more polygons than a NAOMI game, rendered at much faster speeds, while the new T&amp;L GPU adds advanced lighting and particle effects. It was also more affordable than the very expensive (and difficult to program) Sega Hikaru arcade system that preceded it. The NAOMI 2 was nevertheless more powerful than home systems at the time.</systemDescription>
+      <systemManufacturer>Sega</systemManufacturer>
+      <systemReleaseYear>2000</systemReleaseYear>
+      <systemReleaseDate>2000</systemReleaseDate>
+      <systemReleaseDateFormated>2000</systemReleaseDateFormated>
+      <systemHardwareType>Arcade</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>E27E16</systemColor>
+      <systemColorPalette1>E4E7D7</systemColorPalette1>
+      <systemColorPalette2>FD95B0</systemColorPalette2>
+      <systemColorPalette3>48B3EB</systemColorPalette3>
+      <systemColorPalette4>35FF90</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

@@ -1,0 +1,18 @@
+<theme>
+   <variables>
+      <systemName>${system.fullName}</systemName>
+      <systemDescription>View and play the ${system.fullName}</systemDescription>
+      <systemManufacturer>&#032;</systemManufacturer>
+      <systemReleaseYear>&#032;</systemReleaseYear>
+      <systemReleaseDate>&#032;</systemReleaseDate>
+      <systemReleaseDateFormated>&#032;</systemReleaseDateFormated>
+      <systemHardwareType>System</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>222222</systemColor>
+      <systemColorPalette1>999999</systemColorPalette1>
+      <systemColorPalette2>777777</systemColorPalette2>
+      <systemColorPalette3>555555</systemColorPalette3>
+      <systemColorPalette4>333333</systemColorPalette4>
+      <systemCartSize>1-1</systemCartSize>
+      </variables>
+</theme>

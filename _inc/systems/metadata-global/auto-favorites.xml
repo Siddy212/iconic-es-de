@@ -1,0 +1,16 @@
+<theme>
+   <variables>
+      <systemName>Favorites</systemName>
+      <systemDescription>View and play your favorite games across the entire library.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>Favorites</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemImageType>marquee</systemImageType><systemCartSize>1-1</systemCartSize>
+   </variables>
+
+   
+
+</theme>

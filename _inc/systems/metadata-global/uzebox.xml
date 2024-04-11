@@ -1,0 +1,19 @@
+<theme>
+   <variables>
+      <systemName>Uzebox</systemName>
+      <systemDescription>The Uzebox is a retro-minimalist 8-bit open source game console. It is based on an AVR 8-bit general purpose microcontroller made by Atmel. The particularity of the system is that it uses an interrupt driven kernel and has no frame buffer. Functions such as video signal generation, tile rendering and music mixing is done in realtime by a background task so your game can easily be developed in C.
+
+   The design goal was to be as simple as possible yet have good enough sound and graphics to implement interesting games. Emphasis was put on making it easy and fun to assemble and program for any hobbyists. The final design contains only two chips: an ATmega644 and an AD725 RGB-to-NTSC converter.</systemDescription>
+      <systemManufacturer>Belogic</systemManufacturer>
+      <systemReleaseYear>2008</systemReleaseYear>
+      <systemReleaseDate>2008-08-24</systemReleaseDate>
+      <systemReleaseDateFormated>August 24, 2008</systemReleaseDateFormated>
+      <systemHardwareType>Console</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>CE3D3D</systemColor>
+      <systemColorPalette1>C43F32</systemColorPalette1>
+      <systemColorPalette2>EDC63D</systemColorPalette2>
+      <systemColorPalette3>C9C2BF</systemColorPalette3>
+      <systemColorPalette4>07336A</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

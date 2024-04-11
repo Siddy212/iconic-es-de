@@ -1,0 +1,10 @@
+<theme>
+   <variables>
+      <systemColor>0E6DC5</systemColor>
+   </variables>
+   <view name="system">
+      <text name="system-title-1-line">
+         <text>CPS II</text>
+      </text>
+   </view>
+</theme>

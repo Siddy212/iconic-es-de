@@ -1,0 +1,10 @@
+<theme>
+   <view name="system">
+      <text name="system-title-1-line">
+         <text>Sega Saturn (JP)</text>
+      </text>
+      <carousel name="system-carousel">
+         <text>Sega Saturn (JP)</text>
+      </carousel>
+   </view>
+</theme>

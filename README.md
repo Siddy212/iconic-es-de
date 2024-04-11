@@ -1,64 +1,88 @@
-# Alekfull NX (ES-DE Version)
-This is port of the AlekFull NX theme by [fagnerpc](https://github.com/fagnerpc) for the version of EmulationStation used in [ES-DE](https://es-de.org/)
+# Iconic (ES-DE Version)
+Iconic is an EmulationStation-DE theme that aims to provide a modern appearance while also highlighting famous characters from each system. It provides many textlist and gridview options while also adding new multi-layered artwork for many systems. Inspiration and templates were taken from the following themes:
 
-**All artwork and layouts were designed and created by fagnerpc.  I simply made changes to the XML to make the theme compatible with ES-DE. The original version of the theme can be found [here](https://github.com/fagnerpc/Alekfull-NX)**
+   - AlekFull NX theme by [fagnerpc](https://github.com/fagnerpc)
+   - [CoinOPS](https://github.com/TheGrizzMD/coinops-es-de) theme by [TheGrizzMD](https://github.com/TheGrizzMD)
+   - [ARTFLIX](https://github.com/fagnerpc/Alekfull-ARTFLIX/) by [Alekfull](https://github.com/fagnerpc/)
+   - [ARTFLIX-Colbalto](https://github.com/galisteogames/ARTFLIX-Cobalto/) by [Galisteo](https://github.com/galisteogames/)
+   - [NSO Menu Interpreted ES-DE](https://github.com/anthonycaccese/nso-menu-interpreted-es-de) by [anthonycaccese](https://github.com/anthonycaccese)
 
-## Changes Made
 
-- Removed all Batocera specific elements to make the theme compatible with ES-DE
-- Updated system image names to match the standard used by ES-DE
-- Added a 16:10 Layout Variant
-- Added navigation sound set for ES-DE
-- Replaced some images with new versions created by ClassicxCola ([Thread](https://www.reddit.com/r/retroid/comments/1049daq/im_happy_to_announce_the_release_of_colafulldx_a/))
 
 ## **Preview**
 
 | System View | Gamelist View |
 | --- | --- |
-| <img alt="Screenshot 2023-12-27 at 10 58 09 AM" src="https://github.com/anthonycaccese/alekfull-nx-es-de/assets/1454947/5ecda38b-4d3e-49e8-b6dd-840f9d74fd82"> | <img alt="Screenshot 2023-12-27 at 10 59 17 AM" src="https://github.com/anthonycaccese/alekfull-nx-es-de/assets/1454947/4474e635-fa36-4145-b323-506a1d328ccb">
+| <img src="https://github.com/Siddy212/iconic-es-de/assets/60283021/e72b2a5f-59f5-473c-82ff-2e3910aff469">| <img src="https://github.com/Siddy212/iconic-es-de/assets/60283021/bcf06376-5990-40f0-b361-70e65f8b0e95"> |
+
 
 ## **Configuration Options**
 
-- The theme has a simple set of options that can be changed directly from the UI Settings menu of ES-DE
+- This theme has a simple set of options that can be changed directly from the UI Settings menu of ES-DE
 - `Theme Aspect Ratio` - sets the aspect ratio the theme will render at. If needed, this can be changed to match the aspect ratio of your screen (though it should happen automatically).
-   - 16:9 and 16:10 are supported
-- `Theme Variant` - sets the layout used for the gamelist view when media & metadata are scraped for your games.  There are 4 variants to choose from:
-   - `List: Metadata & Miximage` - A simple list that displays the miximage artwork and shows all game metadata
-   - `List: Metadata & Boxart` - A simple list that displays cover artwork and shows all game metadata
-   - `List: Miximage` - A simple list that removes all gamemetadata and displays miximage artwork
-   - `List: Boxart` - A simple list that removes all gamemetadata and displays cover artwork
-- `Theme Color Scheme` - sets the color scheme that is used for the overall theme on all views.  There are 7 built in color schems to choose from:
+   - `16:9`
+   - `16:10`
+   - `4:3`
+- `Theme Variant` - sets the layout used for the gamelist view when media & metadata are scraped for your games.  There are 4 sets of variants, with different grid icon sizes to choose from based on your screen size. The amount of metadata (and size of the gamelist if applicable) will scale based on the selected font size:
+   - `Textlist` - A simple list that displays the game names. Less demanding on weaker systems.
+     
+   - `Grid: Boxart Small/Medium/Large` - A grid view that displays small/medium/large boxart covers.
+     
+   - `Grid: Titlescreen Small/Medium/Large` - A grid view that displays small/medium/large titlescreens.
+     
+   - `Grid: Physical Media Small/Medium/Large` - A grid view that displays small/medium/large physical media images.
+          
+   - `Grid: Marquee Small/Medium/Large` - A grid view that display small/medium/large marquees.
+
+     
+- `Theme Color Scheme` - sets the color scheme that is used for the overall theme on all views.  There are 6 built in color schemes to choose from. 3 have the standard art, while the other 3 allow customization:
    - `Light`
    - `Dark`
-- `Theme Font Size` - enables you to change the size of the fonts displayed in the theme
+   - `Retro Gray`
+- `Theme Font Size` - enables you to change the size of most fonts displayed in the theme.
    - `Medium` - good for display on tvs and computer monitors
    - `Large` - good for display on large handheld screens at 6 inches or larger
    - `Extra Large` - good for display on small handheld screens at 6 inches or below
 
 ### Preview of Variants and Color Schemes
 
-| Dark | Light |
-| --- | --- |
-| <img alt="Screenshot 2023-12-27 at 10 58 22 AM" src="https://github.com/anthonycaccese/alekfull-nx-es-de/assets/1454947/6cad71f7-1175-46cb-80a3-3a7acda8ddab"> | <img alt="Screenshot 2023-12-27 at 10 58 09 AM" src="https://github.com/anthonycaccese/alekfull-nx-es-de/assets/1454947/0ba4f91e-6e07-48de-b026-8e18f7d8599e"> |
-| <img alt="Screenshot 2023-12-27 at 11 01 00 AM" src="https://github.com/anthonycaccese/alekfull-nx-es-de/assets/1454947/7db55fcf-e399-4820-b22c-a9e22f38b9dd"> | <img alt="Screenshot 2023-12-27 at 10 59 17 AM" src="https://github.com/anthonycaccese/alekfull-nx-es-de/assets/1454947/32884694-0668-4b71-b793-254ef85c0a5a"> |
-| <img alt="Screenshot 2023-12-27 at 11 00 44 AM" src="https://github.com/anthonycaccese/alekfull-nx-es-de/assets/1454947/2eb94be5-bc3b-442e-b31c-4e8450546b55"> | <img alt="Screenshot 2023-12-27 at 10 59 40 AM" src="https://github.com/anthonycaccese/alekfull-nx-es-de/assets/1454947/f46bd0ce-1c2b-4c7e-9a92-6fbbce201424"> | 
+
+
+
+
+
+
+| Color | SystemView | GamelistView |
+| --- | --- | --- |
+|Dark|![SampleDarkPSX](https://github.com/Siddy212/iconic-es-de/assets/60283021/15097176-7914-4b5e-b1a8-0627dc81808b)|![SampleDarkGrid](https://github.com/Siddy212/iconic-es-de/assets/60283021/01b0fb75-43f5-4aef-95c5-75800cacd8a7)|
+|Light|![SampleLightGBC](https://github.com/Siddy212/iconic-es-de/assets/60283021/c8d33ecf-ed11-4bbb-a463-a8cfad608bdf)|![SampleGBCCarts](https://github.com/Siddy212/iconic-es-de/assets/60283021/933506fc-5619-4838-946d-99d9919d5686)|
+|Retro Gray|![SampleGBRetro](https://github.com/Siddy212/iconic-es-de/assets/60283021/6fa06cbf-87dc-4c18-ab07-fdc6c059b2a5)|![SampleListRetro](https://github.com/Siddy212/iconic-es-de/assets/60283021/9dde49d9-1872-431e-9a9a-8db14d2e14d0)|
 
 ### Preview of Font Sizes
 
 | Medium | Large | Extra Large |
 | --- | --- | --- |
-| <img alt="Screenshot 2023-12-27 at 10 59 17 AM" src="https://github.com/anthonycaccese/alekfull-nx-es-de/assets/1454947/32884694-0668-4b71-b793-254ef85c0a5a"> | <img alt="Screenshot 2023-12-27 at 11 31 24 AM" src="https://github.com/anthonycaccese/alekfull-nx-es-de/assets/1454947/d3a22a1b-24eb-4a2e-8318-2694b758151a"> | <img alt="Screenshot 2023-12-27 at 11 31 34 AM" src="https://github.com/anthonycaccese/alekfull-nx-es-de/assets/1454947/648f2c21-998d-4e16-839a-7e7b6d41d504">
+| ![MediumFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/e5ac8b50-09b7-4d39-b9cb-07744b9eaab6) | ![LargeFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/7a177c71-2c67-4bc9-8c55-b314bfa99147) | ![XlargeFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/d1e0710a-3eb7-4d72-a513-0cd1c41db091) | 
+
+
+
+
+
+
+
+
 
 ## **Theme Customizations**
 
 The theme allows customizations to artwork without the need to edit the source XML.  This enables you to change the look of the theme and still retain any changes when the root theme is updated.
 
 ### Start Here 
-- Make sure `Light (Custom Artwork)` or `Dark (Custom Artwork)` is selected from `Menu > UI Settings > Theme Variant`
+- Make sure `Light (Custom Artwork)`, `Dark (Custom Artwork)`, or `Retro Gray (Custom Artwork)`  is selected from `Menu > UI Settings > Theme Variant`
 - This setting changes the directories that the theme looks for artwork in and sets up the ability for you to add custom artwork.
+- Overlay functionality will be disabled when custom backgrounds are chosen.
 
 ### Backgrounds
-- Create a folder called `custom-backgrounds` in ES-DE's theme directory at: `ES-DE/themes/alekfull-nx-es-de/_inc/systems`
+- Create a folder called `custom-backgrounds` in ES-DE's theme directory at: `ES-DE/themes/iconic-es-de/_inc/systems`
 - Upload your custom background images to that folder
 - They can be named:
     - _default.jpg
@@ -67,22 +91,29 @@ The theme allows customizations to artwork without the need to edit the source X
 - `${system.theme}.jpg` should be named for the system you are looking to override.  For example if you wanted to override the artwork for `snes` you would create an image called `snes.jpg` in the backgrounds folder.
 - If a given ${system.theme}.jpg image is not found it will use _default.jpg image so make sure to at least create that image.
 
-### Carousel Icons
-- Create a folder called `custom-carousel-icons` in ES-DE's theme directory at: `ES-DE/themes/alekfull-nx-es-de/_inc/systems`
-- Upload your custom carousel icons to that folder
-- They can be named:
-    - ${system.theme}.jpg
-- `${system.theme}.jpg` should be named for the system you are looking to override.  For example if you wanted to override the artwork for `snes` you would create an image called `snes.jpg` in the backgrounds folder.
-
 ## **Additional Notes**
 
-### Versions for other ES forks:
-* If you use Batocera... then check out the original version by fagnerpc [here](https://github.com/fagnerpc/Alekfull-NX).
+This theme may be resource intensive due to the layering of images. This is especially true when utilizing the grid view. Increasing the VRAM limit under "Other Settings" within the ES-DE menu is useful if pop-in is experienced.
 
 ## **Acknowledgments**
-- All original artwork and layouts were designed and created by [fagnerpc](https://github.com/fagnerpc)
-- Some artwork created by ClassicxCola ([Thread](https://www.reddit.com/r/retroid/comments/1049daq/im_happy_to_announce_the_release_of_colafulldx_a/))
 
+
+**Artwork was designed and created by the following artists and credit is provided to them.**
+   - A lot of the original artwork and layouts were designed and created by [fagnerpc](https://github.com/fagnerpc)
+   - Earthworm Jim: Created by [Robert Fink](https://finklematter.artstation.com/) 
+   - Super Metroid background SNES: Created by [Mark Van Haitsma](https://www.artstation.com/mvhaitsma)
+   - Donkey Kong Country 2 art for SNES: Created by [Renato Giacomo](https://www.artstation.com/renatogiacomini)
+   - Yoshi Mario Kart on Wii: Modifications made to art by [Yoshiyaki](https://www.deviantart.com/yoshiyaki) & [Renato Giacomo](https://www.artstation.com/renatogiacomini)
+      NES background: Created by [m4d3](https://www.reddit.com/r/gaming/comments/1kspxe/my_take_on_super_mario_wallpaper_3d_rendering/)
+   - Delfino Plaza wallpaper on Gamecube: Created by [Vincent Moubeche](https://www.artstation.com/artwork/Xn4Xo3)
+   - Mario on Gamecube: Created by [SonicJeremy](https://www.deviantart.com/sonicjeremy)
+   - Balloon Fighter Render: Created by [Hydro-Plumber](https://www.deviantart.com/hydro-plumber/gallery)
+   - Chrono on SFC: Created by [Pik](https://gamebanana.com/mods/383835)
+   - Mario on NES: (https://www.freepnglogos.com/images/mario-11641.html)
+   - Multiple character renders: [Nibroc-Rock](https://www.deviantart.com/nibroc-rock)
+   - Mario Curtain for Now--Playing: [Blueamnesiac](https://www.deviantart.com/blueamnesiac/art/SMB3-Curtain-Wallpaper-369156625)
+   - Other publicly available wallpapers or characters are credited to their original creators.
+     
 ## **License**
 Creative Commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/2.0/
 You are free to share and adapt this theme as long as you provide attribution back to me (and the above credits) as well share any updates you make under the same licence terms.

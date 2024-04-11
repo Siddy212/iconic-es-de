@@ -1,0 +1,10 @@
+<theme>
+   <variables>
+      <systemColor>41A6F6</systemColor>
+   </variables>
+   <view name="system">
+      <text name="system-title-1-line">
+         <text>TIC-80</text>
+      </text>
+   </view>
+</theme>

@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>TIC-80</systemName>
+      <systemDescription>TIC-80 is a free and open source fantasy computer for making, playing and sharing tiny games. There are built-in tools for development: code, sprites, maps, sound editors and the command line, which is enough to create a mini retro game. At the exit you will get a cartridge file, which can be stored and played on the website. Also, the game can be packed into a player that works on all popular platforms and distribute as you wish. To make a retro styled game the whole process of creation takes place under some technical limitations: 240x136 pixels display, 16 color palette, 256 8x8 color sprites, 4 channel sound and etc.</systemDescription>
+      <systemManufacturer>Vadim Grigoruk</systemManufacturer>
+      <systemReleaseYear>2017</systemReleaseYear>
+      <systemReleaseDate>2017</systemReleaseDate>
+      <systemReleaseDateFormated>2017</systemReleaseDateFormated>
+      <systemHardwareType>Engine</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemColor>140C1C</systemColor>
+      <systemColorPalette1>4E76B4</systemColorPalette1>
+      <systemColorPalette2>C5494A</systemColorPalette2>
+      <systemColorPalette3>C7772F</systemColorPalette3>
+      <systemColorPalette4>65A33D</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>Ports</systemName>
+      <systemDescription>View and play all of your favorite game ports.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>Folder</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>3161BC</systemColor>
+	  <systemCartSize>1-1</systemCartSize>
+      <systemColorPalette1>4F5054</systemColorPalette1>
+      <systemColorPalette2>737375</systemColorPalette2>
+      <systemColorPalette3>F4BE46</systemColorPalette3>
+      <systemColorPalette4>E45B12</systemColorPalette4>    </variables>
+</theme>

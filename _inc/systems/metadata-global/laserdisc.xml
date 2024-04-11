@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>LaserDisc Games</systemName>
+      <systemDescription>LaserDisc arcade games use pre-recorded video, either in combination with overlaid sprites or simply as sections of video controllable by the player. The first major LaserDisc game was Sega's Astron Belt, released in 1983. It was closely followed by Dragon's Lair the same year, which is doubtlessly the most famous LaserDisc game. A number of releases followed and to this day there is a community making similar homebrew games, although they no longer technically run on LaserDiscs.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>Folder</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>222222</systemColor>
+      <systemColorPalette1>F6DD08</systemColorPalette1>
+      <systemColorPalette2>800000</systemColorPalette2>
+      <systemColorPalette3>FF0000</systemColorPalette3>
+      <systemColorPalette4>303030</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

@@ -1,6 +1,10 @@
+<!--
+    Theme capabilities for iconic-es-de
+-->
+
 <themeCapabilities>
    
-   <themeName>Alekfull NX (Revisited)</themeName>
+   <themeName>Iconic</themeName>
 
    <aspectRatio>16:9</aspectRatio>
    <aspectRatio>16:10</aspectRatio>
@@ -16,13 +20,21 @@
    <colorScheme name="dark-original">
       <label>Dark</label>
    </colorScheme>
+   <colorScheme name="retro-original">
+      <label>Retro Gray</label>
+   </colorScheme>
    <colorScheme name="light-custom">
       <label>Light (Custom Images)</label>
    </colorScheme>
    <colorScheme name="dark-custom">
       <label>Dark (Custom Images)</label>
    </colorScheme>
+   <colorScheme name="retro-custom">
+      <label>Retro Gray (Custom Images)</label>
+   </colorScheme>
 
+
+   
    <transitions name="transitions">
       <label>transitions</label>
       <selectable>false</selectable>
@@ -39,42 +51,132 @@
       <entry>builtin-fade</entry>
    </suppressTransitionProfiles>
 
-   <variant name="gamelist-metadata-on-miximage">
-      <label>List: Metadata &amp; Miximage</label>
+
+   <variant name="textlist">
+      <label>Textlist</label>
       <selectable>true</selectable>
       <override>
          <trigger>noMedia</trigger>
-         <mediaType>miximage,cover</mediaType>
+         <mediaType>physicalmedia</mediaType>
          <useVariant>basic</useVariant>
       </override>
    </variant>
-   <variant name="gamelist-metadata-on-boxart">
-      <label>List: Metadata &amp; Boxart</label>
+   
+   <variant name="small-boxart">
+      <label>Grid: Boxart Small</label>
       <selectable>true</selectable>
       <override>
          <trigger>noMedia</trigger>
-         <mediaType>cover,miximage</mediaType>
+         <mediaType>miximage</mediaType>
          <useVariant>basic</useVariant>
       </override>
    </variant>
-   <variant name="gamelist-metadata-off-miximage">
-      <label>List: Miximage</label>
+   <variant name="medium-boxart">
+      <label>Grid: Boxart Medium</label>
       <selectable>true</selectable>
       <override>
          <trigger>noMedia</trigger>
-         <mediaType>miximage,cover</mediaType>
+         <mediaType>miximage</mediaType>
          <useVariant>basic</useVariant>
       </override>
    </variant>
-   <variant name="gamelist-metadata-off-boxart">
-      <label>List: Boxart</label>
+   <variant name="large-boxart">
+      <label>Grid: Boxart Large</label>
       <selectable>true</selectable>
       <override>
          <trigger>noMedia</trigger>
-         <mediaType>cover,miximage</mediaType>
+         <mediaType>miximage</mediaType>
          <useVariant>basic</useVariant>
       </override>
    </variant>
+
+   <variant name="small-titlescreen">
+      <label>Grid: Titlescreen Small</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>miximage</mediaType>
+         <useVariant>basic</useVariant>
+      </override>
+   </variant>
+   <variant name="medium-titlescreen">
+      <label>Grid: Titlescreen Medium</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>miximage</mediaType>
+         <useVariant>basic</useVariant>
+      </override>
+   </variant>
+   <variant name="large-titlescreen">
+      <label>Grid: Titlescreen Large</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>miximage</mediaType>
+         <useVariant>basic</useVariant>
+      </override>
+   </variant>
+
+
+   <variant name="small-physical-media">
+      <label>Grid: Physical Media Small</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>miximage</mediaType>
+         <useVariant>basic</useVariant>
+      </override>
+   </variant>
+   <variant name="medium-physical-media">
+      <label>Grid: Physical Media Medium</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>miximage</mediaType>
+         <useVariant>basic</useVariant>
+      </override>
+   </variant>
+   <variant name="large-physical-media">
+      <label>Grid: Physical Media Large</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>miximage</mediaType>
+         <useVariant>basic</useVariant>
+      </override>
+   </variant>
+
+
+   <variant name="small-marquee">
+      <label>Grid: Marquee Small</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>miximage</mediaType>
+         <useVariant>basic</useVariant>
+      </override>
+   </variant>
+   <variant name="medium-marquee">
+      <label>Grid: Marquee Medium</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>miximage</mediaType>
+         <useVariant>basic</useVariant>
+      </override>
+   </variant>
+   <variant name="large-marquee">
+      <label>Grid: Marquee Large</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>miximage</mediaType>
+         <useVariant>basic</useVariant>
+      </override>
+   </variant>
+
+
    <variant name="basic">
       <label>Basic</label>
       <selectable>false</selectable>

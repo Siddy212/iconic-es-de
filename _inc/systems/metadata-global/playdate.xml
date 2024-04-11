@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>Playdate</systemName>
+      <systemDescription>Playdate is a handheld video game console developed by Panic. As well as buttons and a directional pad, the device has a mechanical crank on its side. The console was first announced on May 22, 2019 on the cover of Edge magazine, and was released on April 18, 2022. The name references its weekly release schedule of games.</systemDescription>
+      <systemManufacturer>Panic</systemManufacturer>
+      <systemReleaseYear>2022</systemReleaseYear>
+      <systemReleaseDate>2022-04-18</systemReleaseDate>
+      <systemReleaseDateFormated>April 18, 2022</systemReleaseDateFormated>
+      <systemHardwareType>Portable</systemHardwareType>
+      <systemCoverSize>4-3</systemCoverSize>
+      <systemColor>6c00ff</systemColor>
+      <systemColorPalette1>6c00ff</systemColorPalette1>
+      <systemColorPalette2>ffc833</systemColorPalette2>
+      <systemColorPalette3>6c00ff</systemColorPalette3>
+	  <systemCartSize>1-1</systemCartSize>
+      <systemColorPalette4>ffc833</systemColorPalette4>    </variables>
+</theme>

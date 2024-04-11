@@ -1,0 +1,10 @@
+<theme>
+   <variables>
+      <systemColor>4D692F</systemColor>
+   </variables>
+   <view name="system">
+      <text name="system-title-1-line">
+         <text>WASM-4</text>
+      </text>
+   </view>
+</theme>

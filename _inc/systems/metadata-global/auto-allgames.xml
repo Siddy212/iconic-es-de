@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>All Games</systemName>
+      <systemDescription>View and play every game across your entire library.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>All</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+      <systemCartSize>1-1</systemCartSize>
+
+
+   </variables>
+
+
+</theme>

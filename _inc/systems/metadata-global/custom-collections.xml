@@ -1,0 +1,14 @@
+<theme>
+   <variables>
+      <systemName>Custom Collections</systemName>
+      <systemDescription>Organize your games into custom collections.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>Collection</systemHardwareType>
+      <systemCoverSize>112-67</systemCoverSize>
+	  <systemImageType>marquee</systemImageType><systemCartSize>1-1</systemCartSize>    </variables>
+
+
+</theme>

@@ -1,0 +1,10 @@
+<theme>
+   <variables>
+      <systemColor>C98630</systemColor>
+   </variables>
+   <view name="system">
+      <text name="system-title-1-line">
+         <text>Arcade</text>
+      </text>
+   </view>
+</theme>

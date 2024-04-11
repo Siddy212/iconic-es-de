@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>Triforce Arcade</systemName>
+      <systemDescription>The Triforce (トライフォース) is an arcade board developed in a joint venture between Sega, Nintendo, and Namco. It is based upon the Nintendo GameCube video game console to reduce development costs, and allowed for arcade ports of home console games, and vice versa. It is named after the magical, often sought-after object in Nintendo's popular The Legend of Zelda series.</systemDescription>
+      <systemManufacturer>Sega</systemManufacturer>
+      <systemReleaseYear>2002</systemReleaseYear>
+      <systemReleaseDate>2002</systemReleaseDate>
+      <systemReleaseDateFormated>2002</systemReleaseDateFormated>
+      <systemHardwareType>Arcade</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>9867A8</systemColor>
+      <systemColorPalette1>7B79AA</systemColorPalette1>
+      <systemColorPalette2>524C82</systemColorPalette2>
+      <systemColorPalette3>CBC9E0</systemColorPalette3>
+      <systemColorPalette4>1E1C11</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

@@ -1,0 +1,17 @@
+<theme>
+   <variables>
+      <systemName>Kodi</systemName>
+      <systemDescription>Kodi is a free and open-source media player software application developed by the XBMC Foundation, a non-profit technology consortium. Kodi is available for multiple operating systems and hardware platforms, with a software 10-foot user interface for use with televisions and remote controls.</systemDescription>
+      <systemManufacturer>XBMC Fdn.</systemManufacturer>
+      <systemReleaseYear>2002</systemReleaseYear>
+      <systemReleaseDate>2002</systemReleaseDate>
+      <systemReleaseDateFormated>2002</systemReleaseDateFormated>
+      <systemHardwareType>Folder</systemHardwareType>
+      <systemCoverSize>3-4</systemCoverSize>
+      <systemColor>00141F</systemColor>
+      <systemColorPalette1>186AAC</systemColorPalette1>
+      <systemColorPalette2>36A2CD</systemColorPalette2>
+      <systemColorPalette3>448F38</systemColorPalette3>
+      <systemColorPalette4>BF2E31</systemColorPalette4>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

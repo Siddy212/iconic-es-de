@@ -1,0 +1,12 @@
+<theme>
+   <variables>
+      <systemName>Now Playing</systemName>
+      <systemDescription>Play and complete the games on your backlog.</systemDescription>
+      <systemManufacturer>Various</systemManufacturer>
+      <systemReleaseYear>Various</systemReleaseYear>
+      <systemReleaseDate>Various</systemReleaseDate>
+      <systemReleaseDateFormated>Various</systemReleaseDateFormated>
+      <systemHardwareType>Collection</systemHardwareType>
+      <systemCoverSize>1-1</systemCoverSize>
+	  <systemCartSize>1-1</systemCartSize>    </variables>
+</theme>

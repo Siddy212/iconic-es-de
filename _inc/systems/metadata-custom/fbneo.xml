@@ -1,0 +1,10 @@
+<theme>
+   <variables>
+      <systemColor>464F76</systemColor>
+   </variables>
+   <view name="system">
+      <text name="system-title-1-line">
+         <text>Final Burn Neo</text>
+      </text>
+   </view>
+</theme>
