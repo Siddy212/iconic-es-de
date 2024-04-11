@@ -1,7 +1,7 @@
 # Iconic (ES-DE Version)
-Iconic is an EmulationStation-DE theme that aims to provide a modern appearance while also highlighting famous characters from each system. It provides many textlist and gridview options while also adding new multi-layered artwork for many systems. Inspiration and templates were taken from the following themes:
+Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearance while also highlighting famous characters from each system. It includes many textlist and gridview options while also adding new multi-layered artwork for popular systems. Inspiration and templates were taken from the following themes:
 
-   - AlekFull NX theme by [fagnerpc](https://github.com/fagnerpc)
+   - AlekFull NX theme by [fagnerpc](https://github.com/fagnerpc) and ported by [anthonycaccese](https://github.com/anthonycaccese)
    - [CoinOPS](https://github.com/TheGrizzMD/coinops-es-de) theme by [TheGrizzMD](https://github.com/TheGrizzMD)
    - [ARTFLIX](https://github.com/fagnerpc/Alekfull-ARTFLIX/) by [Alekfull](https://github.com/fagnerpc/)
    - [ARTFLIX-Colbalto](https://github.com/galisteogames/ARTFLIX-Cobalto/) by [Galisteo](https://github.com/galisteogames/)
@@ -35,7 +35,7 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern appearance 
    - `Grid: Marquee Small/Medium/Large` - A grid view that display small/medium/large marquees.
 
      
-- `Theme Color Scheme` - sets the color scheme that is used for the overall theme on all views.  There are 6 built in color schemes to choose from. 3 have the standard art, while the other 3 allow customization:
+- `Theme Color Scheme` - sets the color scheme that is used for the overall theme on all views.  There are 3 color schemes to choose from, while also having 3 schemes allowing for user provided custom artwork:
    - `Light`
    - `Dark`
    - `Retro Gray`
@@ -44,7 +44,7 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern appearance 
    - `Large` - good for display on large handheld screens at 6 inches or larger
    - `Extra Large` - good for display on small handheld screens at 6 inches or below
 
-### Preview of Variants and Color Schemes
+### **Preview of Variants and Color Schemes**
 
 
 
@@ -74,7 +74,7 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern appearance 
 
 ## **Theme Customizations**
 
-The theme allows customizations to artwork without the need to edit the source XML.  This enables you to change the look of the theme and still retain any changes when the root theme is updated.
+This theme allows customizations to artwork without the need to edit the source XML.  This enables you to change the look of the theme and still retain any changes when the root theme is updated.
 
 ### Start Here 
 - Make sure `Light (Custom Artwork)`, `Dark (Custom Artwork)`, or `Retro Gray (Custom Artwork)`  is selected from `Menu > UI Settings > Theme Variant`
@@ -112,6 +112,7 @@ This theme may be resource intensive due to the layering of images. This is espe
    - Mario on NES: (https://www.freepnglogos.com/images/mario-11641.html)
    - Multiple character renders: [Nibroc-Rock](https://www.deviantart.com/nibroc-rock)
    - Mario Curtain for Now--Playing: [Blueamnesiac](https://www.deviantart.com/blueamnesiac/art/SMB3-Curtain-Wallpaper-369156625)
+   - Pit on Famicom and Banjo Kazooie on N64: [Adverse56](https://www.deviantart.com/adverse56)
    - Other publicly available wallpapers or characters are credited to their original creators.
      
 ## **License**
