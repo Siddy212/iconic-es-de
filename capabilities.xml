@@ -57,7 +57,7 @@
       <selectable>true</selectable>
       <override>
          <trigger>noMedia</trigger>
-         <mediaType>physicalmedia</mediaType>
+         <mediaType>miximage</mediaType>
          <useVariant>basic</useVariant>
       </override>
    </variant>
