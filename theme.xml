@@ -6,6 +6,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
 16:9 resolution:        based on 1920x1080
 16:10 resolution:       based on 1920x1200
 4:3 resolution:         based on 1920x1440
+19.5:9 resolution:      based on 1920x886
 -->
 
 <theme>
@@ -527,7 +528,9 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    <aspectRatio name="4:3">
       <include>./aspect-ratio-4-3.xml</include>
    </aspectRatio>
-
+   <aspectRatio name="19.5:9">
+      <include>./aspect-ratio-19.5-9.xml</include>
+   </aspectRatio>
    <!--
    ///
    Sounds

@@ -25,6 +25,13 @@
          </grid>
       </view>
    </aspectRatio>
+   <aspectRatio name="19.5:9">
+      <view name="gamelist">
+         <grid name="grid">
+            <itemSize>0.108 0.3274074074</itemSize><!-- 256 350 -->
+         </grid>
+      </view>
+   </aspectRatio>
 </variant>
 
 <variant name="medium-boxart,medium-titlescreen,medium-physical-media,medium-marquee">
@@ -46,6 +53,13 @@
       <view name="gamelist">
          <grid name="grid">
             <itemSize>0.18 0.3358024691</itemSize><!-- 240 328.125 -->
+         </grid>
+      </view>
+   </aspectRatio>
+   <aspectRatio name="19.5:9">
+      <view name="gamelist">
+         <grid name="grid">
+            <itemSize>0.135 0.4092592593</itemSize><!-- 256 350 -->
          </grid>
       </view>
    </aspectRatio>
@@ -73,6 +87,12 @@
          </grid>
       </view>
    </aspectRatio>
-
+   <aspectRatio name="19.5:9">
+      <view name="gamelist">
+         <grid name="grid">
+            <itemSize>0.18 0.5456790123</itemSize><!-- 256 350 -->
+         </grid>
+      </view>
+   </aspectRatio>
 </variant>
 </theme>
