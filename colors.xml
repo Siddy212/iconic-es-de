@@ -91,7 +91,7 @@
          <systemCarouselSelectorColor>00C3E3</systemCarouselSelectorColor>
          <systemCarouselArtPath>./_inc/systems/carousel-icons/${system.theme}.png</systemCarouselArtPath>
          <backgroundArtPath>./_inc/systems/custom-backgrounds/${system.theme}.jpg</backgroundArtPath>
-         <backgroundArtDefaultImage>./_inc/systems/backgrounds/_default.jpg</backgroundArtDefaultImage>
+         <backgroundArtDefaultImage>./_inc/systems/custom-backgrounds/_default.jpg</backgroundArtDefaultImage>
          <overlayArtPath>./_inc/systems/custom-Overlay/${system.theme}.png</overlayArtPath>
       </variables>
    </colorScheme>
