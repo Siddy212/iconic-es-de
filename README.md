@@ -92,7 +92,7 @@ This theme allows customizations to artwork without the need to edit the source 
   
 ### Overlays
 - Overlays that help make images pop can also be added similar to the main theme images.
-- These must be in a 16:9 aspect ratio and a .png format.
+- These should be in a 16:9 1920x1080 aspect ratio and a .png format to have the desired effect.
 - Use the folder called `custom-Overlay` in ES-DE's theme directory at: `ES-DE/themes/iconic-es-de/_inc/systems`
 - Upload your custom overlay images to that folder. These will appear on top of all other assets on the screen.
 - They can be named:
