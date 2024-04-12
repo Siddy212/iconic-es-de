@@ -83,20 +83,17 @@ This theme allows customizations to artwork without the need to edit the source 
 ### Backgrounds
 - Use the folder called `custom-backgrounds` in ES-DE's theme directory at: `ES-DE/themes/iconic-es-de/_inc/systems`
 - Upload your custom background images to that folder
-- They can be named:
-    - _default.jpg
+- They should be named:
     - ${system.theme}.jpg
-- `_default.jpg` can be used for creating a single image that is used for all systems OR a fallback for systems that you did not create a custom image for.
 - `${system.theme}.jpg` should be named for the system you are looking to override.  For example if you wanted to override the artwork for `snes` you would create an image called `snes.jpg` in the backgrounds folder.
-- If a given ${system.theme}.jpg image is not found it will use _default.jpg image so make sure to at least create that image.
+- If a given ${system.theme}.jpg image is not found, it will use _default.jpg image from the standard color variant.
   
 ### Overlays
 - Overlays that help make images pop can also be added similar to the main theme images.
 - These should be in a 16:9 1920x1080 aspect ratio and a .png format to have the desired effect.
 - Use the folder called `custom-Overlay` in ES-DE's theme directory at: `ES-DE/themes/iconic-es-de/_inc/systems`
 - Upload your custom overlay images to that folder. These will appear on top of all other assets on the screen.
-- They can be named:
-    - _default.png
+- They should be named:
     - ${system.theme}.png
 
 ## **Additional Notes**
