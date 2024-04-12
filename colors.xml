@@ -83,7 +83,7 @@
          <systemCarouselArtPath>./_inc/systems/carousel-icons/${system.theme}.png</systemCarouselArtPath>
          <backgroundArtPath>./_inc/systems/backgrounds/${system.theme}.jpg</backgroundArtPath>
          <backgroundArtDefaultImage>./_inc/systems/backgrounds/_default.jpg</backgroundArtDefaultImage>
-         <overlayArtPath>./_inc/systems/Overlay/${system.theme}.png</overlayArtPath>
+         <overlayArtPath>./_inc/systems/overlay/${system.theme}.png</overlayArtPath>
       </variables>
    </colorScheme>
    <colorScheme name="dark-custom,light-custom,retro-custom">
@@ -92,7 +92,7 @@
          <systemCarouselArtPath>./_inc/systems/carousel-icons/${system.theme}.png</systemCarouselArtPath>
          <backgroundArtPath>./_inc/systems/custom-backgrounds/${system.theme}.jpg</backgroundArtPath>
          <backgroundArtDefaultImage>./_inc/systems/custom-backgrounds/_default.jpg</backgroundArtDefaultImage>
-         <overlayArtPath>./_inc/systems/custom-Overlay/${system.theme}.png</overlayArtPath>
+         <overlayArtPath>./_inc/systems/custom-overlay/${system.theme}.png</overlayArtPath>
       </variables>
    </colorScheme>
 </theme>
