@@ -90,9 +90,9 @@
       <variables>
          <systemCarouselSelectorColor>00C3E3</systemCarouselSelectorColor>
          <systemCarouselArtPath>./_inc/systems/carousel-icons/${system.theme}.png</systemCarouselArtPath>
-         <backgroundArtPath>./_inc/systems/custombackgrounds/${system.theme}.png</backgroundArtPath>
-         <backgroundArtDefaultImage>./_inc/systems/custombackgrounds/_default.png</backgroundArtDefaultImage>
-         <overlayArtPath>./_inc/systems/Overlay/${system.theme}.jpg</overlayArtPath>
+         <backgroundArtPath>./_inc/systems/custom-backgrounds/${system.theme}.jpg</backgroundArtPath>
+         <backgroundArtDefaultImage>./_inc/systems/custom-backgrounds/_default.jpg</backgroundArtDefaultImage>
+         <overlayArtPath>./_inc/systems/custom-Overlay/${system.theme}.png</overlayArtPath>
       </variables>
    </colorScheme>
 </theme>
