@@ -114,6 +114,7 @@ This theme may be resource intensive due to the layering of images. This is espe
    - Mario Curtain for Now--Playing: [Blueamnesiac](https://www.deviantart.com/blueamnesiac/art/SMB3-Curtain-Wallpaper-369156625)
    - Pit on Famicom and Banjo Kazooie on N64: [Adverse56](https://www.deviantart.com/adverse56)
    - Tyranitar for GBC Hacks: [Chris Silva](https://www.artstation.com/artwork/obBlyB)
+   - Wallpaper for Gameboy Hacks: [trollkarl3] (https://www.deviantart.com/trollkarl3/art/Realistic-Super-Mario-Bros-1-first-stage-Wallpaper-375538304)
    - Other publicly available wallpapers or characters are credited to their original creators.
      
 ## **License**
