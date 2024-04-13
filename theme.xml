@@ -58,16 +58,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <path>./_inc/images/${backgroundArtGradientImage}</path>
          <zIndex>4</zIndex>
       </image>
-      <image name="system-carousel-selector">
-         <origin>0.5 0</origin>
-         <path>./_inc/images/${systemcarouselselector}.svg</path>
-         <zIndex>3</zIndex>
-      </image>
-      <image name="system-Carousel-logo">
-         <origin>0.5 0.5</origin>
-         <path>${systemCarouselArtPath}</path>
-         <zIndex>10</zIndex>
-      </image>
       <helpsystem name="help">
          <origin>1 1</origin>
          <originDimmed>0.5 0</originDimmed>
@@ -110,12 +100,10 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <zIndex>2</zIndex>
       </image>
       <image name="system-carousel-selector">
-         <opacity>1</opacity>
+         <origin>0.5 0</origin>
+         <path>./_inc/images/${systemcarouselselector}.svg</path>
+         <zIndex>3</zIndex>
       </image>
-      <image name="system-Carousel-logo">
-         <opacity>0</opacity>
-      </image>
-
       <image name="Overlay">
          <origin>0.5 0.5</origin>
          <zIndex>14</zIndex>
@@ -200,9 +188,9 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       </text>
       <image name="system-Carousel-logo">
          <opacity>0.4</opacity>
-      </image>
-      <image name="system-carousel-selector">
-         <opacity>0</opacity>
+         <origin>0.5 0.5</origin>
+         <path>${systemCarouselArtPath}</path>
+         <zIndex>10</zIndex>
       </image>
       <image name="game-list-background">
          <origin>0.5 0.5</origin>
