@@ -327,6 +327,7 @@ based on 1920x1080
             <size>.355 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <visible>${metadataBase}</visible>
+            <lineSpacing>1.2</lineSpacing>
          </text>
          <rating name="game-rating-base">
             <pos>0.086 0.616</pos>

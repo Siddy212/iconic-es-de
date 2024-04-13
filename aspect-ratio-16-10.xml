@@ -243,7 +243,7 @@ based on 1920x1200
       <view name="gamelist">
          <video name="game-media">
             <pos>0.2328125 0.28</pos>
-            <maxSize>0.448958333333333 0.43</maxSize>
+            <maxSize>0.43 0.43</maxSize>
          </video>
          <!-- Start: Extended Metadata -->
          <image name="game-metadata-background-shadow-extended">
@@ -272,15 +272,15 @@ based on 1920x1200
             <visible>${metadataExtended}</visible>
          </rating>
          <datetime name="game-releasedate-extended">
-            <pos>0.040 0.6165</pos>
+            <pos>0.0415 0.6165</pos>
             <size>0 ${metaDatafontSize}</size>
          </datetime>
          <text name="game-name-extended">
-            <pos>0.040 0.527</pos>
+            <pos>0.0415 0.527</pos>
             <size>0.405 ${metaDatafontSize}</size>
          </text>
          <text name="game-players-extended">
-            <pos>0.040 0.661</pos>
+            <pos>0.0415 0.661</pos>
             <size>0 ${metaDatafontSize}</size>
          </text>
          <text name="game-genre-extended">
@@ -297,7 +297,7 @@ based on 1920x1200
          </text>
          <datetime name="game-lastplayed-extended">
             <pos>0.354 0.616</pos>
-            <size>0.086 ${metaDatafontSize}</size>
+            <size>0.090 ${metaDatafontSize}</size>
          </datetime>
          <text name="game-playcount-extended">
             <pos>0.354 0.661</pos>
@@ -318,9 +318,10 @@ based on 1920x1200
             <zIndex>4</zIndex>
          </image>
          <text name="game-name-base">
-            <pos>0.054 0.547</pos>
-            <size>.375 ${metaDatafontSize}</size>
+            <pos>0.0535 0.547</pos>
+            <size>.392 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
+             <lineSpacing>1.2</lineSpacing>
             <visible>${metadataBase}</visible>
          </text>
          <rating name="game-rating-base">
@@ -336,7 +337,7 @@ based on 1920x1200
             <visible>${metadataBase}</visible>
          </datetime>
          <text name="game-genre-base">
-            <pos>0.293 0.617</pos>
+            <pos>0.294 0.617</pos>
             <size>0.152 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <lineSpacing>1.2</lineSpacing>
