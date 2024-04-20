@@ -1,5 +1,5 @@
 <theme>
-      <colorScheme name="retro-original,retro-custom">
+      <colorScheme name="retro-modern,retro-custom,retro-classic,">
       <variables>
          <helpTextColor>54585a</helpTextColor>
          <helpIconColor>514689</helpIconColor>
@@ -9,8 +9,10 @@
          <backgroundArtGradientImage>background-art-gradient-retro.svg</backgroundArtGradientImage>
          <systemInfoColor>54585a</systemInfoColor>
          <systemCarouselTextColor>54585a</systemCarouselTextColor>
-         <systemCarouselTextBackgroundColor>FFFFFFAA</systemCarouselTextBackgroundColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <systemcarouselselector>system-carousel-selector-retro</systemcarouselselector>
+         <gamelistCarouselBackground>carousel-background-retro</gamelistCarouselBackground>
+         <gamelistCarouselSaturation>0.6</gamelistCarouselSaturation>
          <gamelistLogoColor>514689</gamelistLogoColor>
          <gamelistFadeImage>grid-fade-retro</gamelistFadeImage>
          <gamelistBackgroundImage>gamelist-background-retro</gamelistBackgroundImage>
@@ -22,10 +24,10 @@
          <gamelistSecondaryColor>777777</gamelistSecondaryColor>
          <gameDescriptionColor>54585a</gameDescriptionColor>
          <gameMetadataColor>54585a</gameMetadataColor>
-          <BadgeColor>54585a</BadgeColor>
+         <BadgeColor>54585a</BadgeColor>
       </variables>
    </colorScheme>
-   <colorScheme name="dark-original,dark-custom">
+   <colorScheme name="dark-modern,dark-custom,dark-classic">
       <variables>
          <helpTextColor>999999</helpTextColor>
          <helpIconColor>bbbbbb</helpIconColor>
@@ -35,8 +37,10 @@
          <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
          <systemInfoColor>cccccc</systemInfoColor>
          <systemCarouselTextColor>cccccc</systemCarouselTextColor>
-         <systemCarouselTextBackgroundColor>FFFFFFAA</systemCarouselTextBackgroundColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <systemcarouselselector>system-carousel-selector-dark</systemcarouselselector>
+         <gamelistCarouselBackground>carousel-background-dark</gamelistCarouselBackground>
+         <gamelistCarouselSaturation>0.8</gamelistCarouselSaturation>
          <gamelistLogoColor>cccccc</gamelistLogoColor>
          <gamelistFadeImage>grid-fade-dark</gamelistFadeImage>
          <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
@@ -51,7 +55,7 @@
          <BadgeColor>bbbbbb</BadgeColor>
       </variables>
    </colorScheme>
-   <colorScheme name="light-original,light-custom">
+   <colorScheme name="light-modern,light-custom,light-classic">
       <variables>
          <helpTextColor>404040</helpTextColor>
          <helpIconColor>404040</helpIconColor>
@@ -61,8 +65,10 @@
          <backgroundArtGradientImage>background-art-gradient-light.svg</backgroundArtGradientImage>
          <systemInfoColor>555555</systemInfoColor>
          <systemCarouselTextColor>555555</systemCarouselTextColor>
-         <systemCarouselTextBackgroundColor>FFFFFFAA</systemCarouselTextBackgroundColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <systemcarouselselector>system-carousel-selector-light</systemcarouselselector>
+         <gamelistCarouselBackground>carousel-background-light</gamelistCarouselBackground>
+         <gamelistCarouselSaturation>0.5</gamelistCarouselSaturation>
          <gamelistLogoColor>555555</gamelistLogoColor>
          <gamelistFadeImage>grid-fade-light</gamelistFadeImage>
          <gamelistBackgroundImage>gamelist-background-light</gamelistBackgroundImage>
@@ -77,13 +83,13 @@
          <BadgeColor>555555</BadgeColor>
       </variables>
    </colorScheme>
-   <colorScheme name="dark-original,light-original,retro-original">
+   <colorScheme name="dark-modern,light-modern,retro-modern">
       <variables>
          <systemCarouselSelectorColor>00C3E3</systemCarouselSelectorColor>
          <systemCarouselArtPath>./_inc/systems/carousel-icons/${system.theme}.png</systemCarouselArtPath>
-         <backgroundArtPath>./_inc/systems/backgrounds/${system.theme}.jpg</backgroundArtPath>
-         <backgroundArtDefaultImage>./_inc/systems/backgrounds/_default.jpg</backgroundArtDefaultImage>
-         <overlayArtPath>./_inc/systems/overlay/${system.theme}.png</overlayArtPath>
+         <backgroundArtPath>./_inc/systems/modern-backgrounds/${system.theme}.jpg</backgroundArtPath>
+         <backgroundArtDefaultImage>./_inc/systems/modern-backgrounds/_default.jpg</backgroundArtDefaultImage>
+         <overlayArtPath>./_inc/systems/modern-overlay/${system.theme}.png</overlayArtPath>
       </variables>
    </colorScheme>
    <colorScheme name="dark-custom,light-custom,retro-custom">
@@ -93,6 +99,15 @@
          <backgroundArtPath>./_inc/systems/custom-backgrounds/${system.theme}.jpg</backgroundArtPath>
          <backgroundArtDefaultImage>./_inc/systems/custom-backgrounds/_default.jpg</backgroundArtDefaultImage>
          <overlayArtPath>./_inc/systems/custom-overlay/${system.theme}.png</overlayArtPath>
+      </variables>
+   </colorScheme>
+   <colorScheme name="dark-classic,light-classic,retro-classic">
+      <variables>
+         <systemCarouselSelectorColor>00C3E3</systemCarouselSelectorColor>
+         <systemCarouselArtPath>./_inc/systems/carousel-icons/${system.theme}.png</systemCarouselArtPath>
+         <backgroundArtPath>./_inc/systems/classic-backgrounds/${system.theme}.jpg</backgroundArtPath>
+         <backgroundArtDefaultImage>./_inc/systems/classic-backgrounds/_default.jpg</backgroundArtDefaultImage>
+         <overlayArtPath>./_inc/systems/classic-overlay/${system.theme}.png</overlayArtPath>
       </variables>
    </colorScheme>
 </theme>

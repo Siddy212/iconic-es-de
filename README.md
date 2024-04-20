@@ -23,53 +23,57 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
    - `16:9`
    - `16:10`
    - `4:3`
-- `Theme Variant` - sets the layout used for the gamelist view when media & metadata are scraped for your games.  There are 4 sets of variants, with different grid icon sizes to choose from based on your screen size. The amount of metadata (and size of the gamelist if applicable) will scale based on the selected font size:
-   - `Textlist` - A simple list that displays the game names. Less demanding on weaker systems.
+   - `19.5:9`
+- `Theme Variant` - sets the layout used for the gamelist view when media & metadata are scraped for your games.  All settings will scale the size of the gamelist and the amount of metadata shown based on the selected font size:
+   - `Textlist: Miximage ` - A simple list of game names on the right with the miximage on the left. Less demanding on weaker systems.
+ 
+   - `Textlist: Boxart` - A simple list of game names  on the right with the game boxart on the left. Less demanding on weaker systems.
+
+   - `Carousel - Miximage` - A vertical carousel of game marquees on the right and the game miximage on the left.
      
-   - `Grid: Boxart Small/Medium/Large` - A grid view that displays small/medium/large boxart covers.
+   - `Carousel - Boxart` - A vertical carousel of game marquees on the right and the game boxart on the left.
      
-   - `Grid: Titlescreen Small/Medium/Large` - A grid view that displays small/medium/large titlescreens.
+   - `Grid: Boxart` - A grid view that displays boxart covers.
      
-   - `Grid: Physical Media Small/Medium/Large` - A grid view that displays small/medium/large physical media images.
+   - `Grid: Titlescreen` - A grid view that displays titlescreens.
+     
+   - `Grid: Physical Media` - A grid view that displays physical media images.
           
-   - `Grid: Marquee Small/Medium/Large` - A grid view that display small/medium/large marquees.
+   - `Grid: Marquee ` - A grid view that display game marquees.
 
      
-- `Theme Color Scheme` - sets the color scheme that is used for the overall theme on all views.  There are 3 color schemes to choose from, while also having 3 schemes allowing for user provided custom artwork:
-   - `Light`
-   - `Dark`
-   - `Retro Gray`
-- `Theme Font Size` - enables you to change the size of most fonts displayed in the theme.
-   - `Medium` - good for display on tvs and computer monitors
-   - `Large` - good for display on large handheld screens at 6 inches or larger
-   - `Extra Large` - good for display on small handheld screens at 6 inches or below
+- `Theme Color Scheme` - There are 3 types of color schemes that are used for the overall theme on all views, Light, Dark, and Retro-Gray.  Each of these color schemes allow you to choose from: Classic, Modern, or Custom. This will indicate which art style to use. Classic using more official game art while Modern uses updated renders of characters. Custom allows user-defined artwork that can be mixed without being reset when updating the theme.
+   - `Light` - A white scheme in Classic, Modern, or Custom styles.
+   - `Dark` - A dark scheme in Classic, Modern, or Custom styles.
+   - `Retro Gray` - A SNES inspired color scheme in Classic, Modern, or Custom styles.
+- `Theme Font Size` - enables you to change the size of the fonts displayed in the theme. It will also scale the size of the grid and carousel.
+   - `Small` - good for display on tvs and computer monitors. Smallest Grid size.
+   - `Medium` - good for display on tvs and computer monitors. Medium Grid sizing.
+   - `Large` - good for display on large handheld screens at 6 inches or larger. Medium Grid sizing.
+   - `Extra Large` - good for display on small handheld screens at 6 inches or below. Largest Grid sizing.
 
 ### **Preview of Variants and Color Schemes**
 
 
 
+| Color | Variant | SystemView | GamelistView |
+| --- | --- | --- | --- |
+|Dark-Classic|Carousel & Boxart|![SNESClassic-Dark](https://github.com/Siddy212/iconic-es-de/assets/60283021/e7ea0a8d-d26c-4ad9-b560-3d4ad2fe74a4)|![SNESClassic-Dark-Carousel](https://github.com/Siddy212/iconic-es-de/assets/60283021/ff848dcb-d5fd-4ad0-8878-86615327d64a)|
+|Light-Classic|Grid: Boxart|![GameboyClassic-Light](https://github.com/Siddy212/iconic-es-de/assets/60283021/edd49d15-52f0-4632-922e-64236f400eab)|![Gameboy-Classic-Light-Grid](https://github.com/Siddy212/iconic-es-de/assets/60283021/a2a7a10b-b753-46b0-bf6b-a8aaacaeb939)|
+|Retro Gray-Classic|Textlist & Miximage|![GenesisClassic-RetroGray](https://github.com/Siddy212/iconic-es-de/assets/60283021/0399fd57-f7a8-469f-91e8-0506538a70d7)|![GenesisClassic-RetroGray-Textlist](https://github.com/Siddy212/iconic-es-de/assets/60283021/77550642-0917-4dee-a911-1a4627213a50)|
 
 
-
-
-| Color | SystemView | GamelistView |
-| --- | --- | --- |
-|Dark|![SampleDarkPSX](https://github.com/Siddy212/iconic-es-de/assets/60283021/15097176-7914-4b5e-b1a8-0627dc81808b)|![SampleDarkGrid](https://github.com/Siddy212/iconic-es-de/assets/60283021/01b0fb75-43f5-4aef-95c5-75800cacd8a7)|
-|Light|![SampleLightGBC](https://github.com/Siddy212/iconic-es-de/assets/60283021/c8d33ecf-ed11-4bbb-a463-a8cfad608bdf)|![SampleGBCCarts](https://github.com/Siddy212/iconic-es-de/assets/60283021/933506fc-5619-4838-946d-99d9919d5686)|
-|Retro Gray|![SampleGBRetro](https://github.com/Siddy212/iconic-es-de/assets/60283021/6fa06cbf-87dc-4c18-ab07-fdc6c059b2a5)|![SampleListRetro](https://github.com/Siddy212/iconic-es-de/assets/60283021/9dde49d9-1872-431e-9a9a-8db14d2e14d0)|
+| Color | Variant | SystemView | GamelistView |
+| --- | --- | --- | --- |
+|Dark-Modern|Grid: Boxart|![SampleDarkPSX](https://github.com/Siddy212/iconic-es-de/assets/60283021/15097176-7914-4b5e-b1a8-0627dc81808b)|![SampleDarkGrid](https://github.com/Siddy212/iconic-es-de/assets/60283021/01b0fb75-43f5-4aef-95c5-75800cacd8a7)|
+|Light-Modern|Grid: Physical Media|![SampleLightGBC](https://github.com/Siddy212/iconic-es-de/assets/60283021/c8d33ecf-ed11-4bbb-a463-a8cfad608bdf)|![SampleGBCCarts](https://github.com/Siddy212/iconic-es-de/assets/60283021/933506fc-5619-4838-946d-99d9919d5686)|
+|Retro Gray-Modern|Textlist & Miximage|![SampleGBRetro](https://github.com/Siddy212/iconic-es-de/assets/60283021/6fa06cbf-87dc-4c18-ab07-fdc6c059b2a5)|![SampleListRetro](https://github.com/Siddy212/iconic-es-de/assets/60283021/9dde49d9-1872-431e-9a9a-8db14d2e14d0)|
 
 ### Preview of Font Sizes
 
 | Medium | Large | Extra Large |
 | --- | --- | --- |
 | ![MediumFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/e5ac8b50-09b7-4d39-b9cb-07744b9eaab6) | ![LargeFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/7a177c71-2c67-4bc9-8c55-b314bfa99147) | ![XlargeFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/d1e0710a-3eb7-4d72-a513-0cd1c41db091) | 
-
-
-
-
-
-
-
 
 
 ## **Theme Customizations**
@@ -79,10 +83,11 @@ This theme allows customizations to artwork without the need to edit the source 
 ### Start Here 
 - Make sure `Light (Custom Artwork)`, `Dark (Custom Artwork)`, or `Retro Gray (Custom Artwork)`  is selected from `Menu > UI Settings > Theme Variant`
 - This setting changes the directories that the theme looks for artwork in and sets up the ability for you to add custom artwork.
+- If desired, users can mix and match classic/modern art. There is also an alternate background/overlay folder that can give additional options.
 
 ### Backgrounds
 - Use the folder called `custom-backgrounds` in ES-DE's theme directory at: `ES-DE/themes/iconic-es-de/_inc/systems`
-- Upload your custom background images to that folder
+- Copy your custom background images to that folder
 - They should be named:
     - ${system.theme}.jpg
     - _default.jpg
@@ -90,10 +95,10 @@ This theme allows customizations to artwork without the need to edit the source 
 - If a given ${system.theme}.jpg image is not found, it will use _default.jpg image, so make sure to keep that file.
   
 ### Overlays
-- Overlays that help make images pop can also be added similar to the main theme images.
+- Custom overlays can be added to help make images pop.
 - These should be in a 16:9 1920x1080 aspect ratio and a .png format to have the desired effect.
-- Use th folder called `custom-Overlay` in ES-DE's theme directory at: `ES-DE/themes/iconic-es-de/_inc/systems`
-- Upload your custom overlay images to that folder. These will appear on top of all other assets on the screen.
+- Use the folder called `custom-overlay` in ES-DE's theme directory at: `ES-DE/themes/iconic-es-de/_inc/systems`
+- Upload your custom overlay images to that folder. Be aware that these will appear on top of all other assets on that screen.
 - They should be named:
     - ${system.theme}.png
 
@@ -123,6 +128,7 @@ This theme may be resource intensive due to the layering of images. This is espe
    - Wallpaper for Gameboy Hacks: [trollkarl3] (https://www.deviantart.com/trollkarl3/art/Realistic-Super-Mario-Bros-1-first-stage-Wallpaper-375538304)
    - Haohmaru for ngp - [jlcryu](https://www.deviantart.com/jlcryu/art/Haohmaru-919703925)
    - Glados for Steam - [EliteRobo](https://www.deviantart.com/eliterobo/art/Portal-SFM-Simple-GLaDOS-Render-794265716)
+   - ScummVM Classic - [mikimontllo]([)https://twitter.com/mikimontllo)
    - Other publicly available wallpapers or characters are credited to their original creators.
      
 ## **License**

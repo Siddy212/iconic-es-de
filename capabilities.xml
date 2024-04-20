@@ -11,27 +11,37 @@
    <aspectRatio>4:3</aspectRatio>
    <aspectRatio>19.5:9</aspectRatio>
 
+   <fontSize>small</fontSize>
    <fontSize>medium</fontSize>
    <fontSize>large</fontSize>
    <fontSize>x-large</fontSize>
-   
-   <colorScheme name="light-original">
-      <label>Light</label>
+
+   <colorScheme name="light-classic">
+      <label>Classic - Light</label>
    </colorScheme>
-   <colorScheme name="dark-original">
-      <label>Dark</label>
+   <colorScheme name="dark-classic">
+      <label>Classic - Dark</label>
    </colorScheme>
-   <colorScheme name="retro-original">
-      <label>Retro Gray</label>
+   <colorScheme name="retro-classic">
+      <label>Classic - Retro Gray</label>
+   </colorScheme>
+   <colorScheme name="light-modern">
+      <label>Modern - Light</label>
+   </colorScheme>
+   <colorScheme name="dark-modern">
+      <label>Modern - Dark</label>
+   </colorScheme>
+   <colorScheme name="retro-modern">
+      <label>Modern - Retro Gray</label>
    </colorScheme>
    <colorScheme name="light-custom">
-      <label>Light (Custom Images)</label>
+      <label>Custom - Light</label>
    </colorScheme>
    <colorScheme name="dark-custom">
-      <label>Dark (Custom Images)</label>
+      <label>Custom - Dark</label>
    </colorScheme>
    <colorScheme name="retro-custom">
-      <label>Retro Gray (Custom Images)</label>
+      <label>Custom - Retro Gray</label>
    </colorScheme>
 
 
@@ -53,63 +63,40 @@
    </suppressTransitionProfiles>
 
 
-   <variant name="textlist">
-      <label>Textlist</label>
+   <variant name="textlist-miximage">
+      <label>Textlist and Miximage</label>
       <selectable>true</selectable>
    </variant>
-   
-   <variant name="small-boxart">
-      <label>Grid: Boxart Small</label>
+   <variant name="textlist-boxart">
+      <label>Textlist and Boxart</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="medium-boxart">
-      <label>Grid: Boxart Medium</label>
+   <variant name="carousel-miximage">
+      <label>Carousel and Miximage</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="large-boxart">
-      <label>Grid: Boxart Large</label>
+   <variant name="carousel-boxart">
+      <label>Carousel and Boxart</label>
       <selectable>true</selectable>
    </variant>
-
-   <variant name="small-titlescreen">
-      <label>Grid: Titlescreen Small</label>
+   <variant name="grid-boxart">
+      <label>Grid: Boxart</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="medium-titlescreen">
-      <label>Grid: Titlescreen Medium</label>
+   <variant name="grid-titlescreen">
+      <label>Grid: Titlescreen</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="large-titlescreen">
-      <label>Grid: Titlescreen Large</label>
+   <variant name="grid-physical-media">
+      <label>Grid: Physical Media</label>
       <selectable>true</selectable>
    </variant>
-
-
-   <variant name="small-physical-media">
-      <label>Grid: Physical Media Small</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="medium-physical-media">
-      <label>Grid: Physical Media Medium</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="large-physical-media">
-      <label>Grid: Physical Media Large</label>
+   <variant name="grid-marquee">
+      <label>Grid: Marquee</label>
       <selectable>true</selectable>
    </variant>
 
 
-   <variant name="small-marquee">
-      <label>Grid: Marquee Small</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="medium-marquee">
-      <label>Grid: Marquee Medium</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="large-marquee">
-      <label>Grid: Marquee Large</label>
-      <selectable>true</selectable>
-   </variant>
+
 
 </themeCapabilities>
