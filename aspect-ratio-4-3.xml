@@ -253,7 +253,7 @@ based on 3840x2880
          <gamelistGridFontSize>0.036111111111111</gamelistGridFontSize>
          <gamelistPos>0.528291666666667 0.133666666666667</gamelistPos>
          <badgepos>0.04 0.823</badgepos>
-         <badgesize>0.3 0.03</badgesize>
+         <badgesize>0.35 0.033</badgesize>
          <badgemargin>0.006 0.01</badgemargin>
          <itemsBeforeCenter>4</itemsBeforeCenter>
          <itemsAfterCenter>4</itemsAfterCenter>
@@ -272,7 +272,7 @@ based on 3840x2880
          <gamelistGridFontSize>0.036111111111111</gamelistGridFontSize>
          <gamelistPos>0.528291666666667 0.1289566666666667</gamelistPos>
          <badgepos>0.04 0.823</badgepos>
-         <badgesize>0.3 0.03</badgesize>
+         <badgesize>0.35 0.033</badgesize>
          <badgemargin>0.006 0.01</badgemargin>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>

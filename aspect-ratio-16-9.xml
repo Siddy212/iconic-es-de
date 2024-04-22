@@ -252,8 +252,8 @@ based on 1920x1080
          <gamelistHelpPos>0.952 0.982</gamelistHelpPos>
          <gamelistGridFontSize>0.036111111111111</gamelistGridFontSize>
          <gamelistPos>0.556291666666667 0.133666666666667</gamelistPos>
-         <badgepos>0.04 0.89</badgepos>
-         <badgesize>0.3 0.108</badgesize>
+         <badgepos>0.04 0.908</badgepos>
+         <badgesize>0.3 0.14</badgesize>
          <badgemargin>0.006 0.01</badgemargin>
          <itemsBeforeCenter>4</itemsBeforeCenter>
          <itemsAfterCenter>4</itemsAfterCenter>
@@ -272,8 +272,8 @@ based on 1920x1080
          <gamelistHelpPos>0.952 0.982</gamelistHelpPos>
          <gamelistGridFontSize>0.036111111111111</gamelistGridFontSize>
          <gamelistPos>0.556291666666667 0.1289566666666667</gamelistPos>
-         <badgepos>0.04 0.89</badgepos>
-         <badgesize>0.3 0.108</badgesize>
+         <badgepos>0.04 0.908</badgepos>
+         <badgesize>0.3 0.14</badgesize>
          <badgemargin>0.006 0.01</badgemargin>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
@@ -291,7 +291,7 @@ based on 1920x1080
       <view name="gamelist">
          <badges name="badges">
             <lines>3</lines>
-            <itemsPerLine>4</itemsPerLine>
+            <itemsPerLine>3</itemsPerLine>
          </badges>
          <video name="game-media">
             <pos>0.2328125 0.28</pos>
