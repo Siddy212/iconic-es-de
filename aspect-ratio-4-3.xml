@@ -206,7 +206,7 @@ based on 3840x2880
    <fontSize name="small">
       <variables>
          <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-medium.svg</gamelistBackgroundImageCalculated>
-         <gamelistFontSize>0.022</gamelistFontSize>
+         <gamelistFontSize>0.025</gamelistFontSize>
          <gamelistSelectorHeight>0.039814814814815</gamelistSelectorHeight>
          <gamelistLineSpacing>1.851851851851852</gamelistLineSpacing>
          <gamelistHelpOrigin>1 1</gamelistHelpOrigin>
