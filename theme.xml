@@ -196,9 +196,33 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <origin>0.5 0.5</origin>
          <zIndex>4</zIndex>
       </image>
+      <video name="game-media">
+         <origin>0.5 0.5</origin>
+         <delay>3</delay>
+         <videoCornerRadius>0.005</videoCornerRadius>
+         <pillarboxes>false</pillarboxes>
+         <iterationCount>1</iterationCount>
+         <onIterationsDone>image</onIterationsDone>
+         <imageType>miximage</imageType>
+      </video>
+   </view>
+
+   <!--
+   ///
+   Gamelist View: Badge and Image variations
+   ///
+   -->
+   <variant name="
+      grid-boxart,
+      grid-titlescreen,
+      grid-physical-media,
+      grid-marquee,
+      textlist-miximage,
+      carousel-miximage
+      carousel-boxart,
+      textlist-boxart">
+   <view name="gamelist">
       <badges name="badges">
-         <origin>0 0.5</origin>
-         <horizontalAlignment>left</horizontalAlignment>
          <slots>all</slots>
          <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
          <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
@@ -212,17 +236,11 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <badgeIconColor>${BadgeColor}</badgeIconColor>
          <controllerSize>0.8</controllerSize>
          <folderLinkSize>0.8</folderLinkSize>
-      </badges>
-      <video name="game-media">
-         <origin>0.5 0.5</origin>
-         <delay>3</delay>
-         <videoCornerRadius>0.005</videoCornerRadius>
-         <pillarboxes>false</pillarboxes>
-         <iterationCount>1</iterationCount>
-         <onIterationsDone>image</onIterationsDone>
-         <imageType>miximage</imageType>
-      </video>
+         <origin>0 0.5</origin>
+         <horizontalAlignment>left</horizontalAlignment>
+      </badges>    
    </view>
+   </variant>
 
    <variant name="
       grid-boxart,
@@ -238,16 +256,30 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       </video>
    </view>
    </variant>
-   <variant name="carousel-boxart,textlist-boxart">
+   <variant name="
+      carousel-boxart,
+      textlist-boxart">
    <view name="gamelist">
       <video name="game-media">
          <imageType>cover</imageType>
+         <imageCornerRadius>0.008</imageCornerRadius>
+      </video>      
+   </view>
+   </variant>
+
+   <variant name="
+      carousel-boxart-no-metadata,
+      textlist-boxart-no-metadata">
+   <view name="gamelist">
+      <video name="game-media">
+         <imageType>cover</imageType>
+         <imageCornerRadius>0.008</imageCornerRadius>
       </video>
    </view>
    </variant>
    <!--
    ///
-   Gamelist View: Variant Defautls
+   Gamelist View: Grid Defaults
    ///
    -->
    <variant name="
@@ -293,7 +325,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
 
  <!--
    ///
-   Gamelist View: Grid Image Variants
+   Gamelist View: Grid Image Variations
    ///
    -->
    <variant name="grid-boxart">
@@ -340,7 +372,13 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
     </view>
    </variant>
 
-   <variant name="textlist-boxart,textlist-miximage">
+ <!--
+   ///
+   Gamelist View: Textlist Variations
+   ///
+   -->
+
+   <variant name="textlist-boxart,textlist-miximage,textlist-boxart-no-metadata">
       <view name="gamelist">
       <textlist name="game-list">
          <fontPath>${fontBold}</fontPath>
@@ -355,13 +393,16 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       </view>
    </variant>
 
-
-   <variant name="carousel-miximage,carousel-boxart">
+ <!--
+   ///
+   Gamelist View: Carousel Variations
+   ///
+   -->
+   <variant name="carousel-miximage,carousel-boxart,carousel-boxart-no-metadata">
       <view name="gamelist">
         <carousel name="gamelistCarousel">
             <type>verticalWheel</type>
             <imageType>marquee</imageType>
-            <selectedItemMargins>0 0</selectedItemMargins>
 			   <itemRotation>-7</itemRotation>
             <imageInterpolation>linear</imageInterpolation>
             <itemRotationOrigin>5 0.5</itemRotationOrigin>
@@ -396,6 +437,16 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    Gamelist View: Metadata-On Variant
    ///
    -->
+
+   <variant name=
+      "textlist-miximage,
+      textlist-boxart,
+      carousel-miximage,
+      carousel-boxart,      
+      grid-boxart,
+      grid-titlescreen,
+      grid-physical-media,
+      grid-marquee">
       <view name="gamelist">
          <!-- Start: Extended Metadata -->
          <image name="game-metadata-background-shadow-extended">
@@ -474,7 +525,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <fontPath>${fontBold}</fontPath>
             <color>${gameMetadataColor}</color>
             <container>true</container>
-             <containerType>horizontal</containerType>
+            <containerType>horizontal</containerType>
             <lineSpacing>1</lineSpacing>
             <defaultValue>Unknown</defaultValue>
          </text>
@@ -518,7 +569,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <containerScrollSpeed>0.6</containerScrollSpeed>
          </text>
       </view>
-  
+   </variant>
 
    <!--
    ///

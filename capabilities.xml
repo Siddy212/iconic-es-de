@@ -64,19 +64,27 @@
 
 
    <variant name="textlist-miximage">
-      <label>Textlist and Miximage</label>
+      <label>Textlist w/ Miximage</label>
       <selectable>true</selectable>
    </variant>
    <variant name="textlist-boxart">
-      <label>Textlist and Boxart</label>
+      <label>Textlist w/ Boxart</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="textlist-boxart-no-metadata">
+      <label>Textlist w/ Boxart: No Metadata</label>
       <selectable>true</selectable>
    </variant>
    <variant name="carousel-miximage">
-      <label>Carousel and Miximage</label>
+      <label>Carousel w/ Miximage</label>
       <selectable>true</selectable>
    </variant>
    <variant name="carousel-boxart">
-      <label>Carousel and Boxart</label>
+      <label>Carousel w/ Boxart</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="carousel-boxart-no-metadata">
+      <label>Carousel w/ Boxart: No Metadata</label>
       <selectable>true</selectable>
    </variant>
    <variant name="grid-boxart">

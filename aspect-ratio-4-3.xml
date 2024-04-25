@@ -40,8 +40,6 @@ based on 3840x2880
    ///
    -->
    <view name="system">
-
-
       <carousel name="system-carousel">
          <pos>0 0.91</pos>
          <size>1 0.319444444444444</size>
@@ -57,7 +55,6 @@ based on 3840x2880
          <pos>0.2328125 -.1</pos>
          <size>0.349125 1.1</size>
       </image>
-
       <image name="Overlay">
          <pos>0.545 0.5</pos>
          <size>1.333333 1</size>
@@ -66,16 +63,13 @@ based on 3840x2880
          <pos>0.2328125 .23</pos>
          <size>.28 0</size>
       </image>
-
       <helpsystem name="help">
          <pos>0.989 0.982</pos>
-
       </helpsystem>
       <text name="system-name">
           <pos>0.2328125 0.478${systemNamePos}</pos>
           <fontSize>${systemHeaderFontSize}</fontSize>
       </text>
-
       <text name="system-year-type">
           <pos>0.2328125 0.518</pos>
           <fontSize>${systemInfoFontSize}</fontSize>
@@ -99,10 +93,8 @@ based on 3840x2880
          <color>${systemInfoColor}</color>
          <zIndex>10</zIndex>
       </text>
-
-
-
    </view>
+
    <fontSize name="small">
       <variables>
          <systemDescriptionFontSize>0.018703703703704</systemDescriptionFontSize>
@@ -142,84 +134,84 @@ based on 3840x2880
 
    <!--
    ///
-   Gamelist View: Defaults
+   Gamelist View: Carousel
    ///
    -->
-   <variant name="carousel-miximage,carousel-boxart">
+   <variant name="carousel-miximage,carousel-boxart,carousel-boxart-no-metadata">
       <view name="gamelist">
         <carousel name="gamelistCarousel">
-            <pos>0 0</pos>
-            <size>1.45 1</size>
+            <pos>0 -0.18</pos>
+            <size>1.45 1.3</size>
 			   <itemsBeforeCenter>${itemsBeforeCenter}</itemsBeforeCenter>
             <itemsAfterCenter>${itemsAfterCenter}</itemsAfterCenter>
             <itemSize>${itemSize}</itemSize>
             <itemScale>1.4</itemScale>
-            <horizontalOffset>0.4</horizontalOffset>
+            <horizontalOffset>${horizOffset}</horizontalOffset>
             <fontSize>0.046</fontSize>
         </carousel>
       </view>
    </variant>
 
-   <variant name="
-      textlist-miximage,textlist-boxart
-      ">
+   <!--
+   ///
+   Gamelist View: Textlist
+   ///
+   -->
+   <variant name="textlist-miximage,textlist-boxart,textlist-boxart-no-metadata">
       <view name="gamelist">
-      <textlist name="game-list">
-         <pos>${gamelistPos}</pos>
-         <size>0.39610062893 0.785</size>
-         <fontSize>${gamelistFontSize}</fontSize>
-         <selectorHeight>${gamelistSelectorHeight}</selectorHeight>
-         <lineSpacing>${gamelistLineSpacing}</lineSpacing>
-      </textlist>
-      <image name="game-list-background-shadow">
-         <origin>0.5 0.5</origin>
-         <pos>0.726 0.50648148147</pos>
-         <size>0.49542138364 0.88148148147</size>
-         <path>./_inc/images/gamelist-background-shadow.png</path>
-         <zIndex>6</zIndex>
-      </image>
-      <image name="game-list-background">
-         <pos>0.726 0.50648148147</pos>
-         <size>0.46999999999 0.84166666666</size>
-         <path>${gamelistBackgroundImageCalculated}</path>
-         <zIndex>7</zIndex>
-      </image>
-
+         <textlist name="game-list">
+            <pos>${gamelistPos}</pos>
+            <size>0.39610062893 0.785</size>
+            <fontSize>${gamelistFontSize}</fontSize>
+            <selectorHeight>${gamelistSelectorHeight}</selectorHeight>
+            <lineSpacing>${gamelistLineSpacing}</lineSpacing>
+         </textlist>
+         <image name="game-list-background-shadow">
+            <origin>0.5 0.5</origin>
+            <pos>0.726 0.50648148147</pos>
+            <size>0.49542138364 0.88148148147</size>
+            <path>./_inc/images/gamelist-background-shadow.png</path>
+            <zIndex>6</zIndex>
+         </image>
+         <image name="game-list-background">
+            <pos>0.726 0.50648148147</pos>
+            <size>0.46999999999 0.84166666666</size>
+            <path>${gamelistBackgroundImageCalculated}</path>
+            <zIndex>7</zIndex>
+         </image>
       </view>
    </variant>
 
+   <!--
+   ///
+   Gamelist View: Defaults
+   ///
+   -->
+
    <view name="gamelist">
       <helpsystem name="help">
-         <origin>${gamelistHelpOrigin}</origin>
+         <origin>1 1</origin>
          <pos>${gamelistHelpPos}</pos>
       </helpsystem>
-         <badges name="badges">
-            <pos>${badgepos}</pos>
-            <size>${badgesize}</size>
-            <itemMargin>${badgemargin}</itemMargin>
-         </badges>
       <image name="system-Carousel-logo">
          <pos>0.2328125 0.91</pos>
          <size>0.21875 0.29166666666</size>
       </image>
     </view>
+
    <fontSize name="small">
       <variables>
          <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-medium.svg</gamelistBackgroundImageCalculated>
          <gamelistFontSize>0.025</gamelistFontSize>
          <gamelistSelectorHeight>0.039814814814815</gamelistSelectorHeight>
          <gamelistLineSpacing>1.851851851851852</gamelistLineSpacing>
-         <gamelistHelpOrigin>1 1</gamelistHelpOrigin>
          <gamelistHelpPos>0.989 0.982</gamelistHelpPos>
          <gamelistPos>0.528291666666667 0.116666666666667</gamelistPos>
          <gamelistGridFontSize>0.030555555555556</gamelistGridFontSize>
-         <badgepos>0.04 .825</badgepos>
-         <badgesize>0.28 0.03</badgesize>
-         <badgemargin>0.006 0.01</badgemargin>
-         <itemsBeforeCenter>5</itemsBeforeCenter>
-         <itemsAfterCenter>5</itemsAfterCenter>
-         <itemSize>0.15 0.125</itemSize>
-         <itemScale>1.4</itemScale>
+         <itemsBeforeCenter>4.5</itemsBeforeCenter>
+         <itemsAfterCenter>4.5</itemsAfterCenter>
+         <itemSize>0.17 0.125</itemSize>
+         <horizOffset>0.395</horizOffset>
       </variables>
    </fontSize>
    <fontSize name="medium">
@@ -228,17 +220,13 @@ based on 3840x2880
          <gamelistFontSize>0.025</gamelistFontSize>
          <gamelistSelectorHeight>0.039814814814815</gamelistSelectorHeight>
          <gamelistLineSpacing>1.851851851851852</gamelistLineSpacing>
-         <gamelistHelpOrigin>1 1</gamelistHelpOrigin>
          <gamelistHelpPos>0.989 0.982</gamelistHelpPos>
          <gamelistPos>0.528291666666667 0.116666666666667</gamelistPos>
          <gamelistGridFontSize>0.030555555555556</gamelistGridFontSize>
-         <badgepos>0.04 .825</badgepos>
-         <badgesize>0.28 0.03</badgesize>
-         <badgemargin>0.006 0.01</badgemargin>
-         <itemsBeforeCenter>4.5</itemsBeforeCenter>
-         <itemsAfterCenter>4.5</itemsAfterCenter>
-         <itemSize>0.17 0.14</itemSize>
-         <itemScale>1.4</itemScale>
+         <itemsBeforeCenter>4</itemsBeforeCenter>
+         <itemsAfterCenter>4</itemsAfterCenter>
+         <itemSize>0.20 0.15</itemSize>
+         <horizOffset>0.385</horizOffset>
       </variables>
    </fontSize>
    <fontSize name="large">
@@ -248,17 +236,13 @@ based on 3840x2880
          <gamelistSelectorHeight>0.051388888888889</gamelistSelectorHeight>
          <gamelistLineSpacing>1.736111111111111</gamelistLineSpacing>
          <displaySystemLogo>true</displaySystemLogo>
-         <gamelistHelpOrigin>1 1</gamelistHelpOrigin>
          <gamelistHelpPos>0.989 0.982</gamelistHelpPos>
          <gamelistGridFontSize>0.036111111111111</gamelistGridFontSize>
          <gamelistPos>0.528291666666667 0.133666666666667</gamelistPos>
-         <badgepos>0.04 0.823</badgepos>
-         <badgesize>0.35 0.033</badgesize>
-         <badgemargin>0.006 0.01</badgemargin>
-         <itemsBeforeCenter>4</itemsBeforeCenter>
-         <itemsAfterCenter>4</itemsAfterCenter>
-         <itemSize>0.1875 0.15625</itemSize>
-         <itemScale>1.4</itemScale>
+         <itemsBeforeCenter>3.5</itemsBeforeCenter>
+         <itemsAfterCenter>3.5</itemsAfterCenter>
+         <itemSize>0.23 0.175</itemSize>
+         <horizOffset>0.372</horizOffset>
       </variables>
    </fontSize>
    <fontSize name="x-large">
@@ -267,17 +251,13 @@ based on 3840x2880
          <gamelistFontSize>0.039814814814815</gamelistFontSize>
          <gamelistSelectorHeight>0.062962962962963</gamelistSelectorHeight>
          <gamelistLineSpacing>1.744186046511628</gamelistLineSpacing>
-         <gamelistHelpOrigin>1 1</gamelistHelpOrigin>
          <gamelistHelpPos>0.989 0.982</gamelistHelpPos>
          <gamelistGridFontSize>0.036111111111111</gamelistGridFontSize>
          <gamelistPos>0.528291666666667 0.1289566666666667</gamelistPos>
-         <badgepos>0.04 0.823</badgepos>
-         <badgesize>0.35 0.033</badgesize>
-         <badgemargin>0.006 0.01</badgemargin>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
-         <itemSize>0.225 0.1875</itemSize>
-         <itemScale>1.4</itemScale>
+         <itemSize>0.26 0.2</itemSize>
+         <horizOffset>0.3725</horizOffset>
       </variables>
    </fontSize>
 
@@ -287,10 +267,22 @@ based on 3840x2880
    Gamelist View: Metadata-On Variant
    ///
    -->
+   <variant name=
+      "textlist-miximage,
+      textlist-boxart,
+      carousel-miximage,
+      carousel-boxart,      
+      grid-boxart,
+      grid-titlescreen,
+      grid-physical-media,
+      grid-marquee">
       <view name="gamelist">
          <badges name="badges">
             <lines>1</lines>
             <itemsPerLine>9</itemsPerLine>
+            <pos>${badgepos}</pos>
+            <size>${badgesize}</size>
+            <itemMargin>${badgemargin}</itemMargin>
          </badges>
          <video name="game-media">
             <pos>0.2328125 0.30</pos>
@@ -379,7 +371,6 @@ based on 3840x2880
             <pos>0.086 0.624</pos>
             <size>0 ${metaDatafontSize}</size>
             <visible>${metadataBase}</visible>
-
          </rating>
          <datetime name="game-releasedate-base">
             <pos>0.171 0.628</pos>
@@ -402,6 +393,7 @@ based on 3840x2880
             <lineSpacing>${descriptionLineSpacing}</lineSpacing>
          </text>
       </view>
+
       <fontSize name="small">
          <variables>
             <metaDatafontSize>0.016</metaDatafontSize>
@@ -411,6 +403,9 @@ based on 3840x2880
             <descriptionLineSpacing>1.3</descriptionLineSpacing>
             <metadataExtended>true</metadataExtended>
             <metadataBase>false</metadataBase>
+            <badgepos>0.04 .825</badgepos>
+            <badgesize>0.28 0.03</badgesize>
+            <badgemargin>0.006 0.01</badgemargin>
          </variables>
       </fontSize>
       <fontSize name="medium">
@@ -422,6 +417,9 @@ based on 3840x2880
             <descriptionLineSpacing>1.4</descriptionLineSpacing>
             <metadataExtended>true</metadataExtended>
             <metadataBase>false</metadataBase>
+            <badgepos>0.04 .825</badgepos>
+            <badgesize>0.28 0.03</badgesize>
+            <badgemargin>0.006 0.01</badgemargin>
          </variables>
       </fontSize>
       <fontSize name="large">
@@ -433,18 +431,34 @@ based on 3840x2880
             <descriptionLineSpacing>1.3</descriptionLineSpacing>
             <metadataExtended>false</metadataExtended>
             <metadataBase>true</metadataBase>
+            <badgepos>0.04 0.823</badgepos>
+            <badgesize>0.35 0.033</badgesize>
+            <badgemargin>0.006 0.01</badgemargin>
          </variables>
       </fontSize>
       <fontSize name="x-large">
          <variables>
             <metaDatafontSize>0.024</metaDatafontSize>
-             <descriptionPos>0.663</descriptionPos>
+            <descriptionPos>0.663</descriptionPos>
             <descriptionHeight>0.145</descriptionHeight>
             <descriptionFontSize>0.025</descriptionFontSize>
             <descriptionLineSpacing>1.3</descriptionLineSpacing>
             <metadataExtended>false</metadataExtended>
             <metadataBase>true</metadataBase>
+            <badgepos>0.04 0.823</badgepos>
+            <badgesize>0.35 0.033</badgesize>
+            <badgemargin>0.006 0.01</badgemargin>
          </variables>
       </fontSize>
-	
+	</variant>
+
+   <variant name="carousel-boxart-no-metadata,textlist-boxart-no-metadata">
+      <view name="gamelist">
+            <video name="game-media">
+               <pos>0.2328125 0.43855</pos>
+               <maxSize>0.392 0.70</maxSize>
+            </video>
+      </view>
+   </variant>
+
 </theme>
