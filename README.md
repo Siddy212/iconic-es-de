@@ -36,7 +36,7 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
    - `Carousel w/ Boxart` - A vertical carousel of game marquees on the right and the game boxart on the left.
 
    - `Carousel w/ Boxart: No Metadata` - A vertical carousel of game marquees on the right and only the game boxart on the left. No metadata or badges.
-   - 
+     
    - `Grid: Boxart` - A grid view that displays boxart covers.
      
    - `Grid: Titlescreen` - A grid view that displays titlescreens.
