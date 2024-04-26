@@ -25,14 +25,18 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
    - `4:3`
    - `19.5:9`
 - `Theme Variant` - sets the layout used for the gamelist view when media & metadata are scraped for your games.  All settings will scale the size of the gamelist and the amount of metadata shown based on the selected font size:
-   - `Textlist: Miximage ` - A simple list of game names on the right with the miximage on the left. Less demanding on weaker systems.
+   - `Textlist w/ Miximage ` - A simple list of game names on the right with the miximage on the left. Less demanding on weaker systems.
  
-   - `Textlist: Boxart` - A simple list of game names  on the right with the game boxart on the left. Less demanding on weaker systems.
+   - `Textlist w/ Boxart` - A simple list of game names  on the right with the game boxart on the left. Less demanding on weaker systems.
 
-   - `Carousel - Miximage` - A vertical carousel of game marquees on the right and the game miximage on the left.
+   - `Textlist w/ Boxart: No Metadata` - A simple list of game names  on the right and only the game boxart on the left. No metadata or badges.
      
-   - `Carousel - Boxart` - A vertical carousel of game marquees on the right and the game boxart on the left.
+   - `Carousel w/ Miximage` - A vertical carousel of game marquees on the right and the game miximage on the left.
      
+   - `Carousel w/ Boxart` - A vertical carousel of game marquees on the right and the game boxart on the left.
+
+   - `Carousel w/ Boxart: No Metadata` - A vertical carousel of game marquees on the right and only the game boxart on the left. No metadata or badges.
+   - 
    - `Grid: Boxart` - A grid view that displays boxart covers.
      
    - `Grid: Titlescreen` - A grid view that displays titlescreens.
