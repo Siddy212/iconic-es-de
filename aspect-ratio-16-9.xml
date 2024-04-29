@@ -17,8 +17,8 @@ based on 1920x1080
          <entrySpacing>${helpSystemEntrySpacing}</entrySpacing>
       </helpsystem>
        <image name="background-art-gradient">
-         <pos>0 0.91</pos>
-         <size>1 0.18</size>
+         <pos>0 0.82</pos>
+         <size>1 0.20</size>
       </image>
       <image name="background-art">
          <pos>0.5 0.5</pos>

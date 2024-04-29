@@ -54,7 +54,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <zIndex>1</zIndex>
       </image>
       <image name="background-art-gradient">
-         <origin>0 0.5</origin>
+         <origin>0 0</origin>
          <path>./_inc/images/${backgroundArtGradientImage}</path>
          <zIndex>4</zIndex>
       </image>
