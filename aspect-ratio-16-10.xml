@@ -169,7 +169,7 @@ based on 1920x1200
          <image name="game-list-background-shadow">
             <origin>0.5 0.5</origin>
             <pos>0.7342 0.50648148147</pos>
-            <size>0.469069 0.88148148147</size>
+            <size>0.4785849057 0.8972222528</size>
             <path>./_inc/images/gamelist-background-shadow.png</path>
             <zIndex>6</zIndex>
          </image>
@@ -290,7 +290,7 @@ based on 1920x1200
          <!-- Start: Extended Metadata -->
          <image name="game-metadata-background-shadow-extended">
             <pos>0.2328125 0.67058187797</pos>
-            <size>0.4236517783 0.32893487337</size>
+            <size>0.4077643452 0.3258052166</size>
             <visible>${metadataExtended}</visible>
             <zIndex>3</zIndex>
          </image>
@@ -349,7 +349,7 @@ based on 1920x1200
          <!-- Start: Base Metadata -->
          <image name="game-metadata-background-shadow-base">
             <pos>0.2328125 0.6722</pos>
-            <size>0.43123208626 0.32170480144</size>
+            <size>0.4337412002 0.3289900327</size>
             <visible>${metadataBase}</visible>
             <zIndex>3</zIndex>
          </image>
