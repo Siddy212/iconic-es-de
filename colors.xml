@@ -43,6 +43,7 @@
          <gamelistCarouselSaturation>0.8</gamelistCarouselSaturation>
          <gamelistLogoColor>cccccc</gamelistLogoColor>
          <gamelistFadeImage>grid-fade-dark</gamelistFadeImage>
+         <gamelistFadeImageFull>grid-fade-dark-full</gamelistFadeImageFull>
          <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
          <gamelistBackgroundOpacity>0.3</gamelistBackgroundOpacity>
          <gamelistMetadataBackgroundImage>gamelist-metadata-background-dark</gamelistMetadataBackgroundImage>

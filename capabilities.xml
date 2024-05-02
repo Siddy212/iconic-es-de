@@ -91,6 +91,10 @@
       <label>Grid: Boxart</label>
       <selectable>true</selectable>
    </variant>
+   <variant name="grid-boxart-full">
+      <label>Grid: Boxart Full Width</label>
+      <selectable>true</selectable>
+   </variant>
    <variant name="grid-titlescreen">
       <label>Grid: Titlescreen</label>
       <selectable>true</selectable>
@@ -99,11 +103,14 @@
       <label>Grid: Physical Media</label>
       <selectable>true</selectable>
    </variant>
+   <variant name="grid-physical-media-full">
+      <label>Grid: Physical Media Full Width</label>
+      <selectable>true</selectable>
+   </variant>
    <variant name="grid-marquee">
       <label>Grid: Marquee</label>
       <selectable>true</selectable>
    </variant>
-
 
 
 

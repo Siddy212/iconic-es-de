@@ -196,15 +196,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <origin>0.5 0.5</origin>
          <zIndex>4</zIndex>
       </image>
-      <video name="game-media">
-         <origin>0.5 0.5</origin>
-         <delay>3</delay>
-         <videoCornerRadius>0.005</videoCornerRadius>
-         <pillarboxes>false</pillarboxes>
-         <iterationCount>1</iterationCount>
-         <onIterationsDone>image</onIterationsDone>
-         <imageType>miximage</imageType>
-      </video>
+
    </view>
 
    <!--
@@ -220,7 +212,9 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       textlist-miximage,
       carousel-miximage
       carousel-boxart,
-      textlist-boxart">
+      textlist-boxart,
+      grid-boxart-full,
+      grid-physical-media-full">
    <view name="gamelist">
       <badges name="badges">
          <slots>all</slots>
@@ -238,7 +232,32 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <folderLinkSize>0.8</folderLinkSize>
          <origin>0 0.5</origin>
          <horizontalAlignment>left</horizontalAlignment>
-      </badges>    
+      </badges> 
+
+   </view>
+   </variant>
+
+   <variant name="
+      grid-boxart,
+      grid-titlescreen,
+      grid-physical-media,
+      grid-marquee,
+      textlist-miximage,
+      carousel-miximage
+      carousel-boxart,
+      textlist-boxart,
+      carousel-boxart-no-metadata,
+      textlist-boxart-no-metadata">
+   <view name="gamelist">
+      <video name="game-media">
+         <origin>0.5 0.5</origin>
+         <delay>3</delay>
+         <videoCornerRadius>0.005</videoCornerRadius>
+         <pillarboxes>false</pillarboxes>
+         <iterationCount>1</iterationCount>
+         <onIterationsDone>image</onIterationsDone>
+         <imageType>miximage</imageType>
+      </video>    
    </view>
    </variant>
 
@@ -286,31 +305,26 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       grid-boxart,
       grid-titlescreen,
       grid-physical-media,
-      grid-marquee
+      grid-marquee,
+      grid-boxart-full,
+      grid-physical-media-full
       ">
       <view name="gamelist">
          <grid name="grid">
-            <origin>0 0</origin>
-            <pos>0.46 0.0</pos>
-            <size>0.54 0.946</size>
-            <itemScale>1.1</itemScale>
-            <scaleInwards>true</scaleInwards>
-            <itemSpacing>0 0</itemSpacing>
+            <origin>0.5 0</origin>
             <unfocusedItemOpacity>1</unfocusedItemOpacity>
             <unfocusedItemDimming>0.6</unfocusedItemDimming>
             <unfocusedItemSaturation>1</unfocusedItemSaturation>
-            <fractionalRows>true</fractionalRows>
+            <itemSpacing>0 0</itemSpacing>
             <textColor>ffffff</textColor>
             <fontPath>${fontBold}</fontPath>
             <fontSize>0.036111111111111</fontSize>
             <imageCornerRadius>0.002</imageCornerRadius>
             <selectorColor>${gamelistSelectedColor}</selectorColor>
-            <selectorRelativeScale>0.92</selectorRelativeScale>
-            <selectorCornerRadius>0.003</selectorCornerRadius>
             <selectorLayer>top</selectorLayer>
-            <imageRelativeScale>0.90</imageRelativeScale>
-            <textRelativeScale>0.85</textRelativeScale>
             <zIndex>9</zIndex>
+            <fractionalRows>true</fractionalRows>
+            <scaleInwards>true</scaleInwards>
          </grid>
          <image name="system-Grid-Fade">
             <origin>0 0</origin>
@@ -328,12 +342,78 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    Gamelist View: Grid Image Variations
    ///
    -->
+      <variant name="
+      grid-boxart,
+      grid-titlescreen,
+      grid-physical-media,
+      grid-marquee
+      ">
+      <view name="gamelist">
+         <grid name="grid">
+            <pos>0.73 0.0</pos>
+            <size>0.54 0.946</size>
+            <itemScale>1.1</itemScale>
+            <imageRelativeScale>0.90</imageRelativeScale>
+            <textRelativeScale>0.85</textRelativeScale>
+            <selectorRelativeScale>0.92</selectorRelativeScale>
+            <selectorCornerRadius>0.003</selectorCornerRadius>
+         </grid>
+         <image name="system-Grid-Fade">
+            <origin>0 0</origin>
+            <path>./_inc/images/${gamelistFadeImage}.svg</path>
+            <zIndex>10</zIndex>
+            <pos>0.46 0.929</pos>
+            <size>0.54 0.017</size>
+         </image>
+      </view>
+   </variant>
+
+   <variant name="grid-boxart-full">
+   <include>./_inc/systems/coversize-vertical/${systemCoverSize}.xml</include>
+    <view name="gamelist">  
+         <grid name="grid">
+            <pos>${gridItemPos} 0.04</pos>
+            <size>0.975 0.72</size>
+            <itemScale>1.05</itemScale>
+            <imageRelativeScale>0.90</imageRelativeScale>
+            <textRelativeScale>0.9</textRelativeScale>
+            <selectorRelativeScale>0.90</selectorRelativeScale>
+            <selectorCornerRadius>0.003</selectorCornerRadius>
+         </grid>
+    </view>
+   </variant>
+   <variant name="grid-physical-media-full">
+   <include>./_inc/systems/coversize-vertical/${systemCartSize}.xml</include>
+    <view name="gamelist">  
+         <grid name="grid">
+            <pos>${gridItemPos} 0.04</pos>
+            <size>0.975 0.72</size>
+            <itemScale>1.05</itemScale>
+            <imageRelativeScale>0.90</imageRelativeScale>
+            <textRelativeScale>0.9</textRelativeScale>
+            <selectorRelativeScale>0.90</selectorRelativeScale>
+            <selectorCornerRadius>0.003</selectorCornerRadius>
+         </grid>
+    </view>
+   </variant>
+
+
    <variant name="grid-boxart">
     <include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
     <view name="gamelist">  
       <grid name="grid">
          <imageType>cover</imageType>
          <selectorImage>./_inc/systems/coversize/${systemCoverSize}.svg</selectorImage>
+         <itemSize>${gridItemSize}</itemSize>
+      </grid>
+    </view>
+   </variant>
+   <variant name="grid-boxart-full">
+    <include>./_inc/systems/coversize-vertical/${systemCoverSize}.xml</include>
+    <view name="gamelist">  
+      <grid name="grid">
+         <imageType>cover</imageType>
+         <selectorImage>./_inc/systems/coversize-vertical/${systemCoverSize}.svg</selectorImage>
          <itemSize>${gridItemSize}</itemSize>
       </grid>
     </view>
@@ -371,6 +451,17 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       </grid>
     </view>
    </variant>
+   <variant name="grid-physical-media-full">
+    <include>./_inc/systems/coversize-vertical/${systemCartSize}.xml</include>
+    <view name="gamelist">  
+      <grid name="grid">
+         <imageType>physicalmedia</imageType>
+         <selectorImage>./_inc/systems/coversize-vertical/${systemCartSize}.svg</selectorImage>
+         <itemSize>${gridItemSize}</itemSize>
+      </grid>
+    </view>
+   </variant>
+
 
  <!--
    ///
@@ -570,6 +661,96 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          </text>
       </view>
    </variant>
+
+   <!--
+   ///
+   Gamelist View: Full Grid Variants
+   ///
+   -->
+
+   <variant name=
+      "grid-boxart-full,grid-physical-media-full">
+      <view name="gamelist">
+         <text name="game-name-full-extended,game-name-full-base,game-name-full-min,game-genre-full-extended,game-genre-full-base,game-playcount-full-extended">
+            <origin>0 0.5</origin>
+            <fontPath>${fontBold}</fontPath>
+            <color>${gameMetadataColor}</color>
+            <lineSpacing>1</lineSpacing>
+            <container>true</container>
+            <containerType>horizontal</containerType>
+            <horizontalAlignment>left</horizontalAlignment>
+            <defaultValue>Unknown</defaultValue>
+         </text>
+         <text name="game-genre-full-extended,game-genre-full-base">
+            <metadata>genre</metadata>
+            <letterCase>capitalize</letterCase>
+         </text>
+         <text name="game-name-full-extended,game-name-full-base,game-name-full-min">
+            <metadata>name</metadata>
+         </text>
+         <rating name="game-rating-full-extended,game-rating-full-base">
+            <origin>0.5 0.5</origin>
+            <filledPath>./_inc/images/icon-star-filled.svg</filledPath>
+            <unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
+            <color>${gameMetadataColor}</color>
+            <overlay>false</overlay>
+         </rating>
+         <datetime name="game-lastplayed-full-extended,game-releasedate-full-extended,game-releasedate-full-base">
+            <origin>0 0.5</origin>
+            <fontPath>${fontBold}</fontPath>
+            <color>${gameMetadataColor}</color>
+            <lineSpacing>1</lineSpacing>
+            <metadata>releasedate</metadata>
+            <defaultValue>Unknown</defaultValue>
+            <horizontalAlignment>left</horizontalAlignment>
+            <format>%Y-%m</format>
+         </datetime>
+         <datetime name="game-lastplayed-full-extended">
+            <metadata>lastplayed</metadata>
+            <defaultValue>Never</defaultValue>
+         </datetime>
+         <text name="game-playcount-full-extended">
+            <metadata>playcount</metadata>
+         </text>
+         <image name="game-metadata-background-image-full-extended">
+            <origin>0.5 0.5</origin>
+            <path>./_inc/images/${gamelistMetadataBackgroundImage}-full-extended.svg</path>
+            <metadataElement>true</metadataElement>
+            <zIndex>12</zIndex>
+         </image>
+         <image name="game-metadata-background-shadow-full-extended">
+            <origin>0.5 0.5</origin>
+            <path>./_inc/images/gamelist-metadata-background-shadow-full-extended.png</path>
+            <metadataElement>true</metadataElement>
+            <zIndex>11</zIndex>
+         </image>
+         <image name="game-metadata-background-image-full-base">
+            <origin>0.5 0.5</origin>
+            <path>./_inc/images/${gamelistMetadataBackgroundImage}-full-base.svg</path>
+            <metadataElement>true</metadataElement>
+            <zIndex>12</zIndex>
+         </image>
+         <image name="game-metadata-background-shadow-full-base">
+            <origin>0.5 0.5</origin>
+            <path>./_inc/images/gamelist-metadata-background-shadow-full-base.png</path>
+            <metadataElement>true</metadataElement>
+            <zIndex>11</zIndex>
+         </image>
+         <image name="game-metadata-background-image-full-min">
+            <origin>0.5 0.5</origin>
+            <path>./_inc/images/${gamelistMetadataBackgroundImage}-full-min.svg</path>
+            <metadataElement>true</metadataElement>
+            <zIndex>12</zIndex>
+         </image>
+         <image name="game-metadata-background-shadow-full-min">
+            <origin>0.5 0.5</origin>
+            <path>./_inc/images/gamelist-metadata-background-shadow-full-min.png</path>
+            <metadataElement>true</metadataElement>
+            <zIndex>11</zIndex>
+         </image>
+      </view>
+   </variant>
+
 
    <!--
    ///
