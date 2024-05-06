@@ -66,35 +66,35 @@
 
 
    <variant name="textlist-boxart-no-metadata">
-      <label>Textlist w/ Boxart (Overlay)</label>
+      <label>Textlist w/ Boxart</label>
       <selectable>true</selectable>
    </variant>
    <variant name="simple-system-textlist-boxart-no-metadata">
-      <label>Textlist w/ Boxart (No Overlay)</label>
+      <label>Textlist w/ Boxart (Simple)</label>
       <selectable>true</selectable>
    </variant>
    <variant name="carousel-boxart-no-metadata">
-      <label>Carousel w/ Boxart (Overlay)</label>
+      <label>Carousel w/ Boxart</label>
       <selectable>true</selectable>
    </variant>
    <variant name="simple-system-carousel-boxart-no-metadata">
-      <label>Carousel w/ Boxart (No Overlay)</label>
+      <label>Carousel w/ Boxart (Simple)</label>
       <selectable>true</selectable>
    </variant>
    <variant name="grid-boxart-full">
-      <label>Grid: Boxart (Overlay)</label>
+      <label>Grid: Boxart</label>
       <selectable>true</selectable>
    </variant>
    <variant name="simple-system-grid-boxart-full">
-      <label>Grid: Boxart (No Overlay)</label>
+      <label>Grid: Boxart (Simple)</label>
       <selectable>true</selectable>
    </variant>
    <variant name="grid-physical-media-full">
-      <label>Grid: Physical Media (Overlay)</label>
+      <label>Grid: Physical Media</label>
       <selectable>true</selectable>
    </variant>
    <variant name="simple-system-grid-physical-media-full">
-      <label>Grid: Physical Media (No Overlay)</label>
+      <label>Grid: Physical Media (Simple)</label>
       <selectable>true</selectable>
    </variant>
 
