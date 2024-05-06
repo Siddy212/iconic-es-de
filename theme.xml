@@ -515,7 +515,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <origin>0.5 0.5</origin>
             <pos>0.5 0.5</pos>
             <size>1 1</size>
-            <path>./_inc/images/${gamelistCarouselBackground}.png</path>
+            <path>./_inc/images/${gamelistCarouselBackground}.webp</path>
             <opacity>0.7</opacity>
             <zIndex>2</zIndex>
          </image>
