@@ -291,7 +291,7 @@ based on 3840x2880
          <!-- Start: Extended Metadata -->
          <image name="game-metadata-background-shadow-extended">
             <pos>0.2328125 0.67058187797</pos>
-            <size>0.3863030639 0.2786491984</size>
+            <size>0.41089191099 0.29581271872</size>
             <visible>${metadataExtended}</visible>
             <zIndex>3</zIndex>
          </image>
