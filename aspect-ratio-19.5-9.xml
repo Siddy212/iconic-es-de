@@ -65,7 +65,7 @@ based on 1920x886
       </image>
       <image name="system-image">
          <pos>0.2328125 .23</pos>
-         <size>0.24 0</size>
+         <size>0.22 0</size>
       </image>
       <helpsystem name="help">
          <pos>0.918 0.982</pos>
