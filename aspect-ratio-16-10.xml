@@ -307,6 +307,113 @@ simple-system-grid-physical-media-full">
    Gamelist View: Symbolic Variants
    ///
    -->
+<<<<<<< HEAD
+=======
+   <variant name=
+      "textlist-miximage,
+      textlist-boxart,
+      carousel-miximage,
+      carousel-boxart,      
+      grid-boxart,
+      grid-titlescreen,
+      grid-physical-media,
+      grid-marquee">
+      <view name="gamelist">
+         <badges name="badges">
+            <lines>3</lines>
+            <itemsPerLine>4</itemsPerLine>
+            <pos>${badgepos}</pos>
+            <size>${badgesize}</size>
+            <itemMargin>${badgemargin}</itemMargin>
+         </badges>
+         <video name="game-media">
+            <pos>0.2328125 0.28</pos>
+            <maxSize>0.43 0.43</maxSize>
+         </video>
+         <!-- Start: Extended Metadata -->
+         <image name="game-metadata-background-shadow-extended">
+            <pos>0.2328125 0.67058187797</pos>
+            <size>0.4077643452 0.3258052166</size>
+            <visible>${metadataExtended}</visible>
+            <zIndex>3</zIndex>
+         </image>
+         <image name="game-metadata-background-image-extended">
+            <pos>0.2328125 0.67058187797</pos>
+            <size>0.40744444443 0.30320556814</size>
+            <visible>${metadataExtended}</visible>
+            <zIndex>4</zIndex>
+         </image>
+         <text name="game-name-extended,game-players-extended,game-genre-extended,game-developer-extended,game-publisher-extended,game-playcount-extended">
+            <fontSize>${metaDatafontSize}</fontSize>
+            <visible>${metadataExtended}</visible>
+         </text>
+         <datetime name="game-releasedate-extended,game-lastplayed-extended">
+            <fontSize>${metaDatafontSize}</fontSize>
+            <visible>${metadataExtended}</visible>
+         </datetime>
+         <rating name="game-rating-extended">
+            <pos>0.08 0.5754</pos>
+            <size>0 ${metaDatafontSize}</size>
+            <visible>${metadataExtended}</visible>
+         </rating>
+         <datetime name="game-releasedate-extended">
+            <pos>0.0505 0.619</pos>
+            <size>0 ${metaDatafontSize}</size>
+         </datetime>
+         <text name="game-name-extended">
+            <pos>0.0505 0.534</pos>
+            <size>0.38475 ${metaDatafontSize}</size>
+         </text>
+         <text name="game-players-extended">
+            <pos>0.0505 0.661</pos>
+            <size>0 ${metaDatafontSize}</size>
+         </text>
+         <text name="game-genre-extended">
+            <pos>0.163 0.5764</pos>
+            <size>0.2717 ${metaDatafontSize}</size>
+         </text>
+         <text name="game-developer-extended">
+            <pos>0.163 0.6185</pos>
+            <size>0.152 ${metaDatafontSize}</size>
+         </text>
+         <text name="game-publisher-extended">
+            <pos>0.163 0.661</pos>
+            <size>0.152 ${metaDatafontSize}</size>
+         </text>
+         <datetime name="game-lastplayed-extended">
+            <pos>0.347 0.6185</pos>
+            <size>0.0855 ${metaDatafontSize}</size>
+         </datetime>
+         <text name="game-playcount-extended">
+            <pos>0.347 0.661</pos>
+            <size>0.0817 ${metaDatafontSize}</size>
+         </text>
+         <!-- End: Extended Metadata -->
+         <!-- Start: Base Metadata -->
+         <image name="game-metadata-background-shadow-base">
+            <pos>0.2328125 0.6722</pos>
+            <size>0.4337412002 0.3289900327</size>
+            <visible>${metadataBase}</visible>
+            <zIndex>3</zIndex>
+         </image>
+         <image name="game-metadata-background-image-base">
+            <pos>0.2328125 0.6722</pos>
+            <size>0.40744444443 0.28538</size>
+            <visible>${metadataBase}</visible>
+            <zIndex>4</zIndex>
+         </image>
+         <text name="game-name-base">
+            <pos>0.063 0.5545</pos>
+            <size>0.3724 ${metaDatafontSize}</size>
+            <fontSize>${metaDatafontSize}</fontSize>
+             <lineSpacing>1.2</lineSpacing>
+            <visible>${metadataBase}</visible>
+         </text>
+         <rating name="game-rating-base">
+            <pos>0.077 0.620</pos>
+            <size>0 ${metaDatafontSize}</size>
+            <visible>${metadataBase}</visible>
+>>>>>>> e7d1e015ec04a234beaa0e0f231f375d61bd7a63
 
 
 
