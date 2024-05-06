@@ -10,6 +10,7 @@
    <aspectRatio>16:10</aspectRatio>
    <aspectRatio>4:3</aspectRatio>
    <aspectRatio>19.5:9</aspectRatio>
+   <aspectRatio>1:1</aspectRatio>
 
    <fontSize>small</fontSize>
    <fontSize>medium</fontSize>
