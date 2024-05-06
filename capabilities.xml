@@ -1,15 +1,16 @@
 <!--
-    Theme capabilities for iconic-es-de
+    Theme capabilities for symbolic-es-de
 -->
 
 <themeCapabilities>
    
-   <themeName>Iconic</themeName>
+   <themeName>Symbolic</themeName>
 
    <aspectRatio>16:9</aspectRatio>
    <aspectRatio>16:10</aspectRatio>
    <aspectRatio>4:3</aspectRatio>
    <aspectRatio>19.5:9</aspectRatio>
+   <aspectRatio>1:1</aspectRatio>
 
    <fontSize>small</fontSize>
    <fontSize>medium</fontSize>
@@ -63,55 +64,39 @@
    </suppressTransitionProfiles>
 
 
-   <variant name="textlist-miximage">
-      <label>Textlist w/ Miximage</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="textlist-boxart">
+
+   <variant name="textlist-boxart-no-metadata">
       <label>Textlist w/ Boxart</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="textlist-boxart-no-metadata">
-      <label>Textlist w/ Boxart: No Metadata</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="carousel-miximage">
-      <label>Carousel w/ Miximage</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="carousel-boxart">
-      <label>Carousel w/ Boxart</label>
+   <variant name="simple-system-textlist-boxart-no-metadata">
+      <label>Textlist w/ Boxart (Simple)</label>
       <selectable>true</selectable>
    </variant>
    <variant name="carousel-boxart-no-metadata">
-      <label>Carousel w/ Boxart: No Metadata</label>
+      <label>Carousel w/ Boxart</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="grid-boxart">
-      <label>Grid: Boxart</label>
+   <variant name="simple-system-carousel-boxart-no-metadata">
+      <label>Carousel w/ Boxart (Simple)</label>
       <selectable>true</selectable>
    </variant>
    <variant name="grid-boxart-full">
-      <label>Grid: Boxart Full Width</label>
+      <label>Grid: Boxart</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="grid-titlescreen">
-      <label>Grid: Titlescreen</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="grid-physical-media">
-      <label>Grid: Physical Media</label>
+   <variant name="simple-system-grid-boxart-full">
+      <label>Grid: Boxart (Simple)</label>
       <selectable>true</selectable>
    </variant>
    <variant name="grid-physical-media-full">
-      <label>Grid: Physical Media Full Width</label>
+      <label>Grid: Physical Media</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="grid-marquee">
-      <label>Grid: Marquee</label>
+   <variant name="simple-system-grid-physical-media-full">
+      <label>Grid: Physical Media (Simple)</label>
       <selectable>true</selectable>
    </variant>
-
 
 
 </themeCapabilities>

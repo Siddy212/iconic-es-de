@@ -83,4 +83,25 @@
          </variables>
       </fontSize>
    </aspectRatio>
+
+   <aspectRatio name="1:1">
+      <fontSize name="small">
+         <variables>
+            <gridItemSize>0.153990825688073 0.18</gridItemSize>
+            <gridItemPos>0.5255275229</gridItemPos>
+         </variables>
+      </fontSize>
+      <fontSize name="medium,large">
+         <variables>
+            <gridItemSize>0.205321100917431 0.24</gridItemSize>
+            <gridItemPos>0.5768577982</gridItemPos>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <gridItemSize>0.307981651376147 0.36</gridItemSize>
+            <gridItemPos>0.5255275229</gridItemPos>
+         </variables>
+      </fontSize>
+   </aspectRatio>
 </theme>
