@@ -4,11 +4,12 @@ based on 1920x1200
 -->
 <theme>
 
-   <!--
-   ///
-   All Views: Defaults
-   ///
-   -->
+<!--
+///
+All Views: Defaults
+///
+-->
+
    <view name="system,gamelist">
       <helpsystem name="help">
          <posDimmed>0.5 0.965</posDimmed>
@@ -34,11 +35,12 @@ based on 1920x1200
    </fontSize>
 
 
-   <!--
-   ///
-   System View: Defaults
-   ///
-   -->
+<!--
+///
+System View: Defaults
+///
+-->
+
    <view name="system">
       <carousel name="system-carousel">
          <size>1 0.319444444444444</size>
@@ -51,90 +53,95 @@ based on 1920x1200
       </helpsystem>
    </view>
 
-   <variant name="textlist-boxart-no-metadata,carousel-boxart-no-metadata,grid-boxart-full,grid-physical-media-full">
-      <view name="system">
-         <text name="games-count">
-            <pos>0.2328125 0.586</pos>
-            <size>0.390625 ${systemInfoFontSize}</size>
-            <fontSize>${systemInfoFontSize}</fontSize>
-         </text>
-         <image name="system-image">
-            <pos>0.2328125 .23</pos>
-            <size>.25 0</size>
-         </image>
-         <image name="Overlay">
-            <pos>0.5 0.5</pos>
-            <size>1.0625 1</size>
-         </image>
-         <text name="system-name">
-            <pos>${systemNamePos}</pos>
-            <fontSize>${systemHeaderFontSize}</fontSize>
-         </text>
-         <text name="system-year-type">
-            <pos>0.2328125 0.518</pos>
-            <fontSize>${systemInfoFontSize}</fontSize>
-         </text>
-         <text name="system-description">
-            <origin>0.5 0</origin>
-            <pos>0.2328125 0.615</pos>
-            <size>0.23 0.23</size>
-            <fontPath>${fontRegular}</fontPath>
-            <fontSize>${systemDescriptionFontSize}</fontSize>
-            <text>${systemDescription}</text>
-            <verticalAlignment>top</verticalAlignment>
-            <horizontalAlignment>center</horizontalAlignment>
-            <container>true</container>
-            <containerScrollSpeed>0.6</containerScrollSpeed>
-            <color>${systemInfoColor}</color>
-            <zIndex>10</zIndex>
-         </text>
-         <image name="system-carousel-selector">
-            <pos>0.2328125 0</pos>
-            <size>0.28 1</size>
-         </image>
-         <image name="system-carousel-selector-shadow">
-            <pos>0.2328125 -.1</pos>
-            <size>0.30038314176 1.1</size>
-         </image>
-         <carousel name="system-carousel">
-            <pos>0 0.91</pos>
-         </carousel>
-      </view>
-   </variant>
+<!--
+///
+System View: Overlay Variants
+///
+-->
 
-<variant name="simple-system-textlist-boxart-no-metadata,
-simple-system-carousel-boxart-no-metadata,
-simple-system-grid-boxart-full,
-simple-system-grid-physical-media-full">
-   <view name="system">
-      <image name="system-image">
-         <pos>0.2328125 .818</pos>
-         <size>.25 0</size>
-      </image>
-      <text name="games-count">
-            <pos>0.2328125 0.975</pos>
-            <size>0.25 ${systemDescriptionFontSize}</size>
-            <fontSize>${systemDescriptionFontSize}</fontSize>
-      </text>
-      <image name="system-carousel-selector">
-         <pos>0.2328125 0.705</pos>
-         <size>0.261 .5</size>
-      </image>
-      <image name="system-carousel-selector-shadow">
-         <pos>0.2328125 .645</pos>
-         <size>0.32364 .62</size>
-      </image>
-      <carousel name="system-carousel">
-         <pos>0 0.892</pos>
-      </carousel>
-   </view>
-</variant>
+      <variant name=
+      "textlist-boxart-no-metadata,
+      carousel-boxart-no-metadata,
+      grid-boxart-full,
+      grid-physical-media-full">
+         <view name="system">
+            <text name="games-count">
+               <pos>0.2328125 0.586</pos>
+               <size>0.390625 ${systemInfoFontSize}</size>
+               <fontSize>${systemInfoFontSize}</fontSize>
+            </text>
+            <image name="system-image">
+               <pos>0.2328125 .23</pos>
+               <size>.25 0</size>
+            </image>
+            <image name="Overlay">
+               <pos>0.5 0.5</pos>
+               <size>1.0625 1</size>
+            </image>
+            <text name="system-name">
+               <pos>${systemNamePos}</pos>
+               <fontSize>${systemHeaderFontSize}</fontSize>
+            </text>
+            <text name="system-year-type">
+               <pos>0.2328125 0.518</pos>
+               <fontSize>${systemInfoFontSize}</fontSize>
+            </text>
+            <text name="system-description">
+               <origin>0.5 0</origin>
+               <pos>0.2328125 0.615</pos>
+               <size>0.23 0.23</size>
+               <fontPath>${fontRegular}</fontPath>
+               <fontSize>${systemDescriptionFontSize}</fontSize>
+               <text>${systemDescription}</text>
+               <verticalAlignment>top</verticalAlignment>
+               <horizontalAlignment>center</horizontalAlignment>
+               <container>true</container>
+               <containerScrollSpeed>0.6</containerScrollSpeed>
+               <color>${systemInfoColor}</color>
+               <zIndex>10</zIndex>
+            </text>
+            <image name="system-carousel-selector">
+               <pos>0.2328125 0</pos>
+               <size>0.28 1</size>
+            </image>
+            <image name="system-carousel-selector-shadow">
+               <pos>0.2328125 -.1</pos>
+               <size>0.30038314176 1.1</size>
+            </image>
+            <carousel name="system-carousel">
+               <pos>0 0.91</pos>
+            </carousel>
+         </view>
+      </variant>
 
-
-
-
-
-
+      <variant name=
+      "simple-system-textlist-boxart-no-metadata,
+      simple-system-carousel-boxart-no-metadata,
+      simple-system-grid-boxart-full,
+      simple-system-grid-physical-media-full">
+         <view name="system">
+            <image name="system-image">
+               <pos>0.2328125 .818</pos>
+               <size>.25 0</size>
+            </image>
+            <text name="games-count">
+                  <pos>0.2328125 0.975</pos>
+                  <size>0.25 ${systemDescriptionFontSize}</size>
+                  <fontSize>${systemDescriptionFontSize}</fontSize>
+            </text>
+            <image name="system-carousel-selector">
+               <pos>0.2328125 0.705</pos>
+               <size>0.261 .5</size>
+            </image>
+            <image name="system-carousel-selector-shadow">
+               <pos>0.2328125 .645</pos>
+               <size>0.32364 .62</size>
+            </image>
+            <carousel name="system-carousel">
+               <pos>0 0.892</pos>
+            </carousel>
+         </view>
+      </variant>
 
    <fontSize name="small">
       <variables>
@@ -173,11 +180,12 @@ simple-system-grid-physical-media-full">
       </variables>
    </fontSize>
 
-   <!--
-   ///
-   Gamelist View: Carousel
-   ///
-   -->
+<!--
+///
+Gamelist View: Carousel
+///
+-->
+
    <variant name="carousel-boxart-no-metadata,simple-system-carousel-boxart-no-metadata">
       <view name="gamelist">
         <carousel name="gamelistCarousel">
@@ -193,11 +201,12 @@ simple-system-grid-physical-media-full">
       </view>
    </variant>
 
-   <!--
-   ///
-   Gamelist View: Textlist
-   ///
-   -->
+<!--
+///
+Gamelist View: Textlist
+///
+-->
+
    <variant name="textlist-boxart-no-metadata,simple-system-textlist-boxart-no-metadata">
       <view name="gamelist">
          <textlist name="game-list">
@@ -223,21 +232,17 @@ simple-system-grid-physical-media-full">
       </view>
    </variant>
 
-   <!--
-   ///
-   Gamelist View: Defaults
-   ///
-   -->
+<!--
+///
+Gamelist View: Defaults
+///
+-->
 
    <view name="gamelist">
       <helpsystem name="help">
          <origin>1 1</origin>
          <pos>${gamelistHelpPos}</pos>
       </helpsystem>
-      <image name="system-Carousel-logo">
-         <pos>0.2328125 0.91</pos>
-         <size>0.1875 0.3</size>
-      </image>
     </view>
 
    <fontSize name="small">
@@ -302,18 +307,17 @@ simple-system-grid-physical-media-full">
    </fontSize>
 
 
-   <!--
-   ///
-   Gamelist View: Symbolic Variants
-   ///
-   -->
-
-
-
-
+<!--
+///
+Gamelist View: Overlay Variants
+///
+-->
 
     <variant name=
-      "textlist-boxart-no-metadata,carousel-boxart-no-metadata,grid-boxart-full,grid-physical-media-full">
+      "textlist-boxart-no-metadata,
+      carousel-boxart-no-metadata,
+      grid-boxart-full,
+      grid-physical-media-full">
       <view name="gamelist">
       <image name="system-Carousel-logo">
          <pos>0.2328125 0.91</pos>
@@ -324,9 +328,9 @@ simple-system-grid-physical-media-full">
 
     <variant name=
       "simple-system-textlist-boxart-no-metadata,
-   simple-system-carousel-boxart-no-metadata,
-   simple-system-grid-boxart-full,
-   simple-system-grid-physical-media-full">
+      simple-system-carousel-boxart-no-metadata,
+      simple-system-grid-boxart-full,
+      simple-system-grid-physical-media-full">
       <view name="gamelist">
       <image name="system-Carousel-logo">
          <pos>0.2328125 0.892</pos>
@@ -335,9 +339,16 @@ simple-system-grid-physical-media-full">
       </view>
    </variant>
 
+<!--
+///
+Gamelist View: Grid Variants
+///
+-->
 
     <variant name=
-      "grid-boxart-full,grid-physical-media-full,simple-system-grid-boxart-full,
+      "grid-boxart-full,
+      grid-physical-media-full,
+      simple-system-grid-boxart-full,
       simple-system-grid-physical-media-full">
       <view name="gamelist">
          <badges name="badges">
@@ -454,7 +465,6 @@ simple-system-grid-physical-media-full">
          </image>
          <!-- End: Min Full Grid Metadata -->
 
-
       </view>
       <fontSize name="small">
          <variables>
@@ -502,13 +512,17 @@ simple-system-grid-physical-media-full">
       </fontSize>
 	</variant>
 
-   <!--
-   ///
-   Gamelist View: Metadata-Off Variants
-   ///
-   -->
+<!--
+///
+Gamelist View: Metadata-Off Variants
+///
+-->
 
-	<variant name="carousel-boxart-no-metadata,textlist-boxart-no-metadata,simple-system-carousel-boxart-no-metadata,simple-system-textlist-boxart-no-metadata">
+	<variant name=
+      "carousel-boxart-no-metadata,
+      textlist-boxart-no-metadata,
+      simple-system-carousel-boxart-no-metadata,
+      simple-system-textlist-boxart-no-metadata">
       <view name="gamelist">
             <video name="game-media">
                <pos>0.2328125 0.43855</pos>

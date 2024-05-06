@@ -4,11 +4,12 @@ based on 3840x2880
 -->
 <theme>
 
-   <!--
-   ///
-   All Views: Defaults
-   ///
-   -->
+<!--
+///
+All Views: Defaults
+///
+-->
+
    <view name="system,gamelist">
       <helpsystem name="help">
          <posDimmed>0.5 0.965</posDimmed>
@@ -33,12 +34,12 @@ based on 3840x2880
       </variables>
    </fontSize>
 
+<!--
+///
+System View: Defaults
+///
+-->
 
-   <!--
-   ///
-   System View: Defaults
-   ///
-   -->
    <view name="system">
       <carousel name="system-carousel">
          <size>1 0.319444444444444</size>
@@ -50,6 +51,12 @@ based on 3840x2880
          <pos>0.989 0.982</pos>
       </helpsystem>
    </view>
+
+<!--
+///
+Gamelist View: Overlay Variants
+///
+-->
 
    <variant name="textlist-boxart-no-metadata,carousel-boxart-no-metadata,grid-boxart-full,grid-physical-media-full">
       <view name="system">
@@ -130,8 +137,6 @@ based on 3840x2880
       </view>
    </variant>
 
-
-
    <fontSize name="small">
       <variables>
          <systemDescriptionFontSize>0.018703703703704</systemDescriptionFontSize>
@@ -169,11 +174,12 @@ based on 3840x2880
       </variables>
    </fontSize>
 
-   <!--
-   ///
-   Gamelist View: Carousel
-   ///
-   -->
+<!--
+///
+Gamelist View: Carousel
+///
+-->
+
    <variant name="carousel-boxart-no-metadata,simple-system-carousel-boxart-no-metadata">
       <view name="gamelist">
         <carousel name="gamelistCarousel">
@@ -189,11 +195,12 @@ based on 3840x2880
       </view>
    </variant>
 
-   <!--
-   ///
-   Gamelist View: Textlist
-   ///
-   -->
+<!--
+///
+Gamelist View: Textlist
+///
+-->
+
    <variant name="textlist-boxart-no-metadata,simple-system-textlist-boxart-no-metadata">
       <view name="gamelist">
          <textlist name="game-list">
@@ -219,11 +226,11 @@ based on 3840x2880
       </view>
    </variant>
 
-   <!--
-   ///
-   Gamelist View: Defaults
-   ///
-   -->
+<!--
+///
+Gamelist View: Defaults
+///
+-->
 
    <view name="gamelist">
       <helpsystem name="help">
@@ -295,14 +302,17 @@ based on 3840x2880
    </fontSize>
 
 
-   <!--
-   ///
-   Gamelist View: Symbolic Variants
-   ///
-   -->
+<!--
+///
+Gamelist View: Overlay Variants
+///
+-->
    
     <variant name=
-      "textlist-boxart-no-metadata,carousel-boxart-no-metadata,grid-boxart-full,grid-physical-media-full">
+      "textlist-boxart-no-metadata,
+      carousel-boxart-no-metadata,
+      grid-boxart-full,
+      grid-physical-media-full">
       <view name="gamelist">
       <image name="system-Carousel-logo">
          <size>0.21875 0.29166666666</size>
@@ -313,9 +323,9 @@ based on 3840x2880
 
     <variant name=
       "simple-system-textlist-boxart-no-metadata,
-   simple-system-carousel-boxart-no-metadata,
-   simple-system-grid-boxart-full,
-   simple-system-grid-physical-media-full">
+      simple-system-carousel-boxart-no-metadata,
+      simple-system-grid-boxart-full,
+      simple-system-grid-physical-media-full">
       <view name="gamelist">
       <image name="system-Carousel-logo">
          <size>0.21875 0.29166666666</size>
@@ -324,8 +334,16 @@ based on 3840x2880
       </view>
    </variant>
 
-    <variant name=
-      "grid-boxart-full,grid-physical-media-full,simple-system-grid-boxart-full,
+<!--
+///
+Gamelist View: Grid Variants
+///
+-->
+
+   <variant name=
+      "grid-boxart-full,
+      grid-physical-media-full,
+      simple-system-grid-boxart-full,
       simple-system-grid-physical-media-full">
       <view name="gamelist">
          <badges name="badges">
@@ -489,11 +507,11 @@ based on 3840x2880
       </fontSize>
 	</variant>
 
-   <!--
-   ///
-   Gamelist View: Metadata-Off Variants
-   ///
-   -->
+<!--
+///
+Gamelist View: Metadata-Off Variants
+///
+-->
 
    <variant name="carousel-boxart-no-metadata,textlist-boxart-no-metadata,simple-system-carousel-boxart-no-metadata,simple-system-textlist-boxart-no-metadata">
       <view name="gamelist">
