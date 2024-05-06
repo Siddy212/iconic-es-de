@@ -769,6 +769,9 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    <aspectRatio name="19.5:9">
       <include>./aspect-ratio-19.5-9.xml</include>
    </aspectRatio>
+   <aspectRatio name="1:1">
+      <include>./aspect-ratio-1-1.xml</include>
+   </aspectRatio>
    <!--
    ///
    Sounds
