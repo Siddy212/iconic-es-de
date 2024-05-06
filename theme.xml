@@ -158,7 +158,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <image name="system-image">
          <origin>0.5 0.5</origin>
          <pos>0.233 .23</pos>
-         <path>./_inc/systems/system/${system.theme}.png</path>
+         <path>./_inc/systems/system/${system.theme}.webp</path>
          <zIndex>6</zIndex>
       </image>
 
