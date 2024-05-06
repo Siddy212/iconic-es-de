@@ -9,6 +9,7 @@
          <backgroundArtGradientImage>background-art-gradient-retro.svg</backgroundArtGradientImage>
          <systemInfoColor>54585a</systemInfoColor>
          <systemCarouselTextColor>54585a</systemCarouselTextColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <systemcarouselselector>system-carousel-selector-retro</systemcarouselselector>
          <gamelistCarouselBackground>carousel-background-retro</gamelistCarouselBackground>
          <gamelistCarouselSaturation>0.6</gamelistCarouselSaturation>
@@ -36,6 +37,7 @@
          <backgroundArtGradientImage>background-art-gradient-dark.svg</backgroundArtGradientImage>
          <systemInfoColor>cccccc</systemInfoColor>
          <systemCarouselTextColor>cccccc</systemCarouselTextColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <systemcarouselselector>system-carousel-selector-dark</systemcarouselselector>
          <gamelistCarouselBackground>carousel-background-dark</gamelistCarouselBackground>
          <gamelistCarouselSaturation>0.8</gamelistCarouselSaturation>
@@ -64,6 +66,7 @@
          <backgroundArtGradientImage>background-art-gradient-light.svg</backgroundArtGradientImage>
          <systemInfoColor>555555</systemInfoColor>
          <systemCarouselTextColor>555555</systemCarouselTextColor>
+         <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <systemcarouselselector>system-carousel-selector-light</systemcarouselselector>
          <gamelistCarouselBackground>carousel-background-light</gamelistCarouselBackground>
          <gamelistCarouselSaturation>0.5</gamelistCarouselSaturation>
@@ -84,28 +87,28 @@
    <colorScheme name="dark-modern,light-modern,retro-modern">
       <variables>
          <systemCarouselSelectorColor>00C3E3</systemCarouselSelectorColor>
-         <systemCarouselArtPath>./_inc/systems/carousel-icons/${system.theme}.webp</systemCarouselArtPath>
-         <backgroundArtPath>./_inc/systems/modern-backgrounds/${system.theme}.webp</backgroundArtPath>
-         <backgroundArtDefaultImage>./_inc/systems/modern-backgrounds/_default.webp</backgroundArtDefaultImage>
+         <systemCarouselArtPath>./_inc/systems/carousel-icons/${system.theme}.png</systemCarouselArtPath>
+         <backgroundArtPath>./_inc/systems/modern-backgrounds/${system.theme}.jpg</backgroundArtPath>
+         <backgroundArtDefaultImage>./_inc/systems/modern-backgrounds/_default.jpg</backgroundArtDefaultImage>
          <overlayArtPath>./_inc/systems/modern-overlay/${system.theme}.png</overlayArtPath>
       </variables>
    </colorScheme>
    <colorScheme name="dark-custom,light-custom,retro-custom">
       <variables>
          <systemCarouselSelectorColor>00C3E3</systemCarouselSelectorColor>
-         <systemCarouselArtPath>./_inc/systems/carousel-icons/${system.theme}.webp</systemCarouselArtPath>
-         <backgroundArtPath>./_inc/systems/custom-backgrounds/${system.theme}.webp</backgroundArtPath>
-         <backgroundArtDefaultImage>./_inc/systems/custom-backgrounds/_default.webp</backgroundArtDefaultImage>
+         <systemCarouselArtPath>./_inc/systems/carousel-icons/${system.theme}.png</systemCarouselArtPath>
+         <backgroundArtPath>./_inc/systems/custom-backgrounds/${system.theme}.jpg</backgroundArtPath>
+         <backgroundArtDefaultImage>./_inc/systems/custom-backgrounds/_default.jpg</backgroundArtDefaultImage>
          <overlayArtPath>./_inc/systems/custom-overlay/${system.theme}.png</overlayArtPath>
       </variables>
    </colorScheme>
    <colorScheme name="dark-classic,light-classic,retro-classic">
       <variables>
          <systemCarouselSelectorColor>00C3E3</systemCarouselSelectorColor>
-         <systemCarouselArtPath>./_inc/systems/carousel-icons/${system.theme}.webp</systemCarouselArtPath>
-         <backgroundArtPath>./_inc/systems/classic-backgrounds/${system.theme}.webp</backgroundArtPath>
-         <backgroundArtDefaultImage>./_inc/systems/classic-backgrounds/_default.webp</backgroundArtDefaultImage>
-         <overlayArtPath>./_inc/systems/classic-overlay/${system.theme}.webp</overlayArtPath>
+         <systemCarouselArtPath>./_inc/systems/carousel-icons/${system.theme}.png</systemCarouselArtPath>
+         <backgroundArtPath>./_inc/systems/classic-backgrounds/${system.theme}.jpg</backgroundArtPath>
+         <backgroundArtDefaultImage>./_inc/systems/classic-backgrounds/_default.jpg</backgroundArtDefaultImage>
+         <overlayArtPath>./_inc/systems/classic-overlay/${system.theme}.png</overlayArtPath>
       </variables>
    </colorScheme>
 </theme>
