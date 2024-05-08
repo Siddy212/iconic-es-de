@@ -99,7 +99,7 @@ This theme allows customizations to artwork without the need to edit the source 
 - They should be named:
     - ${system.theme}.webp
     - _default.webp
-- `${system.theme}.webp` should be named for the system you are looking to override.  For example if you wanted to override the artwork for `snes` you would create an image called `snes.jpg` in the backgrounds folder.
+- `${system.theme}.webp` should be named for the system you are looking to override.  For example if you wanted to override the artwork for `snes` you would create an image called `snes.webp` in the backgrounds folder.
 - If a given ${system.theme}.webp image is not found, it will use _default.jpg image, so make sure to keep that file.
   
 ### Overlays
