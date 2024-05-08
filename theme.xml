@@ -30,6 +30,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <fontItalic>Gilroy-RegularItalic</fontItalic>
    </variables>
    <include>./colors.xml</include>
+   <include>${includeGameSelector}</include>
 
    <!--
    ///

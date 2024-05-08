@@ -1,5 +1,5 @@
 <theme>
-      <colorScheme name="retro-modern,retro-custom,retro-classic,">
+      <colorScheme name="retro-modern,retro-custom,retro-classic,retro-screenshots">
       <variables>
          <helpTextColor>54585a</helpTextColor>
          <helpIconColor>514689</helpIconColor>
@@ -27,7 +27,7 @@
          <BadgeColor>54585a</BadgeColor>
       </variables>
    </colorScheme>
-   <colorScheme name="dark-modern,dark-custom,dark-classic">
+   <colorScheme name="dark-modern,dark-custom,dark-classic,dark-screenshots">
       <variables>
          <helpTextColor>999999</helpTextColor>
          <helpIconColor>bbbbbb</helpIconColor>
@@ -56,7 +56,7 @@
          <BadgeColor>bbbbbb</BadgeColor>
       </variables>
    </colorScheme>
-   <colorScheme name="light-modern,light-custom,light-classic">
+   <colorScheme name="light-modern,light-custom,light-classic,light-screenshots">
       <variables>
          <helpTextColor>404040</helpTextColor>
          <helpIconColor>404040</helpIconColor>
@@ -91,6 +91,7 @@
          <backgroundArtPath>./_inc/systems/modern-backgrounds/${system.theme}.webp</backgroundArtPath>
          <backgroundArtDefaultImage>./_inc/systems/modern-backgrounds/_default.webp</backgroundArtDefaultImage>
          <overlayArtPath>./_inc/systems/modern-overlay/${system.theme}.webp</overlayArtPath>
+         <includeGameSelector>./null.xml</includeGameSelector>
       </variables>
    </colorScheme>
    <colorScheme name="dark-custom,light-custom,retro-custom">
@@ -100,6 +101,7 @@
          <backgroundArtPath>./_inc/systems/custom-backgrounds/${system.theme}.webp</backgroundArtPath>
          <backgroundArtDefaultImage>./_inc/systems/custom-backgrounds/_default.webp</backgroundArtDefaultImage>
          <overlayArtPath>./_inc/systems/custom-overlay/${system.theme}.webp</overlayArtPath>
+         <includeGameSelector>./null.xml</includeGameSelector>
       </variables>
    </colorScheme>
    <colorScheme name="dark-classic,light-classic,retro-classic">
@@ -109,6 +111,17 @@
          <backgroundArtPath>./_inc/systems/classic-backgrounds/${system.theme}.webp</backgroundArtPath>
          <backgroundArtDefaultImage>./_inc/systems/classic-backgrounds/_default.webp</backgroundArtDefaultImage>
          <overlayArtPath>./_inc/systems/classic-overlay/${system.theme}.webp</overlayArtPath>
+         <includeGameSelector>./null.xml</includeGameSelector>
+      </variables>
+   </colorScheme>
+   <colorScheme name="dark-screenshots,light-screenshots,retro-screenshots">
+      <variables>
+         <systemCarouselSelectorColor>00C3E3</systemCarouselSelectorColor>
+         <systemCarouselArtPath>./_inc/systems/carousel-icons/${system.theme}.webp</systemCarouselArtPath>
+         <backgroundArtPath>./_inc/systems/classic-backgrounds/${system.theme}.webp</backgroundArtPath>
+         <backgroundArtDefaultImage>./_inc/systems/classic-backgrounds/_default.webp</backgroundArtDefaultImage>
+         <overlayArtPath>./_inc/systems/classic-overlay/_default.webp</overlayArtPath>
+         <includeGameSelector>./gameselector.xml</includeGameSelector>
       </variables>
    </colorScheme>
 </theme>

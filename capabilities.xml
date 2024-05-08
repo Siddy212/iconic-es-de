@@ -35,6 +35,15 @@
    <colorScheme name="retro-modern">
       <label>Modern - Retro Gray</label>
    </colorScheme>
+   <colorScheme name="light-screenshots">
+      <label>Screenshots - Light</label>
+   </colorScheme>
+   <colorScheme name="dark-screenshots">
+      <label>Screenshots - Dark</label>
+   </colorScheme>
+   <colorScheme name="retro-screenshots">
+      <label>Screenshots - Retro</label>
+   </colorScheme>
    <colorScheme name="light-custom">
       <label>Custom - Light</label>
    </colorScheme>
