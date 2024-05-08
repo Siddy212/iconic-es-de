@@ -47,7 +47,7 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
    - `Grid: Physical Media` - A grid view that displays physical media images.
 
    - `Grid: Physical Media Full Width` - A grid view that spands the entire width of the screen and displays physical media.
-   - 
+     
    - `Grid: Marquee ` - A grid view that display game marquees.
 
      
