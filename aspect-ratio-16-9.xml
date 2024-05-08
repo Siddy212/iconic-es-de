@@ -75,7 +75,7 @@ based on 1920x1080
       </text>
       <text name="games-count">
          <pos>0.2328125 0.586</pos>
-         <size>0.390625 ${systemInfoFontSize}</size>
+         <size>0.259 ${systemInfoFontSize}</size>
          <fontSize>${systemInfoFontSize}</fontSize>
       </text>
       <text name="system-description">
@@ -317,31 +317,31 @@ based on 1920x1080
          </datetime>
          <text name="game-name-extended">
             <pos>0.060 0.527</pos>
-            <size>0.355 ${metaDatafontSize}</size>
+            <size>0.365 ${metaDatafontSize}</size>
          </text>
          <text name="game-players-extended">
             <pos>0.060 0.661</pos>
             <size>0 ${metaDatafontSize}</size>
          </text>
          <text name="game-genre-extended">
-            <pos>0.167 0.572</pos>
-            <size>0.257 ${metaDatafontSize}</size>
+            <pos>0.166 0.572</pos>
+            <size>0.258 ${metaDatafontSize}</size>
          </text>
          <text name="game-developer-extended">
-            <pos>0.167 0.616</pos>
+            <pos>0.166 0.616</pos>
             <size>0.146 ${metaDatafontSize}</size>
          </text>
          <text name="game-publisher-extended">
-            <pos>0.167 0.661</pos>
+            <pos>0.166 0.661</pos>
             <size>0.146 ${metaDatafontSize}</size>
          </text>
          <datetime name="game-lastplayed-extended">
-            <pos>0.341 0.616</pos>
-            <size>0.086 ${metaDatafontSize}</size>
+            <pos>0.3405 0.616</pos>
+            <size>0.084 ${metaDatafontSize}</size>
          </datetime>
          <text name="game-playcount-extended">
-            <pos>0.341 0.661</pos>
-            <size>0.086 ${metaDatafontSize}</size>
+            <pos>0.3405 0.661</pos>
+            <size>0.084 ${metaDatafontSize}</size>
          </text>
          <!-- End: Extended Metadata -->
          <!-- Start: Base Metadata -->
@@ -359,7 +359,7 @@ based on 1920x1080
          </image>
          <text name="game-name-base">
             <pos>0.071 0.547</pos>
-            <size>.355 ${metaDatafontSize}</size>
+            <size>.354 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <visible>${metadataBase}</visible>
             <lineSpacing>1.2</lineSpacing>
@@ -371,20 +371,20 @@ based on 1920x1080
          </rating>
          <datetime name="game-releasedate-base">
             <pos>0.171 0.617</pos>
-            <size>0.104166666666667 ${metaDatafontSize}</size>
+            <size>0.074 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <visible>${metadataBase}</visible>
          </datetime>
          <text name="game-genre-base">
-            <pos>0.288 0.617</pos>
-            <size>0.134 ${metaDatafontSize}</size>
+            <pos>0.287 0.617</pos>
+            <size>0.138 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <lineSpacing>1.2</lineSpacing>
             <visible>${metadataBase}</visible>
          </text>
          <!-- End: Base Metadata -->
          <text name="game-description">
-            <pos>0.234 ${descriptionPos}</pos>
+            <pos>0.2328125 ${descriptionPos}</pos>
             <size>0.3768 ${descriptionHeight}</size>
             <fontSize>${descriptionFontSize}</fontSize>
             <lineSpacing>${descriptionLineSpacing}</lineSpacing>
@@ -466,105 +466,105 @@ based on 1920x1080
          </badges>
          <!-- Start: Extended Full Grid Metadata -->
          <text name="game-name-full-extended">
-            <pos>0.53 0.8605</pos>
+            <pos>0.529 0.8305</pos>
             <size>.31 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <lineSpacing>1.2</lineSpacing>
             <visible>${metadataExtended}</visible>
          </text>
          <rating name="game-rating-full-extended">
-            <pos>0.54 0.916</pos>
+            <pos>0.54 0.886</pos>
             <size>0 ${metaDatafontSize}</size>
             <visible>${metadataExtended}</visible>
          </rating>
          <text name="game-genre-full-extended">
-            <pos>0.6911 0.917</pos>
-            <size>0.149 ${metaDatafontSize}</size>
+            <pos>0.6911 0.887</pos>
+            <size>0.148 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <lineSpacing>1.2</lineSpacing>
             <visible>${metadataExtended}</visible>
          </text>
          <datetime name="game-releasedate-full-extended">
-            <pos>0.6041 0.917</pos>
-            <size>0.104166666666667 ${metaDatafontSize}</size>
+            <pos>0.6041 0.887</pos>
+            <size>0 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <visible>${metadataExtended}</visible>
          </datetime>
          <image name="game-metadata-background-shadow-full-extended">
-            <pos>0.731 0.889</pos>
+            <pos>0.731 0.859</pos>
             <size>0.46944928757 0.13288403122</size>
             <visible>${metadataExtended}</visible>
          </image>
          <image name="game-metadata-background-image-full-extended">
-            <pos>0.731 0.889</pos>
+            <pos>0.731 0.859</pos>
             <size>0.45076433396 0.09612302346</size>
             <visible>${metadataExtended}</visible>
          </image>
          <datetime name="game-lastplayed-full-extended">
-            <pos>0.872 0.8606</pos>
-            <size>0.13 ${metaDatafontSize}</size>
+            <pos>0.870 0.8306</pos>
+            <size>0.086 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <visible>${metadataExtended}</visible>
          </datetime>
          <text name="game-playcount-full-extended">
-            <pos>0.872 0.917</pos>
-            <size>0.13 ${metaDatafontSize}</size>
+            <pos>0.870 0.887</pos>
+            <size>0.086 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <visible>${metadataExtended}</visible>
          </text>
          <!-- End: Extended Full Grid Metadata -->
          <!-- Start: Base Full Grid Metadata -->
          <text name="game-name-full-base">
-            <pos>0.534 0.837</pos>
+            <pos>0.524 0.797</pos>
             <size>.432 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <lineSpacing>1.2</lineSpacing>
             <visible>${metadataBase}</visible>
          </text>
          <rating name="game-rating-full-base">
-            <pos>0.5492 0.913</pos>
+            <pos>0.5392 0.873</pos>
             <size>0 ${metaDatafontSize}</size>
             <visible>${metadataBase}</visible>
          </rating>
          <text name="game-genre-full-base">
-            <pos>0.751 0.913</pos>
+            <pos>0.740 0.873</pos>
             <size>0.215 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <lineSpacing>1.2</lineSpacing>
             <visible>${metadataBase}</visible>
          </text>
          <datetime name="game-releasedate-full-base">
-            <pos>0.634 0.913</pos>
-            <size>0.104166666666667 ${metaDatafontSize}</size>
+            <pos>0.624 0.873</pos>
+            <size>0.0745 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <visible>${metadataBase}</visible>
          </datetime>
          <image name="game-metadata-background-shadow-full-base">
-            <pos>0.735 0.875</pos>
+            <pos>0.725 0.835</pos>
             <size>0.4880998133 0.1771787083</size>
             <visible>${metadataBase}</visible>
          </image>
          <image name="game-metadata-background-image-full-base">
-            <pos>0.735 0.875</pos>
+            <pos>0.725 0.835</pos>
             <size>0.46318654182 0.1281640313</size>
             <visible>${metadataBase}</visible>
          </image>
          <!-- End: Full Grid Metadata -->
          <!-- Start: Min Full Grid Metadata -->
          <text name="game-name-full-min">
-            <pos>0.5031 0.896</pos>
+            <pos>0.5031 0.823</pos>
             <size>.452 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>
             <lineSpacing>1.2</lineSpacing>
             <visible>${metadataMin}</visible>
          </text>
          <image name="game-metadata-background-shadow-full-min">
-            <pos>0.7 0.895</pos>
+            <pos>0.7 0.822</pos>
             <size>0.53441836315 0.12936910007</size>
             <visible>${metadataMin}</visible>
          </image>
          <image name="game-metadata-background-image-full-min">
-            <pos>0.7 0.895</pos>
+            <pos>0.7 0.822</pos>
             <size>0.50950509167 0.08041973072</size>
             <visible>${metadataMin}</visible>
          </image>
@@ -576,7 +576,7 @@ based on 1920x1080
             <metadataExtended>true</metadataExtended>
             <metadataBase>false</metadataBase>
             <metadataMin>false</metadataMin>
-            <badgepos>0.507 0.816</badgepos>
+            <badgepos>0.605 0.935</badgepos>
             <badgesize>0.35 0.033</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
          </variables>
@@ -587,7 +587,7 @@ based on 1920x1080
             <metadataExtended>true</metadataExtended>
             <metadataBase>false</metadataBase>
             <metadataMin>false</metadataMin>
-            <badgepos>0.507 0.816</badgepos>
+            <badgepos>0.605 0.935</badgepos>
             <badgesize>0.35 0.033</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
          </variables>
@@ -598,7 +598,7 @@ based on 1920x1080
             <metadataExtended>false</metadataExtended>
             <metadataBase>true</metadataBase>
             <metadataMin>false</metadataMin>
-            <badgepos>0.506 0.783</badgepos>
+            <badgepos>0.576 0.935</badgepos>
             <badgesize>0.38 0.038</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
          </variables>
@@ -609,7 +609,7 @@ based on 1920x1080
             <metadataExtended>false</metadataExtended>
             <metadataBase>false</metadataBase>
             <metadataMin>true</metadataMin>
-            <badgepos>0.449 0.812</badgepos>
+            <badgepos>0.424 0.91</badgepos>
             <badgesize>0.53 0.053</badgesize>
             <badgemargin>0.006 0.01</badgemargin>
          </variables>

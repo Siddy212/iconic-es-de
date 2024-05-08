@@ -212,9 +212,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       textlist-miximage,
       carousel-miximage
       carousel-boxart,
-      textlist-boxart,
-      grid-boxart-full,
-      grid-physical-media-full">
+      textlist-boxart">
    <view name="gamelist">
       <badges name="badges">
          <slots>all</slots>
@@ -233,7 +231,30 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <origin>0 0.5</origin>
          <horizontalAlignment>left</horizontalAlignment>
       </badges> 
+   </view>
+   </variant>
 
+   <variant name="
+      grid-boxart-full,
+      grid-physical-media-full">
+   <view name="gamelist">
+      <badges name="badges">
+         <slots>all</slots>
+         <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
+         <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
+         <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+         <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
+         <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
+         <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
+         <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
+         <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
+         <customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
+         <badgeIconColor>${BadgeColor}</badgeIconColor>
+         <controllerSize>0.8</controllerSize>
+         <folderLinkSize>0.8</folderLinkSize>
+         <origin>0 0.5</origin>
+         <horizontalAlignment>right</horizontalAlignment>
+      </badges> 
    </view>
    </variant>
 
