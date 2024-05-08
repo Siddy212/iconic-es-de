@@ -24,6 +24,7 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
    - `16:10`
    - `4:3`
    - `19.5:9`
+   - `1:1`
 - `Theme Variant` - sets the layout used for the gamelist view when media & metadata are scraped for your games.  All settings will scale the size of the gamelist and the amount of metadata shown based on the selected font size:
    - `Textlist w/ Miximage ` - A simple list of game names on the right with the miximage on the left. Less demanding on weaker systems.
  
