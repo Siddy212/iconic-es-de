@@ -531,6 +531,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
         </carousel>
         <image name="background-art">
          <saturation>${gamelistCarouselSaturation}</saturation>
+         <imageType>fanart, screenshot</imageType>
       </image>
         <image name="carousel-background">
             <origin>0.5 0.5</origin>
