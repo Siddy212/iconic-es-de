@@ -68,7 +68,7 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
 | Color | Variant | SystemView | GamelistView |
 | --- | --- | --- | --- |
 |Dark-Classic|Carousel & Boxart|![SNESClassic-Dark](https://github.com/Siddy212/iconic-es-de/assets/60283021/e7ea0a8d-d26c-4ad9-b560-3d4ad2fe74a4)|![SNESClassic-Dark-Carousel](https://github.com/Siddy212/iconic-es-de/assets/60283021/ff848dcb-d5fd-4ad0-8878-86615327d64a)|
-|Light-Classic|Grid: Boxart|![GameboyClassic-Light](https://github.com/Siddy212/iconic-es-de/assets/60283021/edd49d15-52f0-4632-922e-64236f400eab)|![Gameboy-Classic-Light-Grid](https://github.com/Siddy212/iconic-es-de/assets/60283021/c641e10d-5249-4aec-864d-c3260b318a43)|
+|Light-Classic|Grid: Boxart Full Width|![GameboyClassic-Light](https://github.com/Siddy212/iconic-es-de/assets/60283021/edd49d15-52f0-4632-922e-64236f400eab)|![Gameboy-Classic-Light-Grid](https://github.com/Siddy212/iconic-es-de/assets/60283021/c641e10d-5249-4aec-864d-c3260b318a43)|
 |Retro Gray-Classic|Textlist & Miximage|![GenesisClassic-RetroGray](https://github.com/Siddy212/iconic-es-de/assets/60283021/0399fd57-f7a8-469f-91e8-0506538a70d7)|![GenesisClassic-RetroGray-Textlist](https://github.com/Siddy212/iconic-es-de/assets/60283021/77550642-0917-4dee-a911-1a4627213a50)|
 
 
