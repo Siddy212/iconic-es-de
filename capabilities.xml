@@ -4,7 +4,7 @@
 
 <themeCapabilities>
    
-   <themeName>Iconic</themeName>
+   <themeName>Iconic-test</themeName>
 
    <aspectRatio>16:9</aspectRatio>
    <aspectRatio>16:10</aspectRatio>
@@ -35,15 +35,6 @@
    <colorScheme name="retro-modern">
       <label>Modern - Retro Gray</label>
    </colorScheme>
-   <colorScheme name="light-screenshots">
-      <label>Screenshots - Light</label>
-   </colorScheme>
-   <colorScheme name="dark-screenshots">
-      <label>Screenshots - Dark</label>
-   </colorScheme>
-   <colorScheme name="retro-screenshots">
-      <label>Screenshots - Retro</label>
-   </colorScheme>
    <colorScheme name="light-custom">
       <label>Custom - Light</label>
    </colorScheme>
@@ -73,52 +64,32 @@
    </suppressTransitionProfiles>
 
 
-   <variant name="textlist-miximage">
-      <label>Textlist w/ Miximage</label>
+   <variant name="textlist">
+      <label>Textlist</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="textlist-boxart">
-      <label>Textlist w/ Boxart</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="textlist-boxart-no-metadata">
-      <label>Textlist w/ Boxart: No Metadata</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="carousel-miximage">
-      <label>Carousel w/ Miximage</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="carousel-boxart">
-      <label>Carousel w/ Boxart</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="carousel-boxart-no-metadata">
-      <label>Carousel w/ Boxart: No Metadata</label>
+   <variant name="carousel">
+      <label>Carousel</label>
       <selectable>true</selectable>
    </variant>
    <variant name="grid-boxart">
       <label>Grid: Boxart</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="grid-boxart-full">
-      <label>Grid: Boxart Full Width</label>
+   <variant name="grid-physical-media">
+      <label>Grid: Physical Media</label>
       <selectable>true</selectable>
    </variant>
    <variant name="grid-titlescreen">
       <label>Grid: Titlescreen</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="grid-physical-media">
-      <label>Grid: Physical Media</label>
+   <variant name="grid-boxart-full">
+      <label>Full Grid: Boxart</label>
       <selectable>true</selectable>
    </variant>
    <variant name="grid-physical-media-full">
-      <label>Grid: Physical Media Full Width</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="grid-marquee">
-      <label>Grid: Marquee</label>
+      <label>Full Grid: Physical Media</label>
       <selectable>true</selectable>
    </variant>
 

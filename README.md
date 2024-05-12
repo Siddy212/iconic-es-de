@@ -26,32 +26,21 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
    - `19.5:9`
    - `1:1`
 - `Theme Variant` - sets the layout used for the gamelist view when media & metadata are scraped for your games.  All settings will scale the size of the gamelist and the amount of metadata shown based on the selected font size:
-   - `Textlist w/ Miximage ` - A simple list of game names on the right with the miximage on the left. Less demanding on weaker systems.
+   - `Textlist` - A simple list of game names on the right with the miximage on the left. Less demanding on weaker systems.`X-Large` font will disable metadata and show only the boxart.
  
-   - `Textlist w/ Boxart` - A simple list of game names  on the right with the game boxart on the left. Less demanding on weaker systems.
+   - `Carousel` - A vertical carousel of game marquees on the right and the game miximage on the left. `X-Large` font will disable metadata and show only the boxart.
 
-   - `Textlist w/ Boxart: No Metadata` - A simple list of game names  on the right and only the game boxart on the left. No metadata or badges.
-     
-   - `Carousel w/ Miximage` - A vertical carousel of game marquees on the right and the game miximage on the left.
-     
-   - `Carousel w/ Boxart` - A vertical carousel of game marquees on the right and the game boxart on the left.
-
-   - `Carousel w/ Boxart: No Metadata` - A vertical carousel of game marquees on the right and only the game boxart on the left. No metadata or badges.
-     
    - `Grid: Boxart` - A grid view that displays boxart covers.
-          
-   - `Grid: Boxart Full Width` - A grid view that spands the entire width of the screen and displays boxart covers.
-     
+ 
    - `Grid: Titlescreen` - A grid view that displays titlescreens.
      
    - `Grid: Physical Media` - A grid view that displays physical media images.
-
-   - `Grid: Physical Media Full Width` - A grid view that spands the entire width of the screen and displays physical media.
+         
+   - `Full Grid: Boxart` - A grid view that spands the entire width of the screen and displays boxart covers.
      
-   - `Grid: Marquee ` - A grid view that display game marquees.
-
+   - `Full Grid: Physical Mediah` - A grid view that spands the entire width of the screen and displays physical media.
      
-- `Theme Color Scheme` - There are 3 types of color schemes that are used for the overall theme on all views, Light, Dark, and Retro-Gray.  Each of these color schemes allow you to choose from: Classic, Modern, Screenshots or Custom. This will indicate which art style to use. Classic using more official game art while Modern uses updated renders of characters. Screenshots will use a random game screenshot from that system. Custom allows user-defined artwork that can be mixed without being reset when updating the theme.
+- `Theme Color Scheme` - There are 3 types of color schemes that are used for the overall theme on all views, Light, Dark, and Retro-Gray.  Each of these color schemes allow you to choose from: Classic, Modern, or Custom. This will indicate which art style to use. Classic using more official game art while Modern uses updated renders of characters. Custom allows user-defined artwork that can be mixed without being reset when updating the theme.
    - `Light` - A white scheme in Classic, Modern, or Custom styles.
    - `Dark` - A dark scheme in Classic, Modern, or Custom styles.
    - `Retro Gray` - A SNES inspired color scheme in Classic, Modern, or Custom styles.
@@ -59,7 +48,7 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
    - `Small` - good for display on tvs and computer monitors. Smallest Grid size.
    - `Medium` - good for display on tvs and computer monitors. Medium Grid sizing.
    - `Large` - good for display on large handheld screens at 6 inches or larger. Medium Grid sizing.
-   - `Extra Large` - good for display on small handheld screens at 6 inches or below. Largest Grid sizing.
+   - `Extra Large` - good for display on small handheld screens at 6 inches or below. Largest Grid sizing and disables most metadata.
 
 ### **Preview of Variants and Color Schemes**
 
@@ -142,7 +131,7 @@ This theme may be resource intensive due to the layering of images. This is espe
    - Wallpaper for Gameboy Hacks: [trollkarl3] (https://www.deviantart.com/trollkarl3/art/Realistic-Super-Mario-Bros-1-first-stage-Wallpaper-375538304)
    - Haohmaru for ngp - [jlcryu](https://www.deviantart.com/jlcryu/art/Haohmaru-919703925)
    - Glados for Steam - [EliteRobo](https://www.deviantart.com/eliterobo/art/Portal-SFM-Simple-GLaDOS-Render-794265716)
-   - ScummVM Classic - [mikimontllo]([)https://twitter.com/mikimontllo)
+   - ScummVM Classic - [mikimontllo](https://twitter.com/mikimontllo)
    - Arcade Carousel Icon - [IainSA](https://forums.launchbox-app.com/topic/61058-arcade-platform-category-logo-request/)
    - System Icons (Dragon32, BBCMicro, etc) - [PangolinWrestler](https://github.com/PangolinWrestler)
    - Other publicly available wallpapers or characters are credited to their original creators.

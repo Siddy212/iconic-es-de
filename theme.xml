@@ -7,6 +7,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
 16:10 resolution:       based on 1920x1200
 4:3 resolution:         based on 1920x1440
 19.5:9 resolution:      based on 1920x886
+1:1 resolution:         based on 1920x1920
 -->
 
 <theme>
@@ -30,7 +31,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <fontItalic>Gilroy-RegularItalic</fontItalic>
    </variables>
    <include>./colors.xml</include>
-   <include>${includeGameSelector}</include>
 
    <!--
    ///
@@ -162,8 +162,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <path>./_inc/systems/system/${system.theme}.webp</path>
          <zIndex>6</zIndex>
       </image>
-
-
    </view>
 
 
@@ -209,11 +207,8 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       grid-boxart,
       grid-titlescreen,
       grid-physical-media,
-      grid-marquee,
-      textlist-miximage,
-      carousel-miximage
-      carousel-boxart,
-      textlist-boxart">
+      textlist,
+      carousel">
    <view name="gamelist">
       <badges name="badges">
          <slots>all</slots>
@@ -259,17 +254,38 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    </view>
    </variant>
 
+<variant name="
+      grid-boxart-full,
+      grid-physical-media-full">
+      <fontSize name="small,medium">
+         <variables>
+            <metadataExtended>true</metadataExtended>
+            <metadataBase>false</metadataBase>
+            <metadataMin>false</metadataMin>
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <metadataExtended>false</metadataExtended>
+            <metadataBase>true</metadataBase>
+            <metadataMin>false</metadataMin>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <metadataExtended>false</metadataExtended>
+            <metadataBase>false</metadataBase>
+            <metadataMin>true</metadataMin>
+         </variables>
+      </fontSize>
+   </variant>
+
    <variant name="
       grid-boxart,
       grid-titlescreen,
       grid-physical-media,
-      grid-marquee,
-      textlist-miximage,
-      carousel-miximage
-      carousel-boxart,
-      textlist-boxart,
-      carousel-boxart-no-metadata,
-      textlist-boxart-no-metadata">
+      textlist,
+      carousel">
    <view name="gamelist">
       <video name="game-media">
          <origin>0.5 0.5</origin>
@@ -278,46 +294,82 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <pillarboxes>false</pillarboxes>
          <iterationCount>1</iterationCount>
          <onIterationsDone>image</onIterationsDone>
-         <imageType>miximage</imageType>
       </video>    
    </view>
    </variant>
 
    <variant name="
+      textlist,
+      carousel
+      ">
+      <fontSize name="small,medium">
+         <variables>
+            <scaledimagetype>miximage, cover</scaledimagetype>
+            <scaledimageCornerRadius>0</scaledimageCornerRadius>
+            <metadataExtended>true</metadataExtended>
+            <metadataBase>false</metadataBase>
+            <metadataMin>true</metadataMin>
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <scaledimagetype>miximage, cover</scaledimagetype>
+            <scaledimageCornerRadius>0</scaledimageCornerRadius>
+            <metadataExtended>false</metadataExtended>
+            <metadataBase>true</metadataBase>
+            <metadataMin>true</metadataMin>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <scaledimagetype>cover, screenshot</scaledimagetype>
+            <scaledimageCornerRadius>0.008</scaledimageCornerRadius>
+            <metadataExtended>false</metadataExtended>
+            <metadataBase>false</metadataBase>
+            <metadataMin>false</metadataMin>
+         </variables>
+      </fontSize>
+   </variant>
+   <variant name="
+      grid-boxart,
+      grid-titlescreen,
+      grid-physical-media
+      ">
+         <variables>
+            <scaledimagetype>miximage, cover</scaledimagetype>
+            <scaledimageCornerRadius>0</scaledimageCornerRadius>
+         </variables>
+         <fontSize name="small,medium">
+            <variables>
+               <metadataExtended>true</metadataExtended>
+               <metadataBase>false</metadataBase>
+               <metadataMin>true</metadataMin>
+            </variables>
+         </fontSize>
+         <fontSize name="large,x-large">
+            <variables>
+               <metadataExtended>false</metadataExtended>
+               <metadataBase>true</metadataBase>
+               <metadataMin>true</metadataMin>
+            </variables>
+      </fontSize>
+   </variant>
+   <variant name="
       grid-boxart,
       grid-titlescreen,
       grid-physical-media,
-      grid-marquee,
-      textlist-miximage,
-      carousel-miximage
+      textlist,
+      carousel
       ">
-   <view name="gamelist">
-      <video name="game-media">
-         <imageType>miximage</imageType>
-      </video>
-   </view>
-   </variant>
-   <variant name="
-      carousel-boxart,
-      textlist-boxart">
-   <view name="gamelist">
-      <video name="game-media">
-         <imageType>cover</imageType>
-         <imageCornerRadius>0.008</imageCornerRadius>
-      </video>      
-   </view>
+      <view name="gamelist">
+         <video name="game-media">
+            <imageType>${scaledimagetype}</imageType>
+            <imageCornerRadius>${scaledimageCornerRadius}</imageCornerRadius>
+         </video>
+      </view>
    </variant>
 
-   <variant name="
-      carousel-boxart-no-metadata,
-      textlist-boxart-no-metadata">
-   <view name="gamelist">
-      <video name="game-media">
-         <imageType>cover</imageType>
-         <imageCornerRadius>0.008</imageCornerRadius>
-      </video>
-   </view>
-   </variant>
+
    <!--
    ///
    Gamelist View: Grid Defaults
@@ -327,13 +379,12 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       grid-boxart,
       grid-titlescreen,
       grid-physical-media,
-      grid-marquee,
       grid-boxart-full,
       grid-physical-media-full
       ">
       <view name="gamelist">
          <grid name="grid">
-            <origin>0.5 0</origin>
+            <origin>0.5 0.5</origin>
             <unfocusedItemOpacity>1</unfocusedItemOpacity>
             <unfocusedItemDimming>0.6</unfocusedItemDimming>
             <unfocusedItemSaturation>1</unfocusedItemSaturation>
@@ -367,12 +418,11 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <variant name="
       grid-boxart,
       grid-titlescreen,
-      grid-physical-media,
-      grid-marquee
+      grid-physical-media
       ">
       <view name="gamelist">
          <grid name="grid">
-            <pos>0.73 0.0</pos>
+            <pos>0.73 0.473</pos>
             <size>0.54 0.946</size>
             <itemScale>1.1</itemScale>
             <imageRelativeScale>0.90</imageRelativeScale>
@@ -389,18 +439,30 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          </image>
       </view>
    </variant>
-
-   <variant name="grid-boxart-full">
+<variant name="
+      grid-boxart-full,
+      grid-physical-media-full
+      ">
    <include>./_inc/systems/coversize-vertical/${systemCoverSize}.xml</include>
-    <view name="gamelist">  
+      <view name="gamelist">
          <grid name="grid">
-            <pos>${gridItemPos} 0.04</pos>
-            <size>0.975 0.72</size>
+            <size>0.975 ${gridHeight}</size>
             <itemScale>1.05</itemScale>
             <imageRelativeScale>0.90</imageRelativeScale>
             <textRelativeScale>0.9</textRelativeScale>
             <selectorRelativeScale>0.90</selectorRelativeScale>
             <selectorCornerRadius>0.003</selectorCornerRadius>
+         </grid>
+      </view>
+   </variant>
+   <variant name="grid-boxart-full">
+   <include>./_inc/systems/coversize-vertical/${systemCoverSize}.xml</include>
+    <view name="gamelist">  
+         <grid name="grid">
+            <pos>${gridItemPos} 0.4</pos>
+            <imageType>cover</imageType>
+            <selectorImage>./_inc/systems/coversize/${systemCoverSize}.svg</selectorImage>
+            <itemSize>${gridItemSize}</itemSize>
          </grid>
     </view>
    </variant>
@@ -408,13 +470,10 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    <include>./_inc/systems/coversize-vertical/${systemCartSize}.xml</include>
     <view name="gamelist">  
          <grid name="grid">
-            <pos>${gridItemPos} 0.04</pos>
-            <size>0.975 0.72</size>
-            <itemScale>1.05</itemScale>
-            <imageRelativeScale>0.90</imageRelativeScale>
-            <textRelativeScale>0.9</textRelativeScale>
-            <selectorRelativeScale>0.90</selectorRelativeScale>
-            <selectorCornerRadius>0.003</selectorCornerRadius>
+            <pos>${gridItemPos} 0.4</pos>
+            <imageType>physicalmedia</imageType>
+            <selectorImage>./_inc/systems/coversize/${systemCartSize}.svg</selectorImage>
+            <itemSize>${gridItemSize}</itemSize>
          </grid>
     </view>
    </variant>
@@ -430,16 +489,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       </grid>
     </view>
    </variant>
-   <variant name="grid-boxart-full">
-    <include>./_inc/systems/coversize-vertical/${systemCoverSize}.xml</include>
-    <view name="gamelist">  
-      <grid name="grid">
-         <imageType>cover</imageType>
-         <selectorImage>./_inc/systems/coversize-vertical/${systemCoverSize}.svg</selectorImage>
-         <itemSize>${gridItemSize}</itemSize>
-      </grid>
-    </view>
-   </variant>
+
 
    <variant name="grid-titlescreen">
     <include>./_inc/systems/coversize/4-3.xml</include>
@@ -447,17 +497,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <grid name="grid">
          <imageType>titlescreen</imageType>
          <selectorImage>./_inc/systems/coversize/4-3.svg</selectorImage>
-         <itemSize>${gridItemSize}</itemSize>
-      </grid>
-    </view>
-   </variant>
-
-   <variant name="grid-marquee">
-    <include>./_inc/systems/coversize/112-67.xml</include>
-    <view name="gamelist">
-      <grid name="grid">
-         <imageType>marquee</imageType>
-         <selectorImage>./_inc/systems/coversize/112-67.svg</selectorImage>
          <itemSize>${gridItemSize}</itemSize>
       </grid>
     </view>
@@ -473,16 +512,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       </grid>
     </view>
    </variant>
-   <variant name="grid-physical-media-full">
-    <include>./_inc/systems/coversize-vertical/${systemCartSize}.xml</include>
-    <view name="gamelist">  
-      <grid name="grid">
-         <imageType>physicalmedia</imageType>
-         <selectorImage>./_inc/systems/coversize-vertical/${systemCartSize}.svg</selectorImage>
-         <itemSize>${gridItemSize}</itemSize>
-      </grid>
-    </view>
-   </variant>
+
 
 
  <!--
@@ -491,7 +521,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    ///
    -->
 
-   <variant name="textlist-boxart,textlist-miximage,textlist-boxart-no-metadata">
+   <variant name="textlist">
       <view name="gamelist">
       <textlist name="game-list">
          <fontPath>${fontBold}</fontPath>
@@ -511,7 +541,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    Gamelist View: Carousel Variations
    ///
    -->
-   <variant name="carousel-miximage,carousel-boxart,carousel-boxart-no-metadata">
+   <variant name="carousel">
       <view name="gamelist">
         <carousel name="gamelistCarousel">
             <type>verticalWheel</type>
@@ -530,7 +560,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <unfocusedItemDimming>0.8</unfocusedItemDimming>
             <zIndex>3</zIndex>
         </carousel>
-        <image name="background-art">
+      <image name="background-art">
          <saturation>${gamelistCarouselSaturation}</saturation>
          <imageType>fanart, screenshot</imageType>
       </image>
@@ -553,14 +583,11 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    -->
 
    <variant name=
-      "textlist-miximage,
-      textlist-boxart,
-      carousel-miximage,
-      carousel-boxart,      
+      "textlist,
+      carousel,    
       grid-boxart,
       grid-titlescreen,
-      grid-physical-media,
-      grid-marquee">
+      grid-physical-media">
       <view name="gamelist">
          <!-- Start: Extended Metadata -->
          <image name="game-metadata-background-shadow-extended">
