@@ -68,10 +68,6 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
 |Light-Modern|Grid: Physical Media|![SampleLightGBC](https://github.com/Siddy212/iconic-es-de/assets/60283021/c8d33ecf-ed11-4bbb-a463-a8cfad608bdf)|![SampleGBCCarts](https://github.com/Siddy212/iconic-es-de/assets/60283021/933506fc-5619-4838-946d-99d9919d5686)|
 |Retro Gray-Modern|Textlist & Miximage|![SampleGBRetro](https://github.com/Siddy212/iconic-es-de/assets/60283021/6fa06cbf-87dc-4c18-ab07-fdc6c059b2a5)|![SampleListRetro](https://github.com/Siddy212/iconic-es-de/assets/60283021/9dde49d9-1872-431e-9a9a-8db14d2e14d0)|
 
-| Color | Variant | SystemView | GamelistView |
-| --- | --- | --- | --- |
-|Dark-Screenshots|Carousel: Boxart|![NESScreenshots-Dark](https://github.com/Siddy212/iconic-es-de/assets/60283021/6eb72b8e-1b3c-4c76-aa1c-8fb7cca691ec)|![NESScreenshots-DarkSystem](https://github.com/Siddy212/iconic-es-de/assets/60283021/b2b694fa-eeb4-4ff2-849b-98c683495d4e)|
-
 ### Preview of Font Sizes
 
 | Medium | Large | Extra Large |
