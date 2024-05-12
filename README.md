@@ -70,9 +70,14 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
 
 ### Preview of Font Sizes
 
-| Medium | Large | Extra Large |
-| --- | --- | --- |
-| ![MediumFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/e5ac8b50-09b7-4d39-b9cb-07744b9eaab6) | ![LargeFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/7a177c71-2c67-4bc9-8c55-b314bfa99147) | ![XlargeFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/d1e0710a-3eb7-4d72-a513-0cd1c41db091) | 
+| Small | Medium |
+| --- | --- |
+|![Small](https://github.com/Siddy212/iconic-es-de/assets/60283021/ac71c8d2-e794-4e46-85a0-32dcc0dec5c2)|![Medium](https://github.com/Siddy212/iconic-es-de/assets/60283021/a7517f1f-f403-4123-868d-f7eb9694988f)
+|
+
+| Large | Extra Large |
+| --- | --- |
+|![Large](https://github.com/Siddy212/iconic-es-de/assets/60283021/0c34edd7-de70-43a4-a262-b21aa6f3e442)|![X-Large](https://github.com/Siddy212/iconic-es-de/assets/60283021/6563fc8a-c5e0-47b3-8949-5a497be92842)|
 
 
 ## **Theme Customizations**
