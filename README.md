@@ -72,8 +72,7 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
 
 | Small | Medium |
 | --- | --- |
-|![Small](https://github.com/Siddy212/iconic-es-de/assets/60283021/ac71c8d2-e794-4e46-85a0-32dcc0dec5c2)|![Medium](https://github.com/Siddy212/iconic-es-de/assets/60283021/a7517f1f-f403-4123-868d-f7eb9694988f)
-|
+|![Small](https://github.com/Siddy212/iconic-es-de/assets/60283021/ac71c8d2-e794-4e46-85a0-32dcc0dec5c2)|![Medium](https://github.com/Siddy212/iconic-es-de/assets/60283021/a7517f1f-f403-4123-868d-f7eb9694988f)|
 
 | Large | Extra Large |
 | --- | --- |
