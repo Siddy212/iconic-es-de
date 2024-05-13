@@ -31,6 +31,140 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    </variables>
    <include>./colors.xml</include>
 
+
+   <!--
+   ///
+   All Views: Simple/Detailed Defaults
+   ///
+   -->
+      <view name="system,gamelist">
+         <image name="background">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <tile>true</tile>
+            <path>${spacerImage}</path>
+            <color>${backgroundColor}</color>
+            <zIndex>0</zIndex>
+         </image>
+         <image name="background-art">
+            <origin>0.5 0.5</origin>
+            <path>${backgroundArtPath}</path>
+            <default>${backgroundArtDefaultImage}</default>
+            <interpolation>linear</interpolation>
+            <zIndex>1</zIndex>
+         </image>
+         <image name="background-art-gradient">
+            <origin>0 0</origin>
+            <path>./_inc/images/${backgroundArtGradientImage}</path>
+            <zIndex>4</zIndex>
+         </image>
+         <helpsystem name="help">
+            <origin>1 1</origin>
+            <originDimmed>0.5 0</originDimmed>
+            <fontPath>${fontBold}</fontPath>
+            <textColor>${helpTextColor}</textColor>
+            <iconTextSpacing>0.002</iconTextSpacing>
+            <entrySpacing>0.004</entrySpacing>
+            <iconColor>${helpIconColor}</iconColor>
+            <textColorDimmed>${helpTextColorDimmed}</textColorDimmed>
+            <iconColorDimmed>${helpIconColorDimmed}</iconColorDimmed>
+            <customButtonIcon button="button_a_XBOX">./_inc/images/help-button-south.svg</customButtonIcon>
+            <customButtonIcon button="button_a_PS">./_inc/images/help-button-south.svg</customButtonIcon>
+            <customButtonIcon button="button_a_switch">./_inc/images/help-button-east.svg</customButtonIcon>
+            <customButtonIcon button="button_a_SNES">./_inc/images/help-button-south.svg</customButtonIcon>
+            <customButtonIcon button="button_b_XBOX">./_inc/images/help-button-east.svg</customButtonIcon>
+            <customButtonIcon button="button_b_PS">./_inc/images/help-button-east.svg</customButtonIcon>
+            <customButtonIcon button="button_b_switch">./_inc/images/help-button-south.svg</customButtonIcon>
+            <customButtonIcon button="button_b_SNES">./_inc/images/help-button-east.svg</customButtonIcon>
+            <customButtonIcon button="button_x_XBOX">./_inc/images/help-button-west.svg</customButtonIcon>
+            <customButtonIcon button="button_x_PS">./_inc/images/help-button-west.svg</customButtonIcon>
+            <customButtonIcon button="button_x_switch">./_inc/images/help-button-north.svg</customButtonIcon>
+            <customButtonIcon button="button_x_SNES">./_inc/images/help-button-west.svg</customButtonIcon>
+            <customButtonIcon button="button_y_XBOX">./_inc/images/help-button-north.svg</customButtonIcon>
+            <customButtonIcon button="button_y_PS">./_inc/images/help-button-north.svg</customButtonIcon>
+            <customButtonIcon button="button_y_switch">./_inc/images/help-button-west.svg</customButtonIcon>
+            <customButtonIcon button="button_y_SNES">./_inc/images/help-button-north.svg</customButtonIcon>
+            <customButtonIcon button="thumbstick_click">./_inc/images/help-left-stick-click.svg</customButtonIcon>
+         </helpsystem>
+      </view>
+
+   <!--
+   ///
+   System Views: Simple/Detailed Defaults
+   ///
+   -->
+
+   <view name="system">
+      <image name="system-carousel-selector-shadow">
+         <origin>0.5 0</origin>
+         <zIndex>2</zIndex>
+      </image>
+      <image name="system-carousel-selector">
+         <origin>0.5 0</origin>
+         <zIndex>3</zIndex>
+      </image>
+      <text name="games-count">
+         <origin>0.5 0.5</origin>
+         <systemdata>gamecount</systemdata>
+         <fontPath>${fontBold}</fontPath>
+         <lineSpacing>1</lineSpacing>
+         <letterCase>uppercase</letterCase>
+         <horizontalAlignment>center</horizontalAlignment>
+         <color>${gamelistPrimaryColor}</color>
+         <zIndex>10</zIndex>
+      </text>
+      <carousel name="system-carousel">
+         <origin>0 0.5</origin>
+         <color>00000000</color>
+         <itemScale>1.2</itemScale>
+         <unfocusedItemOpacity>0.4</unfocusedItemOpacity>
+         <staticImage>${systemCarouselArtPath}</staticImage>
+         <imageCornerRadius>0.005</imageCornerRadius>
+         <text>${system.fullName}</text>
+         <textColor>${systemCarouselTextColor}</textColor>
+         <textBackgroundColor>${systemCarouselTextBackgroundColor}</textBackgroundColor>
+         <textRelativeScale>0.8</textRelativeScale>
+         <lineSpacing>1.2</lineSpacing>
+         <fontPath>${fontBold}</fontPath>
+         <letterCase>uppercase</letterCase>
+         <fastScrolling>true</fastScrolling>
+         <zIndex>7</zIndex>
+      </carousel>
+      <image name="system-image">
+         <path>./_inc/systems/system/${system.theme}.webp</path>
+         <zIndex>6</zIndex>
+      </image>
+   </view>
+
+
+  <!--
+   ///
+   Gamelist View: Simple/Detailed Defaults
+   ///
+   -->
+
+   <view name="gamelist">
+      <image name="background-art">
+         <opacity>${gamelistBackgroundOpacity}</opacity>
+         <zIndex>1</zIndex>
+      </image>
+      <text name="custom-collection-name">
+         <fontPath>${fontLogo}</fontPath>
+      </text>
+      <image name="system-Carousel-logo">
+         <opacity>0.4</opacity>
+         <origin>0.5 0.5</origin>
+         <path>${systemCarouselArtPath}</path>
+         <zIndex>10</zIndex>
+      </image>
+      <image name="game-list-background">
+         <origin>0.5 0.5</origin>
+         <zIndex>4</zIndex>
+      </image>
+   </view>
+
+
    <!--
    ///
    Detailed/Simple Selection
