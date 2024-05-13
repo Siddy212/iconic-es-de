@@ -286,13 +286,9 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       grid-boxart-simple,
       grid-physical-media-simple
       ">
-   <include>./_inc/systems/coversize-vertical/${systemCoverSize}.xml</include>
       <view name="gamelist">
          <grid name="grid">
             <origin>0.5 0.5</origin>
-            <pos>${gridItemPos} 0.4</pos>
-            <selectorImage>./_inc/systems/coversize-vertical/${systemCartSize}.svg</selectorImage>
-            <itemSize>${gridItemSize}</itemSize>
             <unfocusedItemOpacity>1</unfocusedItemOpacity>
             <unfocusedItemDimming>0.6</unfocusedItemDimming>
             <unfocusedItemSaturation>1</unfocusedItemSaturation>
@@ -306,7 +302,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <zIndex>9</zIndex>
             <fractionalRows>true</fractionalRows>
             <scaleInwards>true</scaleInwards>
-            <size>0.975 ${gridHeight}</size>
             <itemScale>1.05</itemScale>
             <imageRelativeScale>0.90</imageRelativeScale>
             <textRelativeScale>0.9</textRelativeScale>
@@ -327,6 +322,10 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
     <view name="gamelist">  
          <grid name="grid">
             <imageType>cover</imageType>
+            <size>0.975 ${gridHeight}</size>
+            <selectorImage>./_inc/systems/coversize-vertical/${systemCoverSize}.svg</selectorImage>
+            <pos>${gridItemPos} 0.4</pos>
+            <itemSize>${gridItemSize}</itemSize>
          </grid>
     </view>
    </variant>
@@ -335,6 +334,10 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
     <view name="gamelist">  
          <grid name="grid">
             <imageType>physicalmedia</imageType>
+            <size>0.975 ${gridHeight}</size>
+            <selectorImage>./_inc/systems/coversize-vertical/${systemCartSize}.svg</selectorImage>
+            <pos>${gridItemPos} 0.4</pos>
+            <itemSize>${gridItemSize}</itemSize>
          </grid>
     </view>
    </variant>
