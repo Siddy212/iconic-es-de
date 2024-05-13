@@ -79,11 +79,6 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
 |Retro Gray-Modern| (Simple) Grid: Boxart |![ModernRetroSystem](https://github.com/Siddy212/symbolic-es-de/assets/60283021/8198f16c-8692-4cda-8cd6-ad096bd2686f)|![ModernRetroGrid](https://github.com/Siddy212/symbolic-es-de/assets/60283021/6eadea35-580d-4c15-a004-e3fef3ed35b0)|
 ### Preview of Font Sizes
 
-| Medium | Large | Extra Large |
-| --- | --- | --- |
-| ![MediumFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/e5ac8b50-09b7-4d39-b9cb-07744b9eaab6) | ![LargeFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/7a177c71-2c67-4bc9-8c55-b314bfa99147) | ![XlargeFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/d1e0710a-3eb7-4d72-a513-0cd1c41db091) | 
-
-
 | Small | Medium |
 | :---: | :---: |
 | ![SmallFont](https://github.com/Siddy212/symbolic-es-de/assets/60283021/03a9f62d-239d-4b47-8126-c7ba3981f6b3) | ![MediumFont](https://github.com/Siddy212/symbolic-es-de/assets/60283021/7e48d302-23ab-4ca5-a1f8-196e3a184833) |
