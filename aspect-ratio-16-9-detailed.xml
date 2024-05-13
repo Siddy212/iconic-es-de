@@ -1,0 +1,437 @@
+<!--
+16:9 resolution: 
+based on 1920x1080
+-->
+<theme>
+
+   <!--
+   ///
+   All Views: Defaults
+   ///
+   -->
+   <view name="system,gamelist">
+      <helpsystem name="help">
+         <posDimmed>0.5 0.965</posDimmed>
+         <originDimmed>0.5 1</originDimmed>
+         <fontSize>0.018</fontSize>
+         <entrySpacing>0.0042</entrySpacing>
+      </helpsystem>
+       <image name="background-art-gradient">
+         <pos>0 0.82</pos>
+         <size>1 0.20</size>
+      </image>
+      <image name="background-art">
+         <pos>0.5 0.5</pos>
+         <size>1 1</size>
+      </image>
+   </view>
+
+   <!--
+   ///
+   System View: Defaults
+   ///
+   -->
+   <view name="system">
+      <carousel name="system-carousel">
+         <pos>0 0.91</pos>
+         <size>1 0.319444444444444</size>
+         <itemSize>0.15625 0.277777777777778</itemSize>
+         <fontSize>${systemDescriptionFontSize}</fontSize>
+         <maxItemCount>4.5</maxItemCount>
+      </carousel>
+      <image name="system-carousel-selector">
+         <pos>0.2328125 0</pos>
+         <size>0.261 1</size>
+      </image>
+      <image name="system-carousel-selector-shadow">
+         <pos>0.2328125 -.1</pos>
+         <size>0.280 1.1</size>
+      </image>
+      <image name="Overlay">
+         <pos>0.5 0.5</pos>
+         <size>1 1</size>
+      </image>
+      <image name="system-image">
+         <pos>0.2328125 .23</pos>
+         <size>.24 0</size>
+      </image>
+      <helpsystem name="help">
+         <pos>0.952 0.982</pos>
+      </helpsystem>
+      <text name="system-name">
+          <pos>0.2328125 0.478${systemNamePos}</pos>
+          <fontSize>${systemHeaderFontSize}</fontSize>
+      </text>
+      <text name="system-year-type">
+          <pos>0.2328125 0.518</pos>
+          <fontSize>${systemInfoFontSize}</fontSize>
+      </text>
+      <text name="games-count">
+         <pos>0.2328125 0.586</pos>
+         <size>0.259 ${systemInfoFontSize}</size>
+         <fontSize>${systemInfoFontSize}</fontSize>
+      </text>
+      <text name="system-description">
+         <origin>0.5 0</origin>
+         <pos>0.2328125 0.615</pos>
+         <size>0.23 0.23</size>
+         <fontPath>${fontRegular}</fontPath>
+         <fontSize>${systemDescriptionFontSize}</fontSize>
+         <text>${systemDescription}</text>
+         <verticalAlignment>top</verticalAlignment>
+         <horizontalAlignment>center</horizontalAlignment>
+         <container>true</container>
+         <containerScrollSpeed>0.6</containerScrollSpeed>
+         <color>${systemInfoColor}</color>
+         <zIndex>10</zIndex>
+      </text>
+   </view>
+
+   <fontSize name="small">
+      <variables>
+         <systemDescriptionFontSize>0.022703703703704</systemDescriptionFontSize>
+         <systemInfoFontSize>0.022703703703704</systemInfoFontSize>
+         <systemHeaderFontSize>0.034</systemHeaderFontSize>
+         <systemNamePos>0.2328125 0.478</systemNamePos>
+         <systemInfoPos>0.2328125 0.518</systemInfoPos>
+      </variables>
+   </fontSize>
+   <fontSize name="medium">
+      <variables>
+         <systemDescriptionFontSize>0.026703703703704</systemDescriptionFontSize>
+         <systemInfoFontSize>0.026703703703704</systemInfoFontSize>
+         <systemHeaderFontSize>0.036777777777778</systemHeaderFontSize>
+         <systemNamePos>0.2328125 0.472</systemNamePos>
+         <systemInfoPos>0.2328125 0.524</systemInfoPos>
+      </variables>
+   </fontSize>
+   <fontSize name="large,x-large">
+      <variables>
+         <systemDescriptionFontSize>0.033</systemDescriptionFontSize>
+         <systemInfoFontSize>0.033</systemInfoFontSize>
+         <systemHeaderFontSize>0.036777777777778</systemHeaderFontSize>
+         <systemNamePos>0.2328125 0.468</systemNamePos>
+         <systemInfoPos>0.2328125 0.530</systemInfoPos>
+      </variables>
+   </fontSize>
+
+   <!--
+   ///
+   Gamelist View: Carousel
+   ///
+   -->
+   <variant name="carousel">
+      <view name="gamelist">
+        <carousel name="gamelistCarousel">
+            <pos>0 -0.18</pos>
+            <size>1.45 1.3</size>
+			   <itemsBeforeCenter>${itemsBeforeCenter}</itemsBeforeCenter>
+            <itemsAfterCenter>${itemsAfterCenter}</itemsAfterCenter>
+            <itemSize>${itemSize}</itemSize>
+            <itemScale>1.4</itemScale>
+            <horizontalOffset>${horizOffset}</horizontalOffset>
+            <fontSize>0.046</fontSize>
+        </carousel>
+      </view>
+   </variant>
+
+   <!--
+   ///
+   Gamelist View: textlist
+   ///
+   -->
+   <variant name="textlist">
+      <view name="gamelist">
+      <textlist name="game-list">
+         <pos>${gamelistPos}</pos>
+         <size>0.348958333333333 0.785</size>
+         <fontSize>${gamelistFontSize}</fontSize>
+         <selectorHeight>${gamelistSelectorHeight}</selectorHeight>
+         <lineSpacing>${gamelistLineSpacing}</lineSpacing>
+      </textlist>
+      <image name="game-list-background-shadow">
+         <origin>0.5 0.5</origin>
+         <pos>0.73 0.50648148147</pos>
+         <size>0.4453125 0.8972222528</size>
+         <path>./_inc/images/gamelist-background-shadow.png</path>
+         <zIndex>6</zIndex>
+      </image>
+      <image name="game-list-background">
+         <pos>0.73 0.50648148147</pos>
+         <size>0.4140625 0.84166666666</size>
+         <path>${gamelistBackgroundImageCalculated}</path>
+         <zIndex>7</zIndex>
+      </image>
+      </view>
+   </variant>
+   
+   <!--
+   ///
+   Gamelist View: Default
+   ///
+   -->
+   <view name="gamelist">
+      <helpsystem name="help">
+         <origin>1 1</origin>
+         <pos>${gamelistHelpPos}</pos>
+      </helpsystem>
+      <image name="system-Carousel-logo">
+         <pos>0.2328125 0.91</pos>
+         <size>0.1875 0.33333333333</size>
+      </image>
+    </view>
+
+   <fontSize name="small">
+      <variables>
+         <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-small.svg</gamelistBackgroundImageCalculated>
+         <gamelistFontSize>0.025</gamelistFontSize>
+         <gamelistSelectorHeight>0.039814814814815</gamelistSelectorHeight>
+         <gamelistLineSpacing>1.851851851851852</gamelistLineSpacing>
+         <gamelistHelpPos>0.952 0.982</gamelistHelpPos>
+         <gamelistPos>0.556291666666667 0.116666666666667</gamelistPos>
+         <gamelistGridFontSize>0.030555555555556</gamelistGridFontSize>
+         <itemsBeforeCenter>3.5</itemsBeforeCenter>
+         <itemsAfterCenter>3.5</itemsAfterCenter>
+         <itemSize>0.23 0.175</itemSize>
+         <horizOffset>0.385</horizOffset>
+      </variables>
+   </fontSize>
+   <fontSize name="medium">
+      <variables>
+         <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-medium.svg</gamelistBackgroundImageCalculated>
+         <gamelistFontSize>0.033333333333333</gamelistFontSize>
+         <gamelistSelectorHeight>0.051388888888889</gamelistSelectorHeight>
+         <gamelistLineSpacing>1.736111111111111</gamelistLineSpacing>
+         <gamelistHelpPos>0.952 0.982</gamelistHelpPos>
+         <gamelistGridFontSize>0.036111111111111</gamelistGridFontSize>
+         <gamelistPos>0.556291666666667 0.133666666666667</gamelistPos>
+         <itemsBeforeCenter>3</itemsBeforeCenter>
+         <itemsAfterCenter>3</itemsAfterCenter>
+         <itemSize>0.26 0.2</itemSize>
+         <horizOffset>0.372</horizOffset>
+      </variables>
+   </fontSize>
+   <fontSize name="large,x-large">
+      <variables>
+         <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-large.svg</gamelistBackgroundImageCalculated>
+         <gamelistFontSize>0.039814814814815</gamelistFontSize>
+         <gamelistSelectorHeight>0.062962962962963</gamelistSelectorHeight>
+         <gamelistLineSpacing>1.744186046511628</gamelistLineSpacing>
+         <gamelistHelpPos>0.952 0.982</gamelistHelpPos>
+         <gamelistGridFontSize>0.036111111111111</gamelistGridFontSize>
+         <gamelistPos>0.556291666666667 0.1289566666666667</gamelistPos>
+         <itemsBeforeCenter>3</itemsBeforeCenter>
+         <itemsAfterCenter>3</itemsAfterCenter>
+         <itemSize>0.26 0.2</itemSize>
+         <horizOffset>0.3725</horizOffset>
+      </variables>
+   </fontSize>
+
+   <!--
+   ///
+   Gamelist View: Metadata-On Variants
+   ///
+   -->
+    <variant name=
+      "textlist,
+      carousel">
+      <fontSize name="small,medium,large">
+         <variables>
+            <imagepos>0.2328125 0.28</imagepos>
+            <imagemaxSize>0.448958333333333 0.43</imagemaxSize>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <imagepos>0.2328125 0.45</imagepos>
+            <imagemaxSize>0.392 0.65</imagemaxSize>
+         </variables>
+      </fontSize>
+   </variant>
+   
+   <variant name=
+      "grid-boxart,
+      grid-titlescreen,
+      grid-physical-media,
+      grid-marquee">
+      <fontSize name="small,medium">
+         <variables>
+            <imagepos>0.2328125 0.28</imagepos>
+            <imagemaxSize>0.448958333333333 0.43</imagemaxSize>
+         </variables>
+      </fontSize>
+      <fontSize name="large,x-large">
+         <variables>
+            <imagepos>0.2328125 0.28</imagepos>
+            <imagemaxSize>0.448958333333333 0.43</imagemaxSize>
+         </variables>
+      </fontSize>
+   </variant>
+
+
+   
+    <variant name=
+      "textlist,
+      carousel,      
+      grid-boxart,
+      grid-titlescreen,
+      grid-physical-media,
+      grid-marquee">
+      <view name="gamelist">
+         <badges name="badges">
+            <lines>3</lines>
+            <itemsPerLine>3</itemsPerLine>
+            <pos>${badgepos}</pos>
+            <size>${badgesize}</size>
+            <itemMargin>${badgemargin}</itemMargin>
+            <visible>${metadataMin}</visible>
+         </badges>
+         <video name="game-media">
+            <pos>${imagepos}</pos>
+            <maxSize>${imagemaxSize}</maxSize>
+         </video>
+         <!-- Start: Extended Metadata -->
+         <image name="game-metadata-background-shadow-extended">
+            <pos>0.2328125 0.67058187797</pos>
+            <size>0.41089191099 0.36407719227</size>
+            <visible>${metadataExtended}</visible>
+            <zIndex>3</zIndex>
+         </image>
+         <image name="game-metadata-background-image-extended">
+            <pos>0.2328125 0.67058187797</pos>
+            <size>0.386 0.31916375594</size>
+            <visible>${metadataExtended}</visible>
+            <zIndex>4</zIndex>
+         </image>
+         <text name="game-name-extended,game-players-extended,game-genre-extended,game-developer-extended,game-publisher-extended,game-playcount-extended">
+            <fontSize>${metaDatafontSize}</fontSize>
+            <visible>${metadataExtended}</visible>
+         </text>
+         <datetime name="game-releasedate-extended,game-lastplayed-extended">
+            <fontSize>${metaDatafontSize}</fontSize>
+            <visible>${metadataExtended}</visible>
+         </datetime>
+         <rating name="game-rating-extended">
+            <pos>0.0885 0.571</pos>
+            <size>0 ${metaDatafontSize}</size>
+            <visible>${metadataExtended}</visible>
+         </rating>
+         <datetime name="game-releasedate-extended">
+            <pos>0.060 0.615</pos>
+            <size>0 ${metaDatafontSize}</size>
+         </datetime>
+         <text name="game-name-extended">
+            <pos>0.060 0.527</pos>
+            <size>0.365 ${metaDatafontSize}</size>
+         </text>
+         <text name="game-players-extended">
+            <pos>0.060 0.661</pos>
+            <size>0 ${metaDatafontSize}</size>
+         </text>
+         <text name="game-genre-extended">
+            <pos>0.166 0.572</pos>
+            <size>0.258 ${metaDatafontSize}</size>
+         </text>
+         <text name="game-developer-extended">
+            <pos>0.166 0.616</pos>
+            <size>0.146 ${metaDatafontSize}</size>
+         </text>
+         <text name="game-publisher-extended">
+            <pos>0.166 0.661</pos>
+            <size>0.146 ${metaDatafontSize}</size>
+         </text>
+         <datetime name="game-lastplayed-extended">
+            <pos>0.3405 0.616</pos>
+            <size>0.084 ${metaDatafontSize}</size>
+         </datetime>
+         <text name="game-playcount-extended">
+            <pos>0.3405 0.661</pos>
+            <size>0.084 ${metaDatafontSize}</size>
+         </text>
+         <!-- End: Extended Metadata -->
+         <!-- Start: Base Metadata -->
+         <image name="game-metadata-background-shadow-base">
+            <pos>0.2328125 0.6722</pos>
+            <size>0.410912716 0.3463052976</size>
+            <visible>${metadataBase}</visible>
+            <zIndex>3</zIndex>
+         </image>
+         <image name="game-metadata-background-image-base">
+            <pos>0.2328125 0.6722</pos>
+            <size>0.386 0.3004</size>
+            <visible>${metadataBase}</visible>
+            <zIndex>4</zIndex>
+         </image>
+         <text name="game-name-base">
+            <pos>0.071 0.547</pos>
+            <size>.354 ${metaDatafontSize}</size>
+            <fontSize>${metaDatafontSize}</fontSize>
+            <visible>${metadataBase}</visible>
+            <lineSpacing>1.2</lineSpacing>
+         </text>
+         <rating name="game-rating-base">
+            <pos>0.086 0.616</pos>
+            <size>0 ${metaDatafontSize}</size>
+            <visible>${metadataBase}</visible>
+         </rating>
+         <datetime name="game-releasedate-base">
+            <pos>0.171 0.617</pos>
+            <size>0.074 ${metaDatafontSize}</size>
+            <fontSize>${metaDatafontSize}</fontSize>
+            <visible>${metadataBase}</visible>
+         </datetime>
+         <text name="game-genre-base">
+            <pos>0.287 0.617</pos>
+            <size>0.138 ${metaDatafontSize}</size>
+            <fontSize>${metaDatafontSize}</fontSize>
+            <lineSpacing>1.2</lineSpacing>
+            <visible>${metadataBase}</visible>
+         </text>
+         <!-- End: Base Metadata -->
+         <text name="game-description">
+            <pos>0.2328125 ${descriptionPos}</pos>
+            <size>0.3768 ${descriptionHeight}</size>
+            <fontSize>${descriptionFontSize}</fontSize>
+            <lineSpacing>${descriptionLineSpacing}</lineSpacing>
+            <visible>${metadataMin}</visible>
+         </text>
+      </view>
+      <fontSize name="small,medium">
+         <variables>
+            <metaDatafontSize>0.022703703703704</metaDatafontSize>
+            <descriptionPos>0.6885</descriptionPos>
+            <descriptionHeight>0.16</descriptionHeight>
+            <descriptionFontSize>0.022703703703704</descriptionFontSize>
+            <descriptionLineSpacing>1.5</descriptionLineSpacing>
+            <badgepos>0.04 0.895</badgepos>
+            <badgesize>0.3 0.108</badgesize>
+            <badgemargin>0.006 0.01</badgemargin>
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <metaDatafontSize>0.026703703703704</metaDatafontSize>
+            <descriptionPos>0.662</descriptionPos>
+            <descriptionHeight>0.180185185185185</descriptionHeight>
+            <descriptionFontSize>0.024703703703704</descriptionFontSize>
+            <descriptionLineSpacing>1.6</descriptionLineSpacing>
+            <badgepos>0.04 0.908</badgepos>
+            <badgesize>0.3 0.14</badgesize>
+            <badgemargin>0.006 0.01</badgemargin>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <metaDatafontSize>0.030333333333333</metaDatafontSize>
+            <descriptionPos>0.662</descriptionPos>
+            <descriptionHeight>0.160185185185185</descriptionHeight>
+            <descriptionFontSize>0.033037037037037</descriptionFontSize>
+            <descriptionLineSpacing>1.6</descriptionLineSpacing>
+            <badgepos>0.04 0.908</badgepos>
+            <badgesize>0.3 0.14</badgesize>
+            <badgemargin>0.006 0.01</badgemargin>
+         </variables>
+      </fontSize>
+   </variant>
+
+</theme>

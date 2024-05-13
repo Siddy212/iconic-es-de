@@ -14,7 +14,7 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
 | System View | Gamelist View |
 | --- | --- |
 | <img src="https://github.com/Siddy212/iconic-es-de/assets/60283021/e72b2a5f-59f5-473c-82ff-2e3910aff469">| <img src="https://github.com/Siddy212/iconic-es-de/assets/60283021/bcf06376-5990-40f0-b361-70e65f8b0e95"> |
-
+|![MainSystem](https://github.com/Siddy212/symbolic-es-de/assets/60283021/806b5dca-d8a9-4f06-bed0-c19cb7690972) | ![MainTextlist](https://github.com/Siddy212/symbolic-es-de/assets/60283021/6f906cb3-d2b8-46c2-95c6-5065ec0df8e6) |
 
 ## **Configuration Options**
 
@@ -25,20 +25,29 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
    - `4:3`
    - `19.5:9`
    - `1:1`
-- `Theme Variant` - sets the layout used for the gamelist view when media & metadata are scraped for your games.  All settings will scale the size of the gamelist and the amount of metadata shown based on the selected font size:
-   - `Textlist` - A simple list of game names on the right with the miximage on the left. Less demanding on weaker systems.`X-Large` font will disable metadata and show only the boxart.
- 
-   - `Carousel` - A vertical carousel of game marquees on the right and the game miximage on the left. `X-Large` font will disable metadata and show only the boxart.
+- `Theme Variant` - sets the layout used for the gamelist view when media & metadata are scraped for your games.  `Simple` variants will have a minimal System view without overlays and reduce the amount of metadata shown. All settings will scale the size of the gamelist and the amount of metadata shown based on the selected font size. `X-Large` font will disable metadata and show only the boxart for Textlist/Carousel views.:
+   - `Textlist` - A simple list of game names on the right with the miximage on the left. 
 
-   - `Grid: Boxart` - A grid view that displays boxart covers.
- 
-   - `Grid: Titlescreen` - A grid view that displays titlescreens.
+   - `Carousel` - A vertical carousel of game marquees on the right and the game miximage on the left.
+
+   - `Grid: Boxart` - A grid view that displays boxart covers with metadata on the left.
+
+   - `Grid: Physical Media` - A grid view that displays physical media images with metadata on the left.
+   
+   - `Grid: Titlescreen` - A grid view that displays titlescreens with metadata on the left.
+   
+  - `Grid: Marquees` - A grid view that displays marquees with metadata on the left.
+
+   - `(Simple) Textlist ` - `Simple System view`. A simple list of game names on the right with reduced metadata on the left.
      
-   - `Grid: Physical Media` - A grid view that displays physical media images.
-         
-   - `Full Grid: Boxart` - A grid view that spands the entire width of the screen and displays boxart covers.
+   - `(Simple) Carousel` - `Simple System view`. A vertical carousel of game marquees on the right and minimal metadata on the left.  
+
+   - `(Simple) Carousel Horizontal` - `Simple System view` A horizontal carousel of game boxart with minimal metadata below.
+
+   - `(Simple) Grid: Boxart` - `Simple System view` A grid view that spands the entire width of the screen and displays boxart covers.
      
-   - `Full Grid: Physical Mediah` - A grid view that spands the entire width of the screen and displays physical media.
+   - `(Simple) Grid: Physical Media` - `Simple System view` A grid view that spands the entire width of the screen and displays physical media.
+
      
 - `Theme Color Scheme` - There are 3 types of color schemes that are used for the overall theme on all views, Light, Dark, and Retro-Gray.  Each of these color schemes allow you to choose from: Classic, Modern, or Custom. This will indicate which art style to use. Classic using more official game art while Modern uses updated renders of characters. Custom allows user-defined artwork that can be mixed without being reset when updating the theme.
    - `Light` - A white scheme in Classic, Modern, or Custom styles.
@@ -57,7 +66,7 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
 | Color | Variant | SystemView | GamelistView |
 | --- | --- | --- | --- |
 |Dark-Classic|Carousel & Boxart|![SNESClassic-Dark](https://github.com/Siddy212/iconic-es-de/assets/60283021/e7ea0a8d-d26c-4ad9-b560-3d4ad2fe74a4)|![SNESClassic-Dark-Carousel](https://github.com/Siddy212/iconic-es-de/assets/60283021/ff848dcb-d5fd-4ad0-8878-86615327d64a)|
-|Light-Classic|Grid: Boxart Full Width|![GameboyClassic-Light](https://github.com/Siddy212/iconic-es-de/assets/60283021/edd49d15-52f0-4632-922e-64236f400eab)|![Gameboy-Classic-Light-Grid](https://github.com/Siddy212/iconic-es-de/assets/60283021/c641e10d-5249-4aec-864d-c3260b318a43)|
+|Light-Classic|Horizontal Carousel (Simple)|![LightSystem](https://github.com/Siddy212/symbolic-es-de/assets/60283021/797d3d2d-4476-4fd1-accc-3a74cfeae7a0)|![LightCarousel](https://github.com/Siddy212/symbolic-es-de/assets/60283021/5b4f0968-aaec-4e2c-a81f-4a7b8f7ba241)|
 |Retro Gray-Classic|Textlist & Miximage|![GenesisClassic-RetroGray](https://github.com/Siddy212/iconic-es-de/assets/60283021/0399fd57-f7a8-469f-91e8-0506538a70d7)|![GenesisClassic-RetroGray-Textlist](https://github.com/Siddy212/iconic-es-de/assets/60283021/77550642-0917-4dee-a911-1a4627213a50)|
 
 
@@ -66,17 +75,12 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
 | --- | --- | --- | --- |
 |Dark-Modern|Grid: Boxart|![SampleDarkPSX](https://github.com/Siddy212/iconic-es-de/assets/60283021/15097176-7914-4b5e-b1a8-0627dc81808b)|![SampleDarkGrid](https://github.com/Siddy212/iconic-es-de/assets/60283021/01b0fb75-43f5-4aef-95c5-75800cacd8a7)|
 |Light-Modern|Grid: Physical Media|![SampleLightGBC](https://github.com/Siddy212/iconic-es-de/assets/60283021/c8d33ecf-ed11-4bbb-a463-a8cfad608bdf)|![SampleGBCCarts](https://github.com/Siddy212/iconic-es-de/assets/60283021/933506fc-5619-4838-946d-99d9919d5686)|
-|Retro Gray-Modern|Textlist & Miximage|![SampleGBRetro](https://github.com/Siddy212/iconic-es-de/assets/60283021/6fa06cbf-87dc-4c18-ab07-fdc6c059b2a5)|![SampleListRetro](https://github.com/Siddy212/iconic-es-de/assets/60283021/9dde49d9-1872-431e-9a9a-8db14d2e14d0)|
-
+|Retro Gray-Modern|Grid: Boxart (Simple)|![ModernRetroSystem](https://github.com/Siddy212/symbolic-es-de/assets/60283021/8198f16c-8692-4cda-8cd6-ad096bd2686f)|![ModernRetroGrid](https://github.com/Siddy212/symbolic-es-de/assets/60283021/6eadea35-580d-4c15-a004-e3fef3ed35b0)|
 ### Preview of Font Sizes
 
-| Small | Medium |
-| --- | --- |
-|![Small](https://github.com/Siddy212/iconic-es-de/assets/60283021/ac71c8d2-e794-4e46-85a0-32dcc0dec5c2)|![Medium](https://github.com/Siddy212/iconic-es-de/assets/60283021/a7517f1f-f403-4123-868d-f7eb9694988f)|
-
-| Large | Extra Large |
-| --- | --- |
-|![Large](https://github.com/Siddy212/iconic-es-de/assets/60283021/0c34edd7-de70-43a4-a262-b21aa6f3e442)|![X-Large](https://github.com/Siddy212/iconic-es-de/assets/60283021/6563fc8a-c5e0-47b3-8949-5a497be92842)|
+| Medium | Large | Extra Large |
+| --- | --- | --- |
+| ![MediumFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/e5ac8b50-09b7-4d39-b9cb-07744b9eaab6) | ![LargeFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/7a177c71-2c67-4bc9-8c55-b314bfa99147) | ![XlargeFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/d1e0710a-3eb7-4d72-a513-0cd1c41db091) | 
 
 
 ## **Theme Customizations**
@@ -98,7 +102,7 @@ This theme allows customizations to artwork without the need to edit the source 
 - If a given ${system.theme}.webp image is not found, it will use _default.jpg image, so make sure to keep that file.
   
 ### Overlays
-- Custom overlays can be added to help make images pop.
+- Custom overlays can be added to help make images pop. These are only active in non-"Simple" variants.
 - These should be in a 16:9 1920x1080 aspect ratio and a transparent .webp format to have the desired effect.
 - Use the folder called `custom-overlay` in ES-DE's theme directory at: `ES-DE/themes/iconic-es-de/_inc/systems`
 - Upload your custom overlay images to that folder. Be aware that these will appear on top of all other assets on that screen.
@@ -107,7 +111,7 @@ This theme allows customizations to artwork without the need to edit the source 
 
 ## **Additional Notes**
 
-This theme may be resource intensive due to the layering of images. This is especially true when utilizing the grid view. Increasing the VRAM limit under "Other Settings" within the ES-DE menu is useful if pop-in is experienced.
+This theme may be resource intensive due to the layering of images. This is especially true when utilizing the grid view or the non-"Simple" variants. Increasing the VRAM limit under "Other Settings" within the ES-DE menu is useful if pop-in is experienced.
 
 ## **Acknowledgments**
 

@@ -84,12 +84,28 @@
       <label>Grid: Titlescreen</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="grid-boxart-full">
-      <label>Full Grid: Boxart</label>
+   <variant name="grid-marquee">
+      <label>Grid: Marquee</label>
       <selectable>true</selectable>
    </variant>
-   <variant name="grid-physical-media-full">
-      <label>Full Grid: Physical Media</label>
+   <variant name="textlist-simple">
+      <label>(Simple) Textlist</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="carousel-simple">
+      <label>(Simple) Carousel</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="carousel-horizontal-simple">
+      <label>(Simple) Carousel Horizontal</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="grid-boxart-simple">
+      <label>(Simple) Grid: Boxart</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="grid-physical-media-simple">
+      <label>(Simple) Grid: Physical Media</label>
       <selectable>true</selectable>
    </variant>
 
