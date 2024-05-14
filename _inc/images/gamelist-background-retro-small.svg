@@ -6,7 +6,7 @@
    version="1.1"
    style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
    id="svg14"
-   sodipodi:docname="16-9-gamelist-background-retro-medium.svg"
+   sodipodi:docname="gamelist-background-retro-small.svg"
    inkscape:export-filename="16-9-gamelist-background-dark-medium.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -37,7 +37,7 @@
      inkscape:current-layer="svg14" />
   <path
      d="M 1590,23.469035 C 1590,10.516344 1579.472,0 1566.507,0 H 23.494 C 10.527,0 0,10.516344 0,23.469035 V 1794.531 c 0,12.9516 10.527,23.468 23.494,23.468 h 1543.013 c 12.965,0 23.493,-10.5164 23.493,-23.468 z"
-     style="opacity:1;fill:#dedede;fill-opacity:0.75;stroke-width:1.05935"
+     style="opacity:1;fill:#dedede;fill-opacity:0.85000002;stroke-width:1.05935"
      clip-path="url(#_clip1)"
      id="path1" />
   <rect

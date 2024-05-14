@@ -7,7 +7,7 @@
    xml:space="preserve"
    style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
    id="svg13"
-   sodipodi:docname="16-9-gamelist-background-dark-large.svg"
+   sodipodi:docname="gamelist-background-dark-medium.svg"
    inkscape:export-filename="16-9-gamelist-background-light-large.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -48,13 +48,14 @@
    width="1590"
    height="2042.4431"
    style="fill:none;stroke-width:1.05935"
-   id="rect1" />
+   id="rect1"
+   inkscape:label="rect1" />
             <g
    transform="matrix(0.991272,0,0,0.83752438,-185.368,-149.07928)"
    id="g1">
                 <path
    d="M 1791,209.48134 C 1791,192.10667 1780.38,178 1767.3,178 H 210.701 C 197.62,178 187,192.10667 187,209.48134 V 2585.187 c 0,17.3734 10.62,31.48 23.701,31.48 H 1767.3 c 13.08,0 23.7,-14.1066 23.7,-31.48 z"
-   style="fill:#111111;fill-opacity:0.75;stroke-width:1.1547"
+   style="fill:#111111;fill-opacity:0.85000002;stroke-width:1.1547"
    id="path1" />
             </g>
             <g
