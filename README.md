@@ -50,7 +50,7 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
    - `(Simple) Grid: Physical Media` - Simple System view. A grid view that spands the entire width of the screen and displays physical media.
 
      
-- `Theme Color Scheme` - There are 3 types of color schemes that are used for the overall theme on all views, Light, Dark, and Retro-Gray.  Each of these color schemes allow you to choose from: Classic, Modern, or Custom. This will indicate which art style to use. Classic using more official game art while Modern uses updated renders of characters. Custom allows user-defined artwork that can be mixed without being reset when updating the theme.
+- `Theme Color Scheme` - There are 3 types of color schemes that are used for the overall theme on all views, Light, Dark, and Retro-Gray.  Each of these color schemes allow you to choose from: Classic, Modern, or Custom. This will indicate which art style to use. Classic using more official game art while Modern uses updated renders of characters. Custom allows user-defined artwork that can be mixed without changing the xml.
    - `Light` - A white scheme in Classic, Modern, or Custom styles.
    - `Dark` - A dark scheme in Classic, Modern, or Custom styles.
    - `Retro Gray` - A SNES inspired color scheme in Classic, Modern, or Custom styles.
