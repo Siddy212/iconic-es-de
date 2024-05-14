@@ -257,7 +257,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <image name="background-art">
          <saturation>${gamelistCarouselSaturation}</saturation>
          <imageType>fanart</imageType>
-         <scrollFadeIn>true</scrollFadeIn>
          <default>${backgroundArtPath}</default>
       </image>
         <carousel name="gamelistCarousel">

@@ -306,7 +306,6 @@
       <image name="background-art">
          <saturation>${gamelistCarouselSaturation}</saturation>
          <imageType>fanart</imageType>
-         <scrollFadeIn>true</scrollFadeIn>
          <default>${backgroundArtPath}</default>
       </image>
       </view>
