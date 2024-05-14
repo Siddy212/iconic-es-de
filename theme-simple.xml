@@ -256,8 +256,9 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <view name="gamelist">
       <image name="background-art">
          <saturation>${gamelistCarouselSaturation}</saturation>
-         <imageType>fanart, screenshot</imageType>
+         <imageType>fanart</imageType>
          <scrollFadeIn>true</scrollFadeIn>
+         <default>${backgroundArtPath}</default>
       </image>
         <carousel name="gamelistCarousel">
             <type>verticalWheel</type>
