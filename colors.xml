@@ -16,7 +16,7 @@
          <gamelistLogoColor>514689</gamelistLogoColor>
          <gamelistFadeImage>grid-fade-retro</gamelistFadeImage>
          <gamelistBackgroundImage>gamelist-background-retro</gamelistBackgroundImage>
-         <gamelistBackgroundOpacity>0.6</gamelistBackgroundOpacity>
+         <gamelistBackgroundOpacity>0.3</gamelistBackgroundOpacity>
          <gamelistMetadataBackgroundImage>gamelist-metadata-background-retro</gamelistMetadataBackgroundImage>
          <gamelistSelectorColor>514689</gamelistSelectorColor>
          <gamelistSelectedColor>b2b4b2</gamelistSelectedColor>
@@ -24,7 +24,7 @@
          <gamelistSecondaryColor>777777</gamelistSecondaryColor>
          <gameDescriptionColor>54585a</gameDescriptionColor>
          <gameMetadataColor>54585a</gameMetadataColor>
-         <BadgeColor>54585a</BadgeColor>
+         <BadgeColor>514689</BadgeColor>
       </variables>
    </colorScheme>
    <colorScheme name="dark-modern,dark-custom,dark-classic">
@@ -40,12 +40,12 @@
          <systemCarouselTextBackgroundColor>00000000</systemCarouselTextBackgroundColor>
          <systemcarouselselector>system-carousel-selector-dark</systemcarouselselector>
          <gamelistCarouselBackground>carousel-background-dark</gamelistCarouselBackground>
-         <gamelistCarouselSaturation>0.8</gamelistCarouselSaturation>
+         <gamelistCarouselSaturation>0.7</gamelistCarouselSaturation>
          <gamelistLogoColor>cccccc</gamelistLogoColor>
          <gamelistFadeImage>grid-fade-dark</gamelistFadeImage>
          <gamelistFadeImageFull>grid-fade-dark-full</gamelistFadeImageFull>
          <gamelistBackgroundImage>gamelist-background-dark</gamelistBackgroundImage>
-         <gamelistBackgroundOpacity>0.3</gamelistBackgroundOpacity>
+         <gamelistBackgroundOpacity>0.4</gamelistBackgroundOpacity>
          <gamelistMetadataBackgroundImage>gamelist-metadata-background-dark</gamelistMetadataBackgroundImage>
          <gamelistSelectorColor>777777</gamelistSelectorColor>
          <gamelistSelectedColor>ffffff</gamelistSelectedColor>
