@@ -15,7 +15,7 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
 | :---: | :---: |
 | <img src="https://github.com/Siddy212/iconic-es-de/assets/60283021/e72b2a5f-59f5-473c-82ff-2e3910aff469">| <img src="https://github.com/Siddy212/iconic-es-de/assets/60283021/bcf06376-5990-40f0-b361-70e65f8b0e95"> |
 | **(Simple) System View** | **(Simple) Gamelist View** |
-|![MainSystem](https://github.com/Siddy212/symbolic-es-de/assets/60283021/806b5dca-d8a9-4f06-bed0-c19cb7690972) | ![MainTextlist](https://github.com/Siddy212/symbolic-es-de/assets/60283021/6f906cb3-d2b8-46c2-95c6-5065ec0df8e6) |
+|![MainSystem](https://github.com/Siddy212/iconic-es-de/assets/60283021/c2476907-792f-4b2c-8286-8cdbb73f74aa)|![MainTextlist](https://github.com/Siddy212/iconic-es-de/assets/60283021/5e9b32e8-90ff-406b-9633-e2b326802ee5)|
 
 ## **Configuration Options**
 
@@ -64,10 +64,11 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
 
 
 
+
 | Color | Variant | SystemView | GamelistView |
 | :---: | :---: | :---: | :---: |
 |Dark-Classic|Carousel & Boxart|![SNESClassic-Dark](https://github.com/Siddy212/iconic-es-de/assets/60283021/e7ea0a8d-d26c-4ad9-b560-3d4ad2fe74a4)|![SNESClassic-Dark-Carousel](https://github.com/Siddy212/iconic-es-de/assets/60283021/ff848dcb-d5fd-4ad0-8878-86615327d64a)|
-|Light-Classic|(Simple) Horizontal Carousel|![LightSystem](https://github.com/Siddy212/symbolic-es-de/assets/60283021/797d3d2d-4476-4fd1-accc-3a74cfeae7a0)|![LightCarousel](https://github.com/Siddy212/symbolic-es-de/assets/60283021/5b4f0968-aaec-4e2c-a81f-4a7b8f7ba241)|
+|Light-Classic|(Simple) Horizontal Carousel|![SampleMain](https://github.com/Siddy212/iconic-es-de/assets/60283021/fa5e44b4-309f-406a-9504-90f157a0cf32)|![LightCarousel](https://github.com/Siddy212/iconic-es-de/assets/60283021/8fd44559-e3fc-4b65-a5c1-b71c332b2f46)
 |Retro Gray-Classic|Textlist & Miximage|![GenesisClassic-RetroGray](https://github.com/Siddy212/iconic-es-de/assets/60283021/0399fd57-f7a8-469f-91e8-0506538a70d7)|![GenesisClassic-RetroGray-Textlist](https://github.com/Siddy212/iconic-es-de/assets/60283021/77550642-0917-4dee-a911-1a4627213a50)|
 
 
@@ -76,14 +77,15 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
 | :---: | :---: | :---: | :---: |
 |Dark-Modern|Grid: Boxart|![SampleDarkPSX](https://github.com/Siddy212/iconic-es-de/assets/60283021/15097176-7914-4b5e-b1a8-0627dc81808b)|![SampleDarkGrid](https://github.com/Siddy212/iconic-es-de/assets/60283021/01b0fb75-43f5-4aef-95c5-75800cacd8a7)|
 |Light-Modern|Grid: Physical Media|![SampleLightGBC](https://github.com/Siddy212/iconic-es-de/assets/60283021/c8d33ecf-ed11-4bbb-a463-a8cfad608bdf)|![SampleGBCCarts](https://github.com/Siddy212/iconic-es-de/assets/60283021/933506fc-5619-4838-946d-99d9919d5686)|
-|Retro Gray-Modern| (Simple) Grid: Boxart |![ModernRetroSystem](https://github.com/Siddy212/symbolic-es-de/assets/60283021/8198f16c-8692-4cda-8cd6-ad096bd2686f)|![ModernRetroGrid](https://github.com/Siddy212/symbolic-es-de/assets/60283021/6eadea35-580d-4c15-a004-e3fef3ed35b0)|
-### Preview of Font Sizes
+|Retro Gray-Modern| (Simple) Grid: Boxart |![ModernRetroSystem](https://github.com/Siddy212/iconic-es-de/assets/60283021/50e3ca0d-8be0-4b28-b51a-26ec1ab9cb58)|![ModernRetroGrid](https://github.com/Siddy212/iconic-es-de/assets/60283021/f936e73b-5c46-4769-be2c-11ba637f1dfe)|
+### Preview of Font Sizes (Simple Variants)
 
 | Small | Medium |
 | :---: | :---: |
-| ![SmallFont](https://github.com/Siddy212/symbolic-es-de/assets/60283021/03a9f62d-239d-4b47-8126-c7ba3981f6b3) | ![MediumFont](https://github.com/Siddy212/symbolic-es-de/assets/60283021/7e48d302-23ab-4ca5-a1f8-196e3a184833) |
+| ![SmallFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/0f69d3f0-ccf7-46ee-8480-cdedf9364730) | ![MediumFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/60f52c2d-3402-43de-a90c-02f2029e5d3c) |
 | **Large** | **X-Large** |
-| ![LargeFont](https://github.com/Siddy212/symbolic-es-de/assets/60283021/9b48bad8-def4-46ef-beab-2fcd65b8c622) | ![XLargeFont](https://github.com/Siddy212/symbolic-es-de/assets/60283021/314d85b7-c7a4-4b92-8b1c-4e8e8b41ff52) |
+|![LargeFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/572478fc-5f50-41e7-9dfd-440bbcc48a03)| ![XLargeFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/7f95a894-cbdf-4092-a153-bea6a3a5d070) |
+
 
 
 
