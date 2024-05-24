@@ -1,7 +1,7 @@
 <theme>
 
    <aspectRatio name="16:9">
-      <fontSize name="medium">
+      <fontSize name="small,medium">
          <variables>
             <gridItemSize>0.108 0.2688</gridItemSize><!-- 256 350 -->
          </variables>
@@ -20,7 +20,7 @@
 
 
    <aspectRatio name="16:10">
-      <fontSize name="medium">
+      <fontSize name="small,medium">
          <variables>
             <gridItemSize>0.108 0.2417777778</gridItemSize><!-- 288 394 -->
          </variables>
@@ -38,7 +38,7 @@
    </aspectRatio>
 
    <aspectRatio name="4:3">
-      <fontSize name="medium">
+      <fontSize name="small,medium">
          <variables>
             <gridItemSize>0.135 0.252</gridItemSize><!-- 240 328.125 -->
          </variables>
@@ -56,7 +56,7 @@
    </aspectRatio>
 
    <aspectRatio name="19.5:9">
-      <fontSize name="medium">
+      <fontSize name="small,medium">
          <variables>
             <gridItemSize>0.108 0.3276</gridItemSize><!-- 256 350 -->
          </variables>
@@ -74,7 +74,7 @@
    </aspectRatio>
 
    <aspectRatio name="1:1">
-      <fontSize name="medium">
+      <fontSize name="small,medium">
          <variables>
             <gridItemSize>0.108 0.1512</gridItemSize><!-- 256 350 -->
          </variables>
