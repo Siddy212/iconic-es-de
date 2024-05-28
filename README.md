@@ -7,7 +7,7 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
    - [ARTFLIX-Colbalto](https://github.com/galisteogames/ARTFLIX-Cobalto/) by [Galisteo](https://github.com/galisteogames/)
    - [NSO Menu Interpreted ES-DE](https://github.com/anthonycaccese/nso-menu-interpreted-es-de) by [anthonycaccese](https://github.com/anthonycaccese)
 
-
+A Batocera variant is a WIP by Waffledork, and can be found [here](https://github.com/waffledork/iconic-batocera)
 
 ## **Preview**
 
@@ -45,9 +45,9 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
 
    - `(Simple) Carousel Horizontal` - Simple System view. A horizontal carousel of game boxart with minimal metadata below.
 
-   - `(Simple) Grid: Boxart` - Simple System view. A grid view that spands the entire width of the screen and displays boxart covers.
+   - `(Simple) Grid: Boxart` - Simple System view. A grid view that spans the entire width of the screen and displays boxart covers.
      
-   - `(Simple) Grid: Physical Media` - Simple System view. A grid view that spands the entire width of the screen and displays physical media.
+   - `(Simple) Grid: Physical Media` - Simple System view. A grid view that spans the entire width of the screen and displays physical media.
 
      
 - `Theme Color Scheme` - There are 3 types of color schemes that are used for the overall theme on all views, Light, Dark, and Retro-Gray.  Each of these color schemes allow you to choose from: Classic, Modern, or Custom. This will indicate which art style to use. Classic using more official game art while Modern uses updated renders of characters. Custom allows user-defined artwork that can be mixed without changing the xml.
