@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="376.62259mm"
+   height="32.467461mm"
+   viewBox="0 0 376.62258 32.467461"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="selector-medium.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.21391608"
+     inkscape:cx="610.05232"
+     inkscape:cy="530.5819"
+     inkscape:window-width="3840"
+     inkscape:window-height="2126"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect12"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,39.6875,0,1 @ F,0,0,1,0,39.6875,0,1 @ F,0,0,1,0,39.6875,0,1 @ F,0,0,1,0,39.6875,0,1"
+       radius="150"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,185.20833,0,1 @ F,0,0,1,0,185.20833,0,1 @ F,0,0,1,0,185.20833,0,1 @ F,0,0,1,0,185.20833,0,1"
+       radius="700"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-72.201454,-114.40914)">
+    <rect
+       x="0"
+       y="0"
+       width="1590"
+       height="2042.4431"
+       style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke-width:1.05935;stroke-linejoin:round;stroke-miterlimit:2"
+       id="rect1-5"
+       transform="matrix(0.26458333,0,0,0.23550827,9.6606147,517.12065)" />
+    <path
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0"
+       id="rect12"
+       width="1423.4554"
+       height="122.71167"
+       x="53.759399"
+       y="1902.6152"
+       transform="matrix(0.26458333,0,0,0.26458333,57.977613,-388.99113)"
+       inkscape:path-effect="#path-effect12"
+       sodipodi:type="rect"
+       d="M 93.446899,1902.6152 H 1437.5273 a 39.6875,39.6875 45 0 1 39.6875,39.6875 v 43.3367 a 39.6875,39.6875 135 0 1 -39.6875,39.6875 H 93.446899 a 39.6875,39.6875 45 0 1 -39.6875,-39.6875 v -43.3367 a 39.6875,39.6875 135 0 1 39.6875,-39.6875 z" />
+  </g>
+</svg>

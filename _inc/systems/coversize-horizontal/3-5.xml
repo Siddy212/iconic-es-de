@@ -8,18 +8,18 @@
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="medium">
+      <fontSize name="medium,large">
          <variables>
             <gridItemSize>0.1350 0.36</gridItemSize>
             <gridItemPos>0.515</gridItemPos>
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="large,x-large">
+      <fontSize name="x-large">
          <variables>
-            <gridItemSize>0.2025 0.54</gridItemSize>
-            <gridItemPos>0.5825</gridItemPos>
-            <gridHeight>0.54</gridHeight>
+            <gridItemSize>0.1500 0.4</gridItemSize>
+            <gridItemPos>0.5375</gridItemPos>
+            <gridHeight>0.8</gridHeight>
          </variables>
       </fontSize>
    </aspectRatio>
@@ -32,18 +32,18 @@
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="medium">
+      <fontSize name="medium,large">
          <variables>
             <gridItemSize>0.1215 0.36</gridItemSize>
             <gridItemPos>0.5015</gridItemPos>
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="large,x-large">
+      <fontSize name="x-large">
          <variables>
-            <gridItemSize>0.1823 0.54</gridItemSize>
-            <gridItemPos>0.531875</gridItemPos>
-            <gridHeight>0.54</gridHeight>
+            <gridItemSize>0.1350 0.4</gridItemSize>
+            <gridItemPos>0.515</gridItemPos>
+            <gridHeight>0.8</gridHeight>
          </variables>
       </fontSize>
    </aspectRatio>
@@ -56,18 +56,18 @@
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="medium">
+      <fontSize name="medium,large">
          <variables>
             <gridItemSize>0.0997 0.36</gridItemSize>
             <gridItemPos>0.5388846154</gridItemPos>
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="large,x-large">
+      <fontSize name="x-large">
          <variables>
-            <gridItemSize>0.1495 0.54</gridItemSize>
-            <gridItemPos>0.5388846154</gridItemPos>
-            <gridHeight>0.54</gridHeight>
+            <gridItemSize>0.1108 0.4</gridItemSize>
+            <gridItemPos>0.5444230769</gridItemPos>
+            <gridHeight>0.8</gridHeight>
          </variables>
       </fontSize>
    </aspectRatio>
@@ -80,18 +80,18 @@
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="medium">
+      <fontSize name="medium,large">
          <variables>
             <gridItemSize>0.1620 0.36</gridItemSize>
             <gridItemPos>0.5015</gridItemPos>
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="large,x-large">
+      <fontSize name="x-large">
          <variables>
-            <gridItemSize>0.2430 0.54</gridItemSize>
-            <gridItemPos>0.5015</gridItemPos>
-            <gridHeight>0.54</gridHeight>
+            <gridItemSize>0.1800 0.4</gridItemSize>
+            <gridItemPos>0.5375</gridItemPos>
+            <gridHeight>0.8</gridHeight>
          </variables>
       </fontSize>
    </aspectRatio>
@@ -104,18 +104,18 @@
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="medium">
+      <fontSize name="medium,large">
          <variables>
             <gridItemSize>0.216 0.36</gridItemSize>
             <gridItemPos>0.5555</gridItemPos>
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="large,x-large">
+      <fontSize name="x-large">
          <variables>
-            <gridItemSize>0.3240 0.54</gridItemSize>
-            <gridItemPos>0.5015</gridItemPos>
-            <gridHeight>0.54</gridHeight>
+            <gridItemSize>0.2400 0.4</gridItemSize>
+            <gridItemPos>0.5075</gridItemPos>
+            <gridHeight>0.8</gridHeight>
          </variables>
       </fontSize>
    </aspectRatio>

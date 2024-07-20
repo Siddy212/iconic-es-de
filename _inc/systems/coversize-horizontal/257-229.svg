@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 257 229" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1,0,0,1,-2023,-317)">
-        <g id="_257-229" serif:id="257-229" transform="matrix(0.762611,0,0,0.373573,1258.86,198.577)">
-            <rect x="1002" y="317" width="337" height="613" style="fill:none;"/>
-            <clipPath id="_clip1">
-                <rect x="1002" y="317" width="337" height="613"/>
-            </clipPath>
-            <g clip-path="url(#_clip1)">
-                <g transform="matrix(0.8425,0,0,2.04333,1002,317)">
-                    <path d="M400,-0L400,300L0,300L0,-0L400,-0ZM390.661,7.86L9.339,7.86C9.339,7.86 9.339,292.14 9.339,292.14L390.661,292.14L390.661,7.86Z" style="fill:white;"/>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg
+   width="263"
+   height="235"
+   viewBox="0 0 263 235"
+   version="1.1"
+   xml:space="preserve"
+   style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
+   id="svg4"
+   sodipodi:docname="257-229.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs4"><inkscape:path-effect
+     effect="fillet_chamfer"
+     id="path-effect4"
+     is_visible="true"
+     lpeversion="1"
+     nodesatellites_param="F,0,0,1,0,5,0,1 @ F,0,0,1,0,5,0,1 @ F,0,0,1,0,5,0,1 @ F,0,0,1,0,5,0,1"
+     radius="5"
+     unit="px"
+     method="auto"
+     mode="F"
+     chamfer_steps="1"
+     flexible="false"
+     use_knot_distance="true"
+     apply_no_radius="true"
+     apply_with_radius="true"
+     only_selected="false"
+     hide_knots="false" /></defs><sodipodi:namedview
+   id="namedview4"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#505050"
+   inkscape:zoom="2.0971616"
+   inkscape:cx="127.07652"
+   inkscape:cy="107.04945"
+   inkscape:window-width="3840"
+   inkscape:window-height="2126"
+   inkscape:window-x="-11"
+   inkscape:window-y="-11"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg4" />
+    
+<path
+   style="fill:none;stroke:#ffffff;stroke-width:6"
+   id="rect4"
+   width="257"
+   height="229"
+   x="253.67621"
+   y="-6.1988549"
+   inkscape:path-effect="#path-effect4"
+   sodipodi:type="rect"
+   d="m 258.67621,-6.1988549 h 247 a 5,5 45 0 1 5,5 l 0,219.0000049 a 5,5 135 0 1 -5,5 h -247 a 5,5 45 0 1 -5,-5 l 0,-219.0000049 a 5,5 135 0 1 5,-5 z"
+   transform="translate(-250.67621,9.1988549)" /></svg>

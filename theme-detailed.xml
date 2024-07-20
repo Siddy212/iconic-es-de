@@ -35,11 +35,11 @@
          <zIndex>6</zIndex>
       </text>
       <carousel name="system-carousel">
-         <horizontalOffset>-0.26765625</horizontalOffset>
+         <horizontalOffset>-0.25</horizontalOffset>
       </carousel>
       <image name="system-image">
          <origin>0.5 0.5</origin>
-         <pos>0.233 .23</pos>
+         <pos>0.25 .23</pos>
       </image>
    </view>
 
@@ -50,19 +50,6 @@
    -->
    <view name="gamelist">
       <badges name="badges">
-         <slots>all</slots>
-         <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
-         <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
-         <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
-         <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
-         <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
-         <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
-         <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
-         <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
-         <customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
-         <badgeIconColor>${BadgeColor}</badgeIconColor>
-         <controllerSize>0.8</controllerSize>
-         <folderLinkSize>0.8</folderLinkSize>
          <origin>0 0.5</origin>
          <horizontalAlignment>left</horizontalAlignment>
       </badges> 
@@ -78,6 +65,7 @@
 
    <variant name="
       textlist,
+      textlist-flipped,
       carousel
       ">
       <fontSize name="small,medium">
@@ -139,6 +127,7 @@
       grid-physical-media,
       grid-marquee,
       textlist,
+      textlist-flipped,
       carousel
       ">
       <view name="gamelist">
@@ -161,20 +150,6 @@
       ">
       <view name="gamelist">
          <grid name="grid">
-            <origin>0.5 0.5</origin>
-            <unfocusedItemOpacity>1</unfocusedItemOpacity>
-            <unfocusedItemDimming>0.6</unfocusedItemDimming>
-            <unfocusedItemSaturation>1</unfocusedItemSaturation>
-            <itemSpacing>0 0</itemSpacing>
-            <textColor>ffffff</textColor>
-            <fontPath>${fontBold}</fontPath>
-            <fontSize>0.036111111111111</fontSize>
-            <imageCornerRadius>0.002</imageCornerRadius>
-            <selectorColor>${gamelistSelectedColor}</selectorColor>
-            <selectorLayer>top</selectorLayer>
-            <zIndex>9</zIndex>
-            <fractionalRows>true</fractionalRows>
-            <scaleInwards>true</scaleInwards>
          </grid>
          <image name="system-Grid-Fade">
             <origin>0 0</origin>
@@ -200,13 +175,29 @@
       ">
       <view name="gamelist">
          <grid name="grid">
-            <pos>0.73 0.473</pos>
-            <size>0.54 0.946</size>
+            <pos>0.74 0.473</pos>
+            <size>0.5 0.946</size>
             <itemScale>1.1</itemScale>
             <imageRelativeScale>0.90</imageRelativeScale>
             <textRelativeScale>0.85</textRelativeScale>
             <selectorRelativeScale>0.92</selectorRelativeScale>
             <selectorCornerRadius>0.003</selectorCornerRadius>
+            <origin>0.5 0.5</origin>
+            <unfocusedItemOpacity>1</unfocusedItemOpacity>
+            <unfocusedItemDimming>0.85</unfocusedItemDimming>
+            <unfocusedItemSaturation>1</unfocusedItemSaturation>
+            <itemSpacing>0 0</itemSpacing>
+            <textColor>ffffff</textColor>
+            <fontPath>${fontBold}</fontPath>
+            <fontSize>0.036111111111111</fontSize>
+            <imageCornerRadius>0.002</imageCornerRadius>
+            <selectorColor>${gamelistSelectedColor}</selectorColor>
+            <selectorLayer>top</selectorLayer>
+            <zIndex>9</zIndex>
+            <fractionalRows>true</fractionalRows>
+            <scaleInwards>true</scaleInwards>
+            <backgroundRelativeScale>1</backgroundRelativeScale>
+            <backgroundImage>./_inc/systems/coversize-horizontal/shadow.png</backgroundImage>
          </grid>
          <image name="system-Grid-Fade">
             <origin>0 0</origin>
@@ -218,41 +209,41 @@
       </view>
    </variant>
    <variant name="grid-boxart">
-    <include>./_inc/systems/coversize/${systemCoverSize}.xml</include>
+    <include>./_inc/systems/coversize-vertical/${systemCoverSize}.xml</include>
     <view name="gamelist">  
       <grid name="grid">
          <imageType>cover</imageType>
-         <selectorImage>./_inc/systems/coversize/${systemCoverSize}.svg</selectorImage>
+         <selectorImage>./_inc/systems/coversize-vertical/${systemCoverSize}.svg</selectorImage>
          <itemSize>${gridItemSize}</itemSize>
       </grid>
     </view>
    </variant>
    <variant name="grid-titlescreen">
-    <include>./_inc/systems/coversize/4-3.xml</include>
+    <include>./_inc/systems/coversize-vertical/4-3.xml</include>
     <view name="gamelist">
       <grid name="grid">
          <imageType>titlescreen</imageType>
-         <selectorImage>./_inc/systems/coversize/4-3.svg</selectorImage>
+         <selectorImage>./_inc/systems/coversize-vertical/4-3.svg</selectorImage>
          <itemSize>${gridItemSize}</itemSize>
       </grid>
     </view>
    </variant>
    <variant name="grid-physical-media">
-   <include>./_inc/systems/coversize/${systemCartSize}.xml</include>
+   <include>./_inc/systems/coversize-vertical/${systemCartSize}.xml</include>
     <view name="gamelist">
       <grid name="grid">
          <imageType>physicalmedia</imageType>
-         <selectorImage>./_inc/systems/coversize/${systemCartSize}.svg</selectorImage>
+         <selectorImage>./_inc/systems/coversize-vertical/${systemCartSize}.svg</selectorImage>
          <itemSize>${gridItemSize}</itemSize>
       </grid>
     </view>
    </variant>
    <variant name="grid-marquee">
-    <include>./_inc/systems/coversize/112-67.xml</include>
+    <include>./_inc/systems/coversize-vertical/112-67.xml</include>
     <view name="gamelist">
       <grid name="grid">
          <imageType>marquee</imageType>
-         <selectorImage>./_inc/systems/coversize/112-67.svg</selectorImage>
+         <selectorImage>./_inc/systems/coversize-vertical/112-67.svg</selectorImage>
          <itemSize>${gridItemSize}</itemSize>
       </grid>
     </view>
@@ -264,7 +255,8 @@
    ///
    -->
 
-   <variant name="textlist">
+   <variant name="textlist,
+      textlist-flipped">
       <view name="gamelist">
       <textlist name="game-list">
          <fontPath>${fontBold}</fontPath>
@@ -275,8 +267,25 @@
          <horizontalMargin>0.008333333333333</horizontalMargin>
          <systemNameSuffix>false</systemNameSuffix>
          <zIndex>10</zIndex>
+         <selectorImagePath>${selectorpath}</selectorImagePath>
       </textlist>
       </view>
+      
+      <fontSize name="small">
+         <variables>
+            <selectorpath>./_inc/images/selector-small.svg</selectorpath>
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
+         <variables>
+            <selectorpath>./_inc/images/selector-medium.svg</selectorpath>
+         </variables>
+      </fontSize>
+      <fontSize name="large,x-large">
+         <variables>
+            <selectorpath>./_inc/images/selector-large.svg</selectorpath>
+         </variables>
+      </fontSize>
    </variant>
 
  <!--
@@ -352,6 +361,7 @@
          <datetime name="game-releasedate-extended">
             <metadata>releasedate</metadata>
             <defaultValue>Unknown</defaultValue>
+            <format>%Y-%m</format>
          </datetime>
          <text name="game-name-extended">
             <metadata>name</metadata>

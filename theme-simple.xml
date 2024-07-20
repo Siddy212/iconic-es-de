@@ -42,19 +42,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       carousel-simple">
    <view name="gamelist">
       <badges name="badges">
-         <slots>all</slots>
-         <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
-         <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
-         <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
-         <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
-         <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
-         <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
-         <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
-         <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
-         <customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
-         <badgeIconColor>${BadgeColor}</badgeIconColor>
-         <controllerSize>0.8</controllerSize>
-         <folderLinkSize>0.8</folderLinkSize>
          <origin>0 0.5</origin>
          <horizontalAlignment>left</horizontalAlignment>
       </badges> 
@@ -114,33 +101,20 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
 
    <variant name="
       grid-boxart-simple,
-      grid-physical-media-simple,
-      carousel-horizontal-simple">
+      grid-physical-media-simple">
    <view name="gamelist">
       <badges name="badges">
-         <slots>all</slots>
-         <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
-         <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
-         <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
-         <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
-         <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
-         <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
-         <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
-         <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
-         <customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
-         <badgeIconColor>${BadgeColor}</badgeIconColor>
-         <controllerSize>0.8</controllerSize>
-         <folderLinkSize>0.8</folderLinkSize>
          <origin>0 0.5</origin>
          <horizontalAlignment>right</horizontalAlignment>
+         <visible>${badge}</visible>
       </badges> 
    </view>
-
    <fontSize name="small,medium">
       <variables>
          <metadataExtended>true</metadataExtended>
          <metadataBase>false</metadataBase>
          <metadataMin>false</metadataMin>
+         <badge>true</badge>
       </variables>
    </fontSize>
    <fontSize name="large">
@@ -148,6 +122,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <metadataExtended>false</metadataExtended>
          <metadataBase>true</metadataBase>
          <metadataMin>false</metadataMin>
+         <badge>true</badge>
       </variables>
    </fontSize>
    <fontSize name="x-large">
@@ -155,10 +130,11 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <metadataExtended>false</metadataExtended>
          <metadataBase>false</metadataBase>
          <metadataMin>true</metadataMin>
+         <badge>false</badge>
       </variables>
    </fontSize>
+</variant>
 
-   </variant>
 
    <!--
    ///
@@ -188,7 +164,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <itemScale>1.05</itemScale>
             <imageRelativeScale>0.90</imageRelativeScale>
             <textRelativeScale>0.9</textRelativeScale>
-            <selectorRelativeScale>0.90</selectorRelativeScale>
+            <selectorRelativeScale>0.92</selectorRelativeScale>
             <selectorCornerRadius>0.003</selectorCornerRadius>
          </grid>
       </view>
@@ -201,7 +177,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    -->
 
    <variant name="grid-boxart-simple">
-   <include>./_inc/systems/coversize-vertical/${systemCoverSize}.xml</include>
+   <include>./_inc/systems/coversize-horizontal/${systemCoverSize}.xml</include>
     <view name="gamelist">  
          <grid name="grid">
             <imageType>cover</imageType>
@@ -213,7 +189,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
     </view>
    </variant>
    <variant name="grid-physical-media-simple">
-   <include>./_inc/systems/coversize-vertical/${systemCartSize}.xml</include>
+   <include>./_inc/systems/coversize-horizontal/${systemCartSize}.xml</include>
     <view name="gamelist">  
          <grid name="grid">
             <imageType>physicalmedia</imageType>
@@ -243,8 +219,26 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <horizontalMargin>0.008333333333333</horizontalMargin>
          <systemNameSuffix>false</systemNameSuffix>
          <zIndex>10</zIndex>
+         <selectorImagePath>${selectorpath}</selectorImagePath>
       </textlist>
+      
       </view>
+      
+      <fontSize name="small">
+         <variables>
+            <selectorpath>./_inc/images/selector-small.svg</selectorpath>
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
+         <variables>
+            <selectorpath>./_inc/images/selector-medium.svg</selectorpath>
+         </variables>
+      </fontSize>
+      <fontSize name="large,x-large">
+         <variables>
+            <selectorpath>./_inc/images/selector-large.svg</selectorpath>
+         </variables>
+      </fontSize>
    </variant>
 
  <!--
@@ -275,25 +269,6 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <lineSpacing>1.2</lineSpacing>
             <unfocusedItemDimming>0.8</unfocusedItemDimming>
             <zIndex>3</zIndex>
-        </carousel>
-      </view>
-   </variant>
-   <variant name="carousel-horizontal-simple">
-      <view name="gamelist">
-        <carousel name="gamelistCarousel">
-            <type>horizontal</type>
-            <imageType>cover</imageType>
-            <imageInterpolation>linear</imageInterpolation>
-            <itemHorizontalAlignment>left</itemHorizontalAlignment>
-            <itemVerticalAlignment>center</itemVerticalAlignment>
-            <fastScrolling>true</fastScrolling>
-            <color>00000000</color>
-            <textColor>${systemCarouselTextColor}</textColor>
-            <letterCase>uppercase</letterCase>
-            <lineSpacing>1.2</lineSpacing>
-            <unfocusedItemDimming>0.8</unfocusedItemDimming>
-            <zIndex>3</zIndex>
-            <unfocusedItemOpacity>1</unfocusedItemOpacity>
         </carousel>
       </view>
    </variant>

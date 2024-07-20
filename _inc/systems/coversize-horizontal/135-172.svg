@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="135"
-   height="172"
-   viewBox="0 0 135 172"
+   width="270"
+   height="344"
+   viewBox="0 0 270 344"
    version="1.1"
    xml:space="preserve"
    style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
@@ -12,9 +12,24 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:serif="http://www.serif.com/"><defs
-   id="defs4" /><sodipodi:namedview
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs4"><inkscape:path-effect
+     effect="fillet_chamfer"
+     id="path-effect4"
+     is_visible="true"
+     lpeversion="1"
+     nodesatellites_param="F,0,0,1,0,5,0,1 @ F,0,0,1,0,5,0,1 @ F,0,0,1,0,5,0,1 @ F,0,0,1,0,5,0,1"
+     radius="5"
+     unit="px"
+     method="auto"
+     mode="F"
+     chamfer_steps="1"
+     flexible="false"
+     use_knot_distance="true"
+     apply_no_radius="true"
+     apply_with_radius="true"
+     only_selected="false"
+     hide_knots="false" /></defs><sodipodi:namedview
    id="namedview4"
    pagecolor="#505050"
    bordercolor="#eeeeee"
@@ -23,50 +38,24 @@
    inkscape:pageopacity="0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#505050"
-   inkscape:zoom="8.2576419"
-   inkscape:cx="128.48704"
-   inkscape:cy="114.5"
+   inkscape:zoom="2.9195173"
+   inkscape:cx="394.75704"
+   inkscape:cy="177.94037"
    inkscape:window-width="3840"
    inkscape:window-height="2126"
    inkscape:window-x="-11"
    inkscape:window-y="-11"
    inkscape:window-maximized="1"
    inkscape:current-layer="svg4" />
-    <g
-   transform="matrix(0.52529202,0,0,0.75109089,-1062.6638,-238.09554)"
-   id="g4">
-        <g
-   id="_257-229"
-   serif:id="257-229"
-   transform="matrix(0.762611,0,0,0.373573,1258.86,198.577)">
-            <rect
-   x="1002"
-   y="317"
-   width="337"
-   height="613"
-   style="fill:none"
-   id="rect1" />
-            <clipPath
-   id="_clip1">
-                <rect
-   x="1002"
-   y="317"
-   width="337"
-   height="613"
-   id="rect2" />
-            </clipPath>
-            <g
-   clip-path="url(#_clip1)"
-   id="g3">
-                <g
-   transform="matrix(0.8425,0,0,2.04333,1002,317)"
-   id="g2">
-                    <path
-   d="M 400,0 V 300 H 0 V 0 Z m -9.339,7.86 H 9.339 c 0,0 0,284.28 0,284.28 h 381.322 z"
-   style="fill:#ffffff"
-   id="path2" />
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+    
+<path
+   style="fill:none;stroke:#ffffff;stroke-width:6.47782"
+   id="rect4"
+   width="274"
+   height="379.5148"
+   x="-148.31219"
+   y="-110.63473"
+   transform="matrix(0.96264297,0,0,0.89120876,145.88961,101.48518)"
+   inkscape:path-effect="#path-effect4"
+   sodipodi:type="rect"
+   d="m -143.31219,-110.63473 264,0 a 5,5 45 0 1 5,5 v 369.5148 a 5,5 135 0 1 -5,5 h -264 a 5,5 45 0 1 -5,-5 l 0,-369.5148 a 5,5 135 0 1 5,-5 z" /></svg>

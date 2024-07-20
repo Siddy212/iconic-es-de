@@ -30,7 +30,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       <fontItalic>Gilroy-RegularItalic</fontItalic>
    </variables>
    <include>./colors.xml</include>
-
+   <include>${includeGameSelector}</include>
 
    <!--
    ///
@@ -162,6 +162,22 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <origin>0.5 0.5</origin>
          <zIndex>4</zIndex>
       </image>
+      <badges name="badges">
+         <slots>all</slots>
+         <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
+         <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
+         <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+         <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
+         <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
+         <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
+         <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
+         <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
+         <customBadgeIcon badge="manual">./_inc/images/badge-manual.svg</customBadgeIcon>
+         <badgeIconColor>${BadgeColor}</badgeIconColor>
+         <controllerSize>0.8</controllerSize>
+         <folderLinkSize>0.8</folderLinkSize>
+         <itemMargin>0.006 0.01</itemMargin>
+      </badges> 
    </view>
 
 
@@ -172,6 +188,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    -->
       <variant name=
       "textlist,
+      textlist-flipped,
       carousel,
       grid-boxart,
       grid-physical-media,
@@ -185,8 +202,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
       "textlist-simple,
       carousel-simple,
       grid-boxart-simple,
-      grid-physical-media-simple,
-      carousel-horizontal-simple
+      grid-physical-media-simple
       ">
          <include>./theme-simple.xml</include>
       </variant>

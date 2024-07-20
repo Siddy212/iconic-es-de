@@ -1,0 +1,28 @@
+<!--
+Last-Played Game Selector Background Art
+-->
+
+<theme>
+   <view name="system">
+         <gameselector name="system-art-selector">
+            <selection>lastplayed</selection>
+        </gameselector>
+         <image name="background-art">
+            <pos>0.5 0.5</pos><!-- 788 75 -->
+            <size>0 1</size><!-- 1028 924 -->
+            <imageType>fanart,screenshot</imageType>
+            <gameselector>system-art-selector</gameselector>
+         </image>
+      <image name="Overlay">
+        <opacity>0.0</opacity>
+      </image>
+  </view>
+
+  <view name="gamelist">
+      <image name="background-art">
+         <saturation>${gamelistCarouselSaturation}</saturation>
+         <imageType>fanart</imageType>
+         <default>${backgroundArtPath}</default>
+      </image>
+      </view>
+</theme>

@@ -35,6 +35,15 @@
    <colorScheme name="retro-modern">
       <label>Modern - Retro Gray</label>
    </colorScheme>
+   <colorScheme name="light-last-played">
+      <label>Last Played - Light</label>
+   </colorScheme>
+   <colorScheme name="dark-last-played">
+      <label>Last Played - Dark</label>
+   </colorScheme>
+   <colorScheme name="retro-last-played">
+      <label>Last Played - Retro Gray</label>
+   </colorScheme>
    <colorScheme name="light-custom">
       <label>Custom - Light</label>
    </colorScheme>
@@ -68,6 +77,10 @@
       <label>Textlist</label>
       <selectable>true</selectable>
    </variant>
+   <variant name="textlist-flipped">
+      <label>Textlist - Flipped</label>
+      <selectable>true</selectable>
+   </variant>
    <variant name="carousel">
       <label>Carousel</label>
       <selectable>true</selectable>
@@ -89,23 +102,19 @@
       <selectable>true</selectable>
    </variant>
    <variant name="textlist-simple">
-      <label>(Simple) Textlist</label>
+      <label>[Simple] Textlist</label>
       <selectable>true</selectable>
    </variant>
    <variant name="carousel-simple">
-      <label>(Simple) Carousel</label>
-      <selectable>true</selectable>
-   </variant>
-   <variant name="carousel-horizontal-simple">
-      <label>(Simple) Carousel Horizontal</label>
+      <label>[Simple] Carousel</label>
       <selectable>true</selectable>
    </variant>
    <variant name="grid-boxart-simple">
-      <label>(Simple) Grid: Boxart</label>
+      <label>[Simple] Grid: Boxart</label>
       <selectable>true</selectable>
    </variant>
    <variant name="grid-physical-media-simple">
-      <label>(Simple) Grid: Physical Media</label>
+      <label>[Simple] Grid: Physical Media</label>
       <selectable>true</selectable>
    </variant>
 

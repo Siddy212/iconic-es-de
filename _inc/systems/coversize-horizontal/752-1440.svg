@@ -13,7 +13,23 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><defs
-   id="defs4" /><sodipodi:namedview
+   id="defs4"><inkscape:path-effect
+     effect="fillet_chamfer"
+     id="path-effect1"
+     is_visible="true"
+     lpeversion="1"
+     nodesatellites_param="F,0,0,1,0,5,0,1 @ F,0,0,1,0,5,0,1 @ F,0,0,1,0,5,0,1 @ F,0,0,1,0,5,0,1"
+     radius="5"
+     unit="px"
+     method="auto"
+     mode="F"
+     chamfer_steps="1"
+     flexible="false"
+     use_knot_distance="true"
+     apply_no_radius="true"
+     apply_with_radius="true"
+     only_selected="false"
+     hide_knots="false" /></defs><sodipodi:namedview
    id="namedview4"
    pagecolor="#505050"
    bordercolor="#eeeeee"
@@ -22,20 +38,23 @@
    inkscape:pageopacity="0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#505050"
-   inkscape:zoom="1.3904412"
-   inkscape:cx="162.17874"
-   inkscape:cy="320.4019"
+   inkscape:zoom="1.9663808"
+   inkscape:cx="174.17786"
+   inkscape:cy="446.25131"
    inkscape:window-width="1916"
    inkscape:window-height="2104"
-   inkscape:window-x="1911"
+   inkscape:window-x="1902"
    inkscape:window-y="0"
    inkscape:window-maximized="0"
    inkscape:current-layer="svg4" />
     
-<rect
+<path
    style="fill:none;fill-opacity:0.000964296;stroke:#ffffff;stroke-width:6.06881;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
    id="rect4"
    width="243.93871"
    height="473.21201"
    x="3.5303814"
-   y="3.5303817" /></svg>
+   y="3.5303817"
+   inkscape:path-effect="#path-effect1"
+   sodipodi:type="rect"
+   d="M 8.5303814,3.5303817 H 242.46909 a 5,5 45 0 1 5,5 V 471.74239 a 5,5 135 0 1 -5,5 H 8.5303814 a 5,5 45 0 1 -5,-5 V 8.5303817 a 5,5 135 0 1 5,-5 z" /></svg>

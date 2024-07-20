@@ -15,11 +15,18 @@
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="large,x-large">
+      <fontSize name="large">
          <variables>
             <gridItemSize>0.3000 0.36</gridItemSize>
             <gridItemPos>0.5375</gridItemPos>
             <gridHeight>0.72</gridHeight>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <gridItemSize>0.3333 0.4</gridItemSize>
+            <gridItemPos>0.6541666667</gridItemPos>
+            <gridHeight>0.8</gridHeight>
          </variables>
       </fontSize>
    </aspectRatio>
@@ -39,11 +46,18 @@
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="large,x-large">
+      <fontSize name="large">
          <variables>
             <gridItemSize>0.2700 0.36</gridItemSize>
             <gridItemPos>0.5825</gridItemPos>
             <gridHeight>0.72</gridHeight>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <gridItemSize>0.3000 0.4</gridItemSize>
+            <gridItemPos>0.5375</gridItemPos>
+            <gridHeight>0.8</gridHeight>
          </variables>
       </fontSize>
    </aspectRatio>
@@ -56,18 +70,18 @@
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="medium">
+      <fontSize name="medium,large">
          <variables>
             <gridItemSize>0.2215 0.36</gridItemSize>
             <gridItemPos>0.5444230769</gridItemPos>
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="large,x-large">
+      <fontSize name="x-large">
          <variables>
-            <gridItemSize>0.3323 0.54</gridItemSize>
-            <gridItemPos>0.6551923077</gridItemPos>
-            <gridHeight>0.54</gridHeight>
+            <gridItemSize>0.2462 0.4</gridItemSize>
+            <gridItemPos>0.6182692308</gridItemPos>
+            <gridHeight>0.8</gridHeight>
          </variables>
       </fontSize>
    </aspectRatio>
@@ -87,11 +101,18 @@
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="large,x-large">
+      <fontSize name="large">
          <variables>
             <gridItemSize>0.3600 0.36</gridItemSize>
             <gridItemPos>0.6275</gridItemPos>
             <gridHeight>0.72</gridHeight>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <gridItemSize>0.4 0.4</gridItemSize>
+            <gridItemPos>0.5875</gridItemPos>
+            <gridHeight>0.8</gridHeight>
          </variables>
       </fontSize>
    </aspectRatio>
@@ -105,14 +126,14 @@
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="medium">
+      <fontSize name="medium,large">
          <variables>
             <gridItemSize>0.32 0.24</gridItemSize>
             <gridItemPos>0.5075</gridItemPos>
             <gridHeight>0.72</gridHeight>
          </variables>
       </fontSize>
-      <fontSize name="large,x-large">
+      <fontSize name="x-large">
          <variables>
             <gridItemSize>0.48 0.36</gridItemSize>
             <gridItemPos>0.5075</gridItemPos>
