@@ -24,6 +24,30 @@
       </fontSize>
    </aspectRatio>
 
+   <aspectRatio name="3:2">
+      <fontSize name="small">
+         <variables>
+            <gridItemSize>0.1350 0.24</gridItemSize>
+            <gridItemPos>0.515</gridItemPos>
+            <gridHeight>0.72</gridHeight>
+         </variables>
+      </fontSize>
+      <fontSize name="medium,large">
+         <variables>
+            <gridItemSize>0.2025 0.36</gridItemSize>
+            <gridItemPos>0.5825</gridItemPos>
+            <gridHeight>0.72</gridHeight>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <gridItemSize>0.2250 0.4</gridItemSize>
+            <gridItemPos>0.5375</gridItemPos>
+            <gridHeight>0.8</gridHeight>
+         </variables>
+      </fontSize>
+   </aspectRatio>
+
    <aspectRatio name="16:9">
       <fontSize name="small">
          <variables>
@@ -67,6 +91,30 @@
          <variables>
             <gridItemSize>0.1558 0.4</gridItemSize>
             <gridItemPos>0.5201923077</gridItemPos>
+            <gridHeight>0.8</gridHeight>
+         </variables>
+      </fontSize>
+   </aspectRatio>
+
+   <aspectRatio name="21:9">
+      <fontSize name="small">
+         <variables>
+            <gridItemSize>0.0868 0.24</gridItemSize>
+            <gridItemPos>0.5101785714</gridItemPos>
+            <gridHeight>0.72</gridHeight>
+         </variables>
+      </fontSize>
+      <fontSize name="medium,large">
+         <variables>
+            <gridItemSize>0.1302 0.36</gridItemSize>
+            <gridItemPos>0.531875</gridItemPos>
+            <gridHeight>0.72</gridHeight>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <gridItemSize>0.1446 0.4</gridItemSize>
+            <gridItemPos>0.5535714286</gridItemPos>
             <gridHeight>0.8</gridHeight>
          </variables>
       </fontSize>

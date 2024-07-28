@@ -449,7 +449,19 @@ based on 1920x886
             <visible>${metadataMin}</visible>
          </text>
       </view>
-      <fontSize name="small,medium">
+      <fontSize name="small">
+         <variables>
+            <metaDatafontSize>0.030</metaDatafontSize>
+            <descriptionPos>0.682</descriptionPos>
+            <descriptionHeight>0.18</descriptionHeight>
+            <descriptionFontSize>0.030</descriptionFontSize>
+            <descriptionLineSpacing>1.2</descriptionLineSpacing>
+            <badgepos>0.028 0.915</badgepos>
+            <badgeposFlipped>0.528 0.915</badgeposFlipped>
+            <badgesize>0.3 0.14</badgesize>
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
          <variables>
             <metaDatafontSize>0.033</metaDatafontSize>
             <descriptionPos>0.682</descriptionPos>

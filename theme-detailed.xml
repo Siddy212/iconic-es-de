@@ -471,6 +471,12 @@
    <aspectRatio name="1:1">
       <include>./aspect-ratio-1-1-detailed.xml</include>
    </aspectRatio>
+   <aspectRatio name="21:9">
+      <include>./aspect-ratio-21-9-detailed.xml</include>
+   </aspectRatio>
+   <aspectRatio name="3:2">
+      <include>./aspect-ratio-3-2-detailed.xml</include>
+   </aspectRatio>
    <!--
    ///
    Sounds

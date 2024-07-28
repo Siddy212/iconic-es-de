@@ -31,6 +31,37 @@
       </fontSize>
    </aspectRatio>
 
+   <aspectRatio name="3:2">
+      <fontSize name="small">
+         <variables>
+            <gridItemSize>0.1347 0.18</gridItemSize>
+            <gridItemPos>0.5161462882</gridItemPos>
+            <gridHeight>0.72</gridHeight>
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
+         <variables>
+            <gridItemSize>0.1796 0.24</gridItemSize>
+            <gridItemPos>0.5385917031</gridItemPos>
+            <gridHeight>0.72</gridHeight>
+         </variables>
+      </fontSize>
+      <fontSize name="large">
+         <variables>
+            <gridItemSize>0.2693 0.36</gridItemSize>
+            <gridItemPos>0.5834825328</gridItemPos>
+            <gridHeight>0.72</gridHeight>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <gridItemSize>0.2993 0.4</gridItemSize>
+            <gridItemPos>0.5385917031</gridItemPos>
+            <gridHeight>0.8</gridHeight>
+         </variables>
+      </fontSize>
+   </aspectRatio>
+
    <aspectRatio name="16:9">
       <fontSize name="small">
          <variables>
@@ -74,6 +105,30 @@
          <variables>
             <gridItemSize>0.2072 0.4</gridItemSize>
             <gridItemPos>0.5731231105</gridItemPos>
+            <gridHeight>0.8</gridHeight>
+         </variables>
+      </fontSize>
+   </aspectRatio>
+
+   <aspectRatio name="21:9">
+      <fontSize name="small">
+         <variables>
+            <gridItemSize>0.1154 0.24</gridItemSize>
+            <gridItemPos>0.5257657517</gridItemPos>
+            <gridHeight>0.72</gridHeight>
+         </variables>
+      </fontSize>
+      <fontSize name="medium,large">
+         <variables>
+            <gridItemSize>0.1732 0.36</gridItemSize>
+            <gridItemPos>0.5546241422</gridItemPos>
+            <gridHeight>0.72</gridHeight>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <gridItemSize>0.1924 0.4</gridItemSize>
+            <gridItemPos>0.5065268247</gridItemPos>
             <gridHeight>0.8</gridHeight>
          </variables>
       </fontSize>

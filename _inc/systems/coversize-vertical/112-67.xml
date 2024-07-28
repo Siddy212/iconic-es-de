@@ -5,12 +5,12 @@
             <gridItemSize>0.125 0.125</gridItemSize><!-- 256 350 -->
          </variables>
       </fontSize>
-      <fontSize name="medium, large">
+      <fontSize name="medium">
          <variables>
             <gridItemSize>0.1666 0.1666666667</gridItemSize><!-- 256 350 -->
          </variables>
       </fontSize>
-      <fontSize name="x-large">
+      <fontSize name="large,x-large">
          <variables>
             <gridItemSize>0.2498 0.25</gridItemSize><!-- 256 256 -->
          </variables>
@@ -23,14 +23,32 @@
             <gridItemSize>0.125 0.1125</gridItemSize><!-- 288 394 -->
          </variables>
       </fontSize>
-      <fontSize name="medium, large">
+      <fontSize name="medium">
          <variables>
             <gridItemSize>0.1666 0.14999994</gridItemSize><!-- 288 394 -->
          </variables>
       </fontSize>
-      <fontSize name="x-large">
+      <fontSize name="large,x-large">
          <variables>
             <gridItemSize>0.2498 0.225</gridItemSize><!-- 288 288 -->
+         </variables>
+      </fontSize>
+   </aspectRatio>
+
+   <aspectRatio name="3:2">
+      <fontSize name="small">
+         <variables>
+            <gridItemSize>0.125 0.10546875</gridItemSize><!-- 288 394 -->
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
+         <variables>
+            <gridItemSize>0.1666 0.1406249438</gridItemSize><!-- 288 394 -->
+         </variables>
+      </fontSize>
+      <fontSize name="large,x-large">
+         <variables>
+            <gridItemSize>0.2498 0.2109375</gridItemSize><!-- 288 288 -->
          </variables>
       </fontSize>
    </aspectRatio>
@@ -41,12 +59,12 @@
             <gridItemSize>0.125 0.09375</gridItemSize><!-- 240 328.125 -->
          </variables>
       </fontSize>
-      <fontSize name="medium, large">
+      <fontSize name="medium">
          <variables>
             <gridItemSize>0.1666 0.124995</gridItemSize><!-- 240 328.125 -->
          </variables>
       </fontSize>
-      <fontSize name="x-large">
+      <fontSize name="large,x-large">
          <variables>
             <gridItemSize>0.25 0.1875</gridItemSize><!-- 240 240 -->
          </variables>
@@ -59,14 +77,32 @@
             <gridItemSize>0.125 0.15234375</gridItemSize><!-- 256 350 -->
          </variables>
       </fontSize>
-      <fontSize name="medium, large">
+      <fontSize name="medium">
          <variables>
             <gridItemSize>0.1666 0.203116875</gridItemSize><!-- 256 350 -->
          </variables>
       </fontSize>
-      <fontSize name="x-large">
+      <fontSize name="large,x-large">
          <variables>
             <gridItemSize>0.2498 0.3046875</gridItemSize><!-- 256 350 -->
+         </variables>
+      </fontSize>
+   </aspectRatio>
+
+   <aspectRatio name="21:9">
+      <fontSize name="small">
+         <variables>
+            <gridItemSize>0.125 0.1666666667</gridItemSize><!-- 256 350 -->
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
+         <variables>
+            <gridItemSize>0.1666 0.2222133333</gridItemSize><!-- 256 350 -->
+         </variables>
+      </fontSize>
+      <fontSize name="large,x-large">
+         <variables>
+            <gridItemSize>0.2498 0.3333333333</gridItemSize><!-- 256 350 -->
          </variables>
       </fontSize>
    </aspectRatio>
@@ -77,12 +113,12 @@
             <gridItemSize>0.125 0.0703125</gridItemSize><!-- 256 350 -->
          </variables>
       </fontSize>
-      <fontSize name="medium, large">
+      <fontSize name="medium">
          <variables>
             <gridItemSize>0.1666 0.093749625</gridItemSize><!-- 256 350 -->
          </variables>
       </fontSize>
-      <fontSize name="x-large">
+      <fontSize name="large,x-large">
          <variables>
             <gridItemSize>0.2498 0.140625</gridItemSize><!-- 256 350 -->
          </variables>

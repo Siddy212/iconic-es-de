@@ -344,7 +344,7 @@ based on 1920x1080
             <lines>3</lines>
             <itemsPerLine>3</itemsPerLine>
             <visible>${metadataMin}</visible>
-         <size>${badgesize}</size>
+            <size>${badgesize}</size>
          </badges>
          <video name="game-media">
             <maxSize>${imagemaxSize}</maxSize>
@@ -438,8 +438,20 @@ based on 1920x1080
             <lineSpacing>${descriptionLineSpacing}</lineSpacing>
             <visible>${metadataMin}</visible>
          </text>
-      </view>
-      <fontSize name="small,medium">
+      </view>    
+      <fontSize name="small">
+         <variables>
+            <metaDatafontSize>0.024</metaDatafontSize>
+            <descriptionPos>0.711</descriptionPos>
+            <descriptionHeight>0.135</descriptionHeight>
+            <descriptionFontSize>0.024</descriptionFontSize>
+            <descriptionLineSpacing>1.25</descriptionLineSpacing>
+            <badgepos>0.028 0.906</badgepos>
+            <badgeposFlipped>0.528 0.915</badgeposFlipped>
+            <badgesize>0.25 0.12</badgesize>
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
          <variables>
             <metaDatafontSize>0.027</metaDatafontSize>
             <descriptionPos>0.71</descriptionPos>

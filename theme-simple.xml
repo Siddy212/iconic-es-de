@@ -376,5 +376,11 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    <aspectRatio name="1:1">
       <include>./aspect-ratio-1-1-simple.xml</include>
    </aspectRatio>
+   <aspectRatio name="21:9">
+      <include>./aspect-ratio-21-9-simple.xml</include>
+   </aspectRatio>
+   <aspectRatio name="3:2">
+      <include>./aspect-ratio-3-2-simple.xml</include>
+   </aspectRatio>
 	
 </theme>
