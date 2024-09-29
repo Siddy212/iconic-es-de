@@ -77,15 +77,10 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
 | Color | Variant | SystemView | GamelistView |
 | :---: | :---: | :---: | :---: |
 |Dark-Modern|Grid: Boxart|![SampleDarkPSX](https://github.com/Siddy212/iconic-es-de/assets/60283021/15097176-7914-4b5e-b1a8-0627dc81808b)|![SampleDarkGrid](https://github.com/Siddy212/iconic-es-de/assets/60283021/01b0fb75-43f5-4aef-95c5-75800cacd8a7)|
-|Light-Modern|Grid: Physical Media|![SampleLightGBC](https://github.com/Siddy212/iconic-es-de/assets/60283021/c8d33ecf-ed11-4bbb-a463-a8cfad608bdf)|![SampleGBCCarts](https://github.com/Siddy212/iconic-es-de/assets/60283021/933506fc-5619-4838-946d-99d9919d5686)|
-|Retro Gray-Modern| (Simple) Grid: Boxart |![ModernRetroSystem](https://github.com/Siddy212/iconic-es-de/assets/60283021/50e3ca0d-8be0-4b28-b51a-26ec1ab9cb58)|![ModernRetroGrid](https://github.com/Siddy212/iconic-es-de/assets/60283021/f936e73b-5c46-4769-be2c-11ba637f1dfe)|
-### Preview of Font Sizes (Simple Variants)
+|Light-Modern|Grid: Physical Media|![Screenshot 2024-09-29 154232](https://github.com/user-attachments/assets/fe93b8a5-2f62-45bd-b601-8548f9c3f35e)|![Screenshot 2024-09-29 154717](https://github.com/user-attachments/assets/b58eea19-f9f7-4595-a296-957384df089a)|
 
-| Small | Medium |
-| :---: | :---: |
-| ![SmallFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/0f69d3f0-ccf7-46ee-8480-cdedf9364730) | ![MediumFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/60f52c2d-3402-43de-a90c-02f2029e5d3c) |
-| **Large** | **X-Large** |
-|![LargeFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/572478fc-5f50-41e7-9dfd-440bbcc48a03)| ![XLargeFont](https://github.com/Siddy212/iconic-es-de/assets/60283021/7f95a894-cbdf-4092-a153-bea6a3a5d070) |
+
+
 
 
 
