@@ -13,9 +13,7 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
 
 | System View | Gamelist View |
 | :---: | :---: |
-| <img src="https://github.com/Siddy212/iconic-es-de/assets/60283021/e72b2a5f-59f5-473c-82ff-2e3910aff469">| <img src="https://github.com/Siddy212/iconic-es-de/assets/60283021/bcf06376-5990-40f0-b361-70e65f8b0e95"> |
-| **(Simple) System View** | **(Simple) Gamelist View** |
-|![MainSystem](https://github.com/Siddy212/iconic-es-de/assets/60283021/c2476907-792f-4b2c-8286-8cdbb73f74aa)|![MainTextlist](https://github.com/Siddy212/iconic-es-de/assets/60283021/5e9b32e8-90ff-406b-9633-e2b326802ee5)|
+| (https://github.com/user-attachments/assets/51a08cbd-6b60-41f9-8653-4ae321e70c36)|![Screenshot 2024-09-29 153613](https://github.com/user-attachments/assets/f9df2307-7067-4698-a6b3-5fd53578c93b)|
 
 ## **Configuration Options**
 
