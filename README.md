@@ -1,4 +1,6 @@
 # Iconic (ES-DE Version)
+This version of the theme features refreshed artwork. For the original artwork, please look here: https://github.com/Siddy212/iconic-es-de-original/blob/main/README.md
+
 Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearance while also highlighting famous characters from each system. It includes many textlist and gridview options while also adding new multi-layered artwork for popular systems. Inspiration and templates were taken from the following themes:
 
    - AlekFull NX theme by [fagnerpc](https://github.com/fagnerpc) and ported by [anthonycaccese](https://github.com/anthonycaccese)
