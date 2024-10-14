@@ -19,14 +19,14 @@
    <fontSize>large</fontSize>
    <fontSize>x-large</fontSize>
 
-   <colorScheme name="light-nintendont">
-      <label>Nintendon't - Light</label>
+   <colorScheme name="light-default">
+      <label>Default - Light</label>
    </colorScheme>
-   <colorScheme name="dark-nintendont">
-      <label>Nintendon't - Dark</label>
+   <colorScheme name="dark-default">
+      <label>Default - Dark</label>
    </colorScheme>
-   <colorScheme name="retro-nintendont">
-      <label>Nintendon't - Retro Gray</label>
+   <colorScheme name="retro-default">
+      <label>Default - Retro Gray</label>
    </colorScheme>
    <colorScheme name="light-classic">
       <label>Classic - Light</label>
