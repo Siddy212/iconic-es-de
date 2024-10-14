@@ -52,10 +52,10 @@ Iconic is an EmulationStation-DE theme that aims to provide a modern UI appearan
    - `(Simple) Grid: Physical Media` - Simple System view. A grid view that spands the entire width of the screen and displays physical media.
 
      
-- `Theme Color Scheme` - There are 3 types of color schemes that are used for the overall theme on all views, Light, Dark, and Retro-Gray.  Each of these color schemes allow you to choose from: Classic, Modern, or Custom. This will indicate which art style to use. Classic using more official game art while Modern uses updated renders of characters. Custom allows user-defined artwork that can be mixed without changing the xml.
-   - `Light` - A white scheme in Classic, Modern, or Custom styles.
-   - `Dark` - A dark scheme in Classic, Modern, or Custom styles.
-   - `Retro Gray` - A SNES inspired color scheme in Classic, Modern, or Custom styles.
+- `Theme Color Scheme` - There are 3 types of color schemes that are used for the overall theme on all views, Light, Dark, and Retro-Gray.  Each of these color schemes allow you to choose from: Nintendon't, Classic, Modern, or Custom. This will indicate which art style to use. Classic using more official game art while Modern uses updated renders of characters. Nintendon't removes litigious IPs to allow for streaming which the theme defaults to. Custom allows user-defined artwork that can be mixed without changing the xml.
+   - `Light` - A white scheme in Classic, Modern, Nintendon't, or Custom styles.
+   - `Dark` - A dark scheme in Classic, Modern, Nintendon't, or Custom styles.
+   - `Retro Gray` - A SNES inspired color scheme in Classic, Modern, Nintendon't, or Custom styles.
 - `Theme Font Size` - enables you to change the size of the fonts displayed in the theme. It will also scale the size of the grid and carousel.
    - `Small` - good for display on tvs and computer monitors. Smallest Grid size.
    - `Medium` - good for display on tvs and computer monitors. Medium Grid sizing.
