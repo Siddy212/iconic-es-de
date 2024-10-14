@@ -1,5 +1,5 @@
 <theme>
-      <colorScheme name="retro-modern,retro-custom,retro-classic,retro-last-played">
+      <colorScheme name="retro-modern,retro-custom,retro-classic,retro-nintendont,retro-last-played">
       <variables>
          <helpTextColor>54585a</helpTextColor>
          <helpIconColor>514689</helpIconColor>
@@ -27,7 +27,7 @@
          <BadgeColor>514689</BadgeColor>
       </variables>
    </colorScheme>
-   <colorScheme name="dark-modern,dark-custom,dark-classic,dark-last-played">
+   <colorScheme name="dark-modern,dark-custom,dark-classic,dark-nintendont,dark-last-played">
       <variables>
          <helpTextColor>999999</helpTextColor>
          <helpIconColor>bbbbbb</helpIconColor>
@@ -56,7 +56,7 @@
          <BadgeColor>bbbbbb</BadgeColor>
       </variables>
    </colorScheme>
-   <colorScheme name="light-modern,light-custom,light-classic,light-last-played">
+   <colorScheme name="light-modern,light-custom,light-classic,light-nintendont,light-last-played">
       <variables>
          <helpTextColor>404040</helpTextColor>
          <helpIconColor>404040</helpIconColor>
@@ -111,6 +111,16 @@
          <backgroundArtPath>./_inc/systems/classic-backgrounds/${system.theme}.webp</backgroundArtPath>
          <backgroundArtDefaultImage>./_inc/systems/classic-backgrounds/_default.webp</backgroundArtDefaultImage>
          <overlayArtPath>./_inc/systems/classic-overlay/${system.theme}.webp</overlayArtPath>
+         <includeGameSelector>./null.xml</includeGameSelector>
+      </variables>
+   </colorScheme>
+   <colorScheme name="dark-nintendont,light-nintendont,retro-nintendont">
+      <variables>
+         <systemCarouselSelectorColor>00C3E3</systemCarouselSelectorColor>
+         <systemCarouselArtPath>./_inc/systems/carousel-icons/${system.theme}.webp</systemCarouselArtPath>
+         <backgroundArtPath>./_inc/systems/nintendont-backgrounds/${system.theme}.webp</backgroundArtPath>
+         <backgroundArtDefaultImage>./_inc/systems/nintendont-backgrounds/_default.webp</backgroundArtDefaultImage>
+         <overlayArtPath>./_inc/systems/nintendont-overlay/${system.theme}.webp</overlayArtPath>
          <includeGameSelector>./null.xml</includeGameSelector>
       </variables>
    </colorScheme>
