@@ -115,6 +115,7 @@ based on 1920x1440
             <selectorHeight>${gamelistSelectorHeight}</selectorHeight>
             <selectorWidth>0.36896</selectorWidth>
             <selectorHorizontalOffset>-.0055</selectorHorizontalOffset>
+            <selectorVerticalOffset>${gamelistselectorVerticalOffset}</selectorVerticalOffset>
          <lineSpacing>${gamelistLineSpacing}</lineSpacing>
       </textlist>
       <image name="game-list-background-shadow">
@@ -148,10 +149,11 @@ based on 1920x1440
    <fontSize name="small">
       <variables>
          <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-xsmall.svg</gamelistBackgroundImageCalculated>
-         <gamelistFontSize>0.022</gamelistFontSize>
-         <gamelistSelectorHeight>0.033214814814815</gamelistSelectorHeight>
-         <gamelistLineSpacing>1.68251851851852</gamelistLineSpacing>
-         <gamelistPos>0.570291666666667 0.104566666666667</gamelistPos>
+        <gamelistFontSize>0.026</gamelistFontSize>
+         <gamelistSelectorHeight>0.038214814814815</gamelistSelectorHeight>
+         <gamelistLineSpacing>1.421251851851852</gamelistLineSpacing>
+         <gamelistPos>0.570291666666667 0.101566666666667</gamelistPos>
+         <gamelistselectorVerticalOffset>0</gamelistselectorVerticalOffset>
          <gamelistGridFontSize>0.030555555555556</gamelistGridFontSize>
          <itemsBeforeCenter>3.25</itemsBeforeCenter>
          <itemsAfterCenter>3.25</itemsAfterCenter>   
@@ -162,10 +164,11 @@ based on 1920x1440
    <fontSize name="medium">
       <variables>
          <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-small.svg</gamelistBackgroundImageCalculated>
-         <gamelistFontSize>0.025</gamelistFontSize>
-         <gamelistSelectorHeight>0.039814814814815</gamelistSelectorHeight>
-         <gamelistLineSpacing>1.851851851851852</gamelistLineSpacing>
-         <gamelistPos>0.570291666666667 0.096666666666667</gamelistPos>
+          <gamelistFontSize>0.030</gamelistFontSize>
+         <gamelistSelectorHeight>0.04514814814815</gamelistSelectorHeight>
+         <gamelistLineSpacing>1.542</gamelistLineSpacing>
+         <gamelistPos>0.570291666666667 0.094666666666667</gamelistPos>
+         <gamelistselectorVerticalOffset>0</gamelistselectorVerticalOffset>
          <gamelistGridFontSize>0.036111111111111</gamelistGridFontSize>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
@@ -177,10 +180,12 @@ based on 1920x1440
    <fontSize name="large,x-large">
       <variables>
          <gamelistBackgroundImageCalculated>./_inc/images/${gamelistBackgroundImage}-medium.svg</gamelistBackgroundImageCalculated>
-         <gamelistFontSize>0.033333333333333</gamelistFontSize>
-         <gamelistSelectorHeight>0.051388888888889</gamelistSelectorHeight>
-         <gamelistLineSpacing>1.736111111111111</gamelistLineSpacing>
-         <gamelistPos>0.570291666666667 0.113666666666667</gamelistPos>
+         <gamelistFontSize>0.038</gamelistFontSize>
+         <gamelistSelectorHeight>0.052</gamelistSelectorHeight>
+         <gamelistselectorVerticalOffset>0.004</gamelistselectorVerticalOffset>
+         <gamelistLineSpacing>1.525</gamelistLineSpacing>
+         <gamelistPos>0.570291666666667 0.109066666666667</gamelistPos>
+         <gamelistPosFlipped>0.070291666666667 0.10906666666667</gamelistPosFlipped>
          <gamelistGridFontSize>0.036111111111111</gamelistGridFontSize>
          <itemsBeforeCenter>3</itemsBeforeCenter>
          <itemsAfterCenter>3</itemsAfterCenter>
@@ -318,25 +323,25 @@ based on 1920x1440
             <variables>
                <imagepos>0.27 0.38</imagepos>
                <imagemaxSize>0.448958333333333 0.43</imagemaxSize>
-               <metaDatafontSize>0.022</metaDatafontSize>
-               <badgepos>0.0445 0.805</badgepos>
-               <badgesize>0.30 0.028</badgesize>
+               <metaDatafontSize>0.026</metaDatafontSize>
+               <badgepos>0.0445 0.810</badgepos>
+               <badgesize>0.33 0.036</badgesize>
             </variables>
          </fontSize>
          <fontSize name="large">
             <variables>
                <imagepos>.27 0.39</imagepos>
                <imagemaxSize>0.448958333333333 0.43</imagemaxSize>
-               <metaDatafontSize>0.024</metaDatafontSize>
-               <badgepos>0.037 0.779</badgepos>
-               <badgesize>0.33 0.033</badgesize>
+               <metaDatafontSize>0.032</metaDatafontSize>
+               <badgepos>0.037 0.84</badgepos>
+               <badgesize>0.33 0.15</badgesize>
             </variables>
          </fontSize>
          <fontSize name="x-large">
             <variables>
                <imagepos>0.27 0.45</imagepos>
                <imagemaxSize>0.392 0.66</imagemaxSize>
-                <metaDatafontSize>0.05</metaDatafontSize>
+               <metaDatafontSize>0.05</metaDatafontSize>
                <badgepos>0.068 0.91</badgepos>
                <badgesize>0.53 0.053</badgesize>
             </variables>
@@ -369,7 +374,7 @@ based on 1920x1440
          </text>
          <rating name="game-rating-extended">
             <pos>0.476 0.899</pos>
-            <size>0 ${metaDatafontSize}</size>
+            <size>0 0.019</size>
             <visible>${metadataExtended}</visible>
          </rating>
          <text name="game-genre-extended">
@@ -381,9 +386,10 @@ based on 1920x1440
          </text>
          <datetime name="game-releasedate-extended">
             <pos>0.552 0.899</pos>
-            <size>0 ${metaDatafontSize}</size>
+            <size>0.062 ${metaDatafontSize}</size>
             <visible>${metadataExtended}</visible>
             <fontSize>${metaDatafontSize}</fontSize>
+            <format>%Y</format>
          </datetime>
          <datetime name="game-lastplayed-extended">
             <pos>0.864 0.8495</pos>
@@ -420,7 +426,7 @@ based on 1920x1440
          </text>
          <rating name="game-rating-base">
             <pos>0.487 0.908</pos>
-            <size>0 ${metaDatafontSize}</size>
+            <size>0 0.027</size>
             <visible>${metadataBase}</visible>
          </rating>
          <text name="game-genre-base">
@@ -473,16 +479,16 @@ based on 1920x1440
       </view>
       <fontSize name="small,medium">
          <variables>
-            <metaDatafontSize>0.02</metaDatafontSize>
-            <badgepos>0.61 0.805</badgepos>
-            <badgesize>0.35 0.033</badgesize>
+             <metaDatafontSize>0.028</metaDatafontSize>
+            <badgepos>0.960 0.8275</badgepos>
+            <badgesize>0.38 0.028</badgesize>
          </variables>
       </fontSize>
       <fontSize name="large">
          <variables>
-            <metaDatafontSize>0.028</metaDatafontSize>
-            <badgepos>0.592 0.788</badgepos>
-            <badgesize>0.38 0.038</badgesize>
+            <metaDatafontSize>0.036</metaDatafontSize>
+            <badgepos>0.972 0.81</badgepos>
+            <badgesize>0.38 0.035</badgesize>
          </variables>
       </fontSize>
       <fontSize name="x-large">

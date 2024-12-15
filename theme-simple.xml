@@ -314,7 +314,12 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <metadata>releasedate</metadata>
             <defaultValue>Unknown</defaultValue>
             <horizontalAlignment>left</horizontalAlignment>
+         </datetime>
+         <datetime name="game-lastplayed-extended,game-releasedate-extended">
             <format>%Y-%m</format>
+         </datetime>
+         <datetime name="game-releasedate-base">
+            <format>%Y</format>
          </datetime>
          <datetime name="game-lastplayed-extended">
             <metadata>lastplayed</metadata>
