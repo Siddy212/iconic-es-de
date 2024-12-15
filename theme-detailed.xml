@@ -425,7 +425,7 @@
             <metadata>releasedate</metadata>
             <defaultValue>Unknown</defaultValue>
             <horizontalAlignment>left</horizontalAlignment>
-            <format>%Y-%m</format>
+            <format>%Y</format>
          </datetime>
          <text name="game-genre-base">
             <origin>0 0.5</origin>
