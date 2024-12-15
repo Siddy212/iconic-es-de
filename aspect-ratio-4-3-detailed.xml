@@ -437,7 +437,7 @@ based on 3840x2880
             <descriptionFontSize>0.023</descriptionFontSize>
             <descriptionLineSpacing>1.35</descriptionLineSpacing>
             <badgepos>0.0351875 0.865</badgepos>
-            <badgeposFlipped>0.5571875 0.865</badgeposFlipped>
+            <badgeposFlipped>0.5321875 0.865</badgeposFlipped>
             <badgesize>0.3 0.108</badgesize>
          </variables>
       </fontSize>
