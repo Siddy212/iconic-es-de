@@ -89,6 +89,26 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <customButtonIcon button="button_y_SNES">./_inc/images/help-button-north.svg</customButtonIcon>
             <customButtonIcon button="thumbstick_click">./_inc/images/help-left-stick-click.svg</customButtonIcon>
          </helpsystem>
+         
+      <clock name="clock">
+         <pos>0.016 0.015</pos>
+         <fontPath>${fontBold}</fontPath>
+         <color>${helpTextColor}</color>
+         <backgroundColor>${backgroundColor}d9</backgroundColor>
+         <backgroundCornerRadius>0.009</backgroundCornerRadius>
+         <backgroundHorizontalPadding>0.005 0.005</backgroundHorizontalPadding>
+         <backgroundVerticalPadding>0.002 0.002</backgroundVerticalPadding>
+      </clock>
+      <systemstatus name="systemstatus">
+         <pos>0.984 0.015</pos>
+         <fontPath>${fontBold}</fontPath>
+         <color>${helpTextColor}</color>
+         <backgroundColor>${backgroundColor}d9</backgroundColor>
+         <backgroundCornerRadius>0.009</backgroundCornerRadius>
+         <backgroundHorizontalPadding>0.003 0.003</backgroundHorizontalPadding>
+         <backgroundVerticalPadding>0.002 0.002</backgroundVerticalPadding>
+      </systemstatus>
+
       </view>
 
    <!--
@@ -180,6 +200,12 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <folderLinkSize>0.8</folderLinkSize>
          <itemMargin>0.006 0.01</itemMargin>
       </badges> 
+      <clock name="clock">
+         <color>${helpTextColor}</color>
+      </clock>
+      <systemstatus name="systemstatus">
+         <color>${helpTextColor}</color>
+      </systemstatus>
    </view>
 
 
