@@ -1,0 +1,18 @@
+﻿<theme>
+    <variables>
+        <systemName>Mark III</systemName>
+        <systemDescription>The Sega Mark III is a third-generation 8-bit home video game console manufactured by Sega, as the third iteration of the SG-1000 series of consoles. It was released in Japan in 1985 and featured enhanced graphical capabilities over its predecessors. Outside of Japan it was branded as the Sega Master System.</systemDescription>
+        <systemManufacturer>Sega</systemManufacturer>
+        <systemReleaseYear>1985</systemReleaseYear>
+        <systemReleaseDate>1985-10-20</systemReleaseDate>
+        <systemReleaseDateFormated>October 20, 1985</systemReleaseDateFormated>
+        <systemHardwareType>Console</systemHardwareType>
+        <systemCoverSize>243-340</systemCoverSize>
+        <systemColor>198AC8</systemColor>
+        <systemColorPalette1>95897A</systemColorPalette1>
+        <systemColorPalette2>D8B945</systemColorPalette2>
+        <systemColorPalette3>447094</systemColorPalette3>
+        <systemColorPalette4>CBCBCB</systemColorPalette4>
+        <systemCartSize>112-67</systemCartSize>
+    </variables>
+</theme>
