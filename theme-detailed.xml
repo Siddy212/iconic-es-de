@@ -245,6 +245,7 @@
          <imageType>marquee</imageType>
          <selectorImage>./_inc/systems/coversize-vertical/112-67.svg</selectorImage>
          <itemSize>${gridItemSize}</itemSize>
+            <backgroundRelativeScale>0</backgroundRelativeScale>
       </grid>
     </view>
    </variant>
@@ -476,6 +477,9 @@
    </aspectRatio>
    <aspectRatio name="3:2">
       <include>./aspect-ratio-3-2-detailed.xml</include>
+   </aspectRatio>
+   <aspectRatio name="8:7">
+      <include>./aspect-ratio-8-7-detailed.xml</include>
    </aspectRatio>
    <!--
    ///

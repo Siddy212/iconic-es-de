@@ -124,4 +124,24 @@
       </variables>
     </fontSize>
   </aspectRatio>
+
+    <aspectRatio name="8:7">
+   <fontSize name="small">
+      <variables>
+         <gridItemSize>0.1249 0.1913</gridItemSize>
+      </variables>
+   </fontSize>
+   <fontSize name="medium">
+      <variables>
+         <gridItemSize>0.1666 0.2558</gridItemSize>
+      </variables>
+   </fontSize>
+   <fontSize name="large,x-large">
+      <variables>
+        <gridItemSize>0.2499 0.3837</gridItemSize>
+      </variables>
+   </fontSize>
+</aspectRatio>
+
+
 </theme>

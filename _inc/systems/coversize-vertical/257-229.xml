@@ -125,5 +125,25 @@
             <gridItemSize>0.16666 0.1485084306</gridItemSize><!-- 256 350 -->
          </variables>
       </fontSize>
-   </aspectRatio>
+   </aspectRatio>  
+
+<aspectRatio name="8:7">
+    <fontSize name="small">
+        <variables>
+            <gridItemSize>0.125 0.1282</gridItemSize><!-- 256 350 -->
+        </variables>
+    </fontSize>
+    <fontSize name="medium">
+        <variables>
+            <gridItemSize>0.16666 0.1706</gridItemSize><!-- 256 350 -->
+        </variables>
+    </fontSize>
+    <fontSize name="x-large, large">
+        <variables>
+            <gridItemSize>0.24999 0.2559</gridItemSize><!-- 256 350 -->
+
+        </variables>
+    </fontSize>
+</aspectRatio>
+
 </theme>

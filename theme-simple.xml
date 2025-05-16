@@ -315,10 +315,10 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <defaultValue>Unknown</defaultValue>
             <horizontalAlignment>left</horizontalAlignment>
          </datetime>
-         <datetime name="game-lastplayed-extended,game-releasedate-extended">
+         <datetime name="game-lastplayed-extended">
             <format>%Y-%m</format>
          </datetime>
-         <datetime name="game-releasedate-base">
+         <datetime name="game-releasedate-base,game-releasedate-extended">
             <format>%Y</format>
          </datetime>
          <datetime name="game-lastplayed-extended">
@@ -386,6 +386,9 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    </aspectRatio>
    <aspectRatio name="3:2">
       <include>./aspect-ratio-3-2-simple.xml</include>
+   </aspectRatio>
+   <aspectRatio name="8:7">
+      <include>./aspect-ratio-8-7-simple.xml</include>
    </aspectRatio>
 	  <!--
    ///

@@ -168,4 +168,28 @@
          </variables>
       </fontSize>
    </aspectRatio>
+
+   <aspectRatio name="8:7">
+      <fontSize name="small">
+         <variables>
+            <gridItemSize>0.1291 0.24</gridItemSize>
+            <gridItemPos>0.5356214421</gridItemPos>
+            <gridHeight>0.72</gridHeight>
+         </variables>
+      </fontSize>
+      <fontSize name="medium,large">
+         <variables>
+            <gridItemSize>0.1937 0.36</gridItemSize>
+            <gridItemPos>0.5033444023</gridItemPos>
+            <gridHeight>0.72</gridHeight>
+         </variables>
+      </fontSize>
+      <fontSize name="x-large">
+         <variables>
+            <gridItemSize>0.2152 0.4</gridItemSize>
+            <gridItemPos>0.5571394687</gridItemPos>
+            <gridHeight>0.8</gridHeight>
+         </variables>
+      </fontSize>
+   </aspectRatio>
 </theme>
