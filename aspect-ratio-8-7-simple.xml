@@ -23,8 +23,8 @@ based on 1920x1080
          <size>1 0.21111111111</size>
       </image>
       <image name="background-art">
-          <pos>0.495 0.475</pos>
-         <size>1.68888846666 0.95</size>
+          <pos>0.495 0.5</pos>
+         <size>0 1</size>
       </image>
    </view>
 

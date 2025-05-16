@@ -21,8 +21,8 @@ based on 1080 x 1080
          <size>1 0.21111111111</size>
       </image>
       <image name="background-art">
-         <pos>0.62 0.475</pos>
-         <size>1.44761868571 0.95</size>
+         <pos>0.62 0.5</pos>
+         <size>0 1</size>
       </image>
    </view>
 
@@ -48,8 +48,8 @@ based on 1080 x 1080
          <size>0.41895 1.1</size>
       </image>
       <image name="Overlay">
-         <pos>0.62 0.475</pos>
-         <size>1.44761868571 0.95</size>
+         <pos>0.62 0.5</pos>
+         <size>0 1</size>
       </image>
       <image name="system-image">
          <pos>0.25 .23</pos>
