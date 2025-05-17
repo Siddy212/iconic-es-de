@@ -225,7 +225,18 @@ based on 1920x1200
       </image>
     </view>
    </variant>
-
+   <variant name=
+      "carousel,      
+      grid-boxart,
+      grid-titlescreen,
+      grid-physical-media,
+      grid-marquee">
+   <view name="gamelist">
+      <systemstatus name="systemstatus">
+         <pos>0.48 0.03</pos>
+      </systemstatus>
+    </view>
+   </variant>
    <variant name=
       "textlist-flipped">
       <view name="gamelist">

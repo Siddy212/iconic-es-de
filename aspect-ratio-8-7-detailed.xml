@@ -236,6 +236,9 @@ based on 1240x1080
          <pos>0.25 0.91</pos>
          <size>0.29166666664 0</size>
       </image>
+      <systemstatus name="systemstatus">
+         <pos>0.48 0.0325</pos>
+      </systemstatus>
     </view>
    </variant>
    <variant name=

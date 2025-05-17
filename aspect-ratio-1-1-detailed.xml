@@ -230,6 +230,9 @@ based on 1080 x 1080
          <pos>0.25 0.91</pos>
          <size>0.29166666664 0.29166666664</size>
       </image>
+      <systemstatus name="systemstatus">
+         <pos>0.48 0.03</pos>
+      </systemstatus>
     </view>
    </variant>
    <variant name=

@@ -248,8 +248,12 @@ based on 1920x886
          <pos>0.25 0.91</pos>
          <size>0.15384615384 0.33333333333</size>
       </image>
+      <systemstatus name="systemstatus">
+         <pos>0.48 0.03</pos>
+      </systemstatus>
     </view>
    </variant>
+
    <variant name=
       "textlist">
    <view name="gamelist">
