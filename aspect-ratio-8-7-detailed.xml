@@ -1,6 +1,6 @@
 <!--
-1:1 resolution: 
-based on 1080 x 1080
+8:7 resolution: 
+based on 1240x1080
 -->
 <theme>
 
@@ -90,7 +90,7 @@ based on 1080 x 1080
          <pos>0.07 0.0325</pos>
       </clock>
       <systemstatus name="systemstatus">
-         <pos>0.43 0.0325</pos>
+         <pos>0.435 0.0325</pos>
       </systemstatus>
    </view>
 
