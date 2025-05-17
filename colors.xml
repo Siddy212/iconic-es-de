@@ -25,6 +25,7 @@
          <gameDescriptionColor>54585a</gameDescriptionColor>
          <gameMetadataColor>54585a</gameMetadataColor>
          <BadgeColor>514689</BadgeColor>
+         <clockColor>1b1b1b</clockColor>
       </variables>
    </colorScheme>
    <colorScheme name="dark-modern,dark-custom,dark-classic,dark-default,dark-last-played">
@@ -54,6 +55,7 @@
          <gameDescriptionColor>ffffff</gameDescriptionColor>
          <gameMetadataColor>bbbbbb</gameMetadataColor>
          <BadgeColor>bbbbbb</BadgeColor>
+         <clockColor>dedede</clockColor>
       </variables>
    </colorScheme>
    <colorScheme name="light-modern,light-custom,light-classic,light-default,light-last-played">
@@ -82,6 +84,7 @@
          <gameDescriptionColor>000000</gameDescriptionColor>
          <gameMetadataColor>555555</gameMetadataColor>
          <BadgeColor>555555</BadgeColor>
+         <clockColor>1b1b1b</clockColor>
       </variables>
    </colorScheme>
    <colorScheme name="dark-modern,light-modern,retro-modern">

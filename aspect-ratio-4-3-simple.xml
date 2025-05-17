@@ -26,6 +26,12 @@ based on 1920x1440
          <pos>0.5 0.5</pos>
          <size>1.333333 1</size>
       </image>
+         <clock name="clock">
+            <pos>0.015 0.03</pos>
+         </clock>
+         <systemstatus name="systemstatus">
+            <pos>0.985 0.03</pos>
+         </systemstatus>
    </view>
 
    <!--

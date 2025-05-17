@@ -52,8 +52,8 @@ based on 1920x1080
          <size>1 1</size>
       </image>
       <image name="system-image">
-         <pos>0.25 .23</pos>
-         <size>.24 0</size>
+         <pos>0.25 .245</pos>
+         <maxSize>.24 0.37</maxSize>
       </image>
       <helpsystem name="help">
          <pos>0.98 0.977</pos>
@@ -85,6 +85,12 @@ based on 1920x1080
          <color>${systemInfoColor}</color>
          <zIndex>10</zIndex>
       </text>
+      <clock name="clock">
+         <pos>0.13 0.03</pos>
+      </clock>
+      <systemstatus name="systemstatus">
+         <pos>0.37 0.03</pos>
+      </systemstatus>
    </view>
 
    <fontSize name="small">
@@ -113,7 +119,20 @@ based on 1920x1080
          <systemNamePos>0.25 0.468</systemNamePos>
          <systemInfoPos>0.25 0.530</systemInfoPos>
       </variables>
-   </fontSize>
+   </fontSize>   
+   <!--
+   ///
+   Gamelist View: Defaults
+   ///
+   -->
+      <view name="gamelist">
+         <clock name="clock">
+            <pos>0.01 0.03</pos>
+         </clock>
+         <systemstatus name="systemstatus">
+            <pos>0.99 0.03</pos>
+         </systemstatus>
+      </view>
    <!--
    ///
    Gamelist View: Carousel
