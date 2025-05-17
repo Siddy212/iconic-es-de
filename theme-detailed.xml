@@ -42,7 +42,7 @@
       <image name="system-image">
          <origin>0.5 0.5</origin>
          <pos>0.25 .23</pos>
-      </image>
+      </image>      
    </view>
 
    <!--

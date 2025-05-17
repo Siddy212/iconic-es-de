@@ -95,11 +95,13 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <fontPath>${fontBold}</fontPath>
          <origin>0 0.5</origin>
          <color>${clockColor}</color>
+         <fontSize>${systemClockSize}</fontSize>
       </clock>
       <systemstatus name="systemstatus">
          <origin>1 0.5</origin>
          <fontPath>${fontBold}</fontPath>
          <color>${clockColor}</color>
+         <height>${systemClockSize}</height>
       </systemstatus>
 
       </view>
@@ -251,5 +253,20 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
          <path>./_inc/sounds/launch.wav</path>
       </sound>
    </view>
-	
+
+      <fontSize name="small">
+         <variables>
+            <systemClockSize>0.03</systemClockSize>
+         </variables>
+      </fontSize>
+      <fontSize name="medium">
+         <variables>
+            <systemClockSize>0.035</systemClockSize>
+         </variables>
+      </fontSize>
+      <fontSize name="large,x-large">
+         <variables>
+            <systemClockSize>0.045</systemClockSize>
+         </variables>
+      </fontSize>
 </theme>
