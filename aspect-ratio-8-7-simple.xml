@@ -269,13 +269,13 @@ based on 1240x1080
             <fontSize>${metaDatafontSize}</fontSize>
          </datetime>
          <datetime name="game-lastplayed-extended">
-            <pos>0.350 0.68</pos>
+            <pos>0.187 0.68</pos>
             <size>0.122 ${metaDatafontSize}</size>
             <visible>${metadataExtended}</visible>
             <fontSize>${metaDatafontSize}</fontSize>
          </datetime>
          <text name="game-playtime-extended">
-            <pos>0.187 0.68</pos>
+            <pos>0.350 0.68</pos>
             <size>0.122 ${metaDatafontSize}</size>
             <visible>${metadataExtended}</visible>
             <fontSize>${metaDatafontSize}</fontSize>
@@ -420,13 +420,13 @@ based on 1240x1080
             <fontSize>${metaDatafontSize}</fontSize>
          </datetime>
          <datetime name="game-lastplayed-extended">
-            <pos>0.78 0.928</pos>
+            <pos>0.6145 0.928</pos>
             <size>0.12 ${metaDatafontSize}</size>
             <visible>${metadataExtended}</visible>
             <fontSize>${metaDatafontSize}</fontSize>
          </datetime>
          <text name="game-playtime-extended">
-            <pos>0.6145 0.928</pos>
+            <pos>0.78 0.928</pos>
             <size>0.12 ${metaDatafontSize}</size>
             <visible>${metadataExtended}</visible>
             <fontSize>${metaDatafontSize}</fontSize>

@@ -295,7 +295,7 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
    -->
 
       <view name="gamelist">
-         <text name="game-name-extended,game-name-base,game-name-min,game-genre-extended,game-genre-base,game-playcount-extended">
+         <text name="game-name-extended,game-name-base,game-name-min,game-genre-extended,game-genre-base,game-playtime-extended">
             <origin>0 0.5</origin>
             <fontPath>${fontBold}</fontPath>
             <color>${gameMetadataColor}</color>
@@ -304,6 +304,9 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <containerType>horizontal</containerType>
             <horizontalAlignment>left</horizontalAlignment>
             <defaultValue>Unknown</defaultValue>
+         </text>
+          <text name="game-playtime-extended">
+             <defaultValue>Unplayed</defaultValue>
          </text>
          <text name="game-genre-extended,game-genre-base">
             <metadata>genre</metadata>
@@ -338,8 +341,8 @@ license:                Attribution-NonCommercial-ShareAlike 2.0 (CC-BY-NC-SA)
             <metadata>lastplayed</metadata>
             <defaultValue>Never</defaultValue>
          </datetime>
-         <text name="game-playcount-extended">
-            <metadata>playcount</metadata>
+         <text name="game-playtime-extended">
+            <metadata>playtime</metadata>
          </text>
          <image name="game-metadata-background-image-extended">
             <origin>0.5 0.5</origin>
