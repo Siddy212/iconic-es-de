@@ -241,7 +241,7 @@ based on 1920x1080
             <visible>${metadataExtended}</visible>
             <fontSize>${metaDatafontSize}</fontSize>
          </datetime>
-         <text name="game-playcount-extended">
+         <text name="game-playtime-extended">
             <pos>0.410 .7075</pos>
             <size>0.09 ${metaDatafontSize}</size>
             <visible>${metadataExtended}</visible>
@@ -394,7 +394,7 @@ based on 1920x1080
             <fontSize>${metaDatafontSize}</fontSize>
             <visible>${metadataExtended}</visible>
          </datetime>
-         <text name="game-playcount-extended">
+         <text name="game-playtime-extended">
             <pos>0.862 0.853</pos>
             <size>0.11 ${metaDatafontSize}</size>
             <fontSize>${metaDatafontSize}</fontSize>

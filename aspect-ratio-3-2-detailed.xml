@@ -368,7 +368,7 @@ based on 1920x1280
             <visible>${metadataExtended}</visible>
             <zIndex>4</zIndex>
          </image>
-         <text name="game-name-extended,game-players-extended,game-genre-extended,game-developer-extended,game-publisher-extended,game-playcount-extended">
+         <text name="game-name-extended,game-players-extended,game-genre-extended,game-developer-extended,game-publisher-extended,game-playtime-extended">
             <visible>${metadataExtended}</visible>
             <fontSize>${metaDatafontSize}</fontSize>
          </text>
@@ -401,7 +401,7 @@ based on 1920x1280
          <datetime name="game-lastplayed-extended">
             <size>0.097 ${metaDatafontSize}</size>
          </datetime>
-         <text name="game-playcount-extended">
+         <text name="game-playtime-extended">
             <size>0.097 ${metaDatafontSize}</size>
          </text>
          <!-- End: Extended Metadata -->
@@ -540,7 +540,7 @@ based on 1920x1280
          <datetime name="game-lastplayed-extended">
             <pos>0.375475 0.645</pos>
          </datetime>
-         <text name="game-playcount-extended">
+         <text name="game-playtime-extended">
             <pos>0.375475 0.689</pos>
          </text>
          <!-- End: Extended Metadata -->
@@ -609,7 +609,7 @@ based on 1920x1280
          <datetime name="game-lastplayed-extended">
             <pos>0.875475 0.645</pos>
          </datetime>
-         <text name="game-playcount-extended">
+         <text name="game-playtime-extended">
             <pos>0.875475 0.689</pos>
          </text>
          <!-- End: Extended Metadata -->

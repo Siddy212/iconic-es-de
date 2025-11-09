@@ -207,7 +207,7 @@
             <zIndex>10</zIndex>
             <pos>0.46 0.929</pos>
             <size>0.54 0.017</size>
-         </image>
+         </image>      
       </view>
    </variant>
    <variant name="grid-boxart">
@@ -354,12 +354,15 @@
             <color>${gameMetadataColor}</color>
             <lineSpacing>1</lineSpacing>
          </datetime>
-         <text name="game-name-extended,game-players-extended,game-genre-extended,game-developer-extended,game-publisher-extended,game-playcount-extended,game-name-extended">
+         <text name="game-name-extended,game-players-extended,game-genre-extended,game-developer-extended,game-publisher-extended,game-playtime-extended,game-name-extended">
             <origin>0 0.5</origin>
             <fontPath>${fontBold}</fontPath>
             <color>${gameMetadataColor}</color>
             <lineSpacing>1</lineSpacing>
             <defaultValue>Unknown</defaultValue>
+         </text>
+         <text name="game-playtime-extended">
+            <defaultValue>Unplayed</defaultValue>
          </text>
          <datetime name="game-releasedate-extended">
             <metadata>releasedate</metadata>
@@ -388,8 +391,8 @@
             <metadata>lastplayed</metadata>
             <defaultValue>Never</defaultValue>
          </datetime>
-         <text name="game-playcount-extended">
-            <metadata>playcount</metadata>
+         <text name="game-playtime-extended">
+            <metadata>playtime</metadata>
          </text>
          <!-- End: Extended Metadata -->
          <!-- Start: Base Metadata -->

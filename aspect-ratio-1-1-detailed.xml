@@ -212,7 +212,7 @@ based on 1080 x 1080
          <pos>0.98 0.03</pos>
       </systemstatus>
     </view>
-    <text name="game-name-extended,game-name-base,game-name-min,game-genre-extended,game-genre-base,game-playcount-extended">
+    <text name="game-name-extended,game-name-base,game-name-min,game-genre-extended,game-genre-base,game-playtime-extended">
       <fontSize>${metaDatafontSize}</fontSize>
     </text>
    <variant name=
@@ -379,7 +379,7 @@ based on 1080 x 1080
             <visible>${metadataExtended}</visible>
             <zIndex>4</zIndex>
          </image>
-         <text name="game-name-extended,game-players-extended,game-genre-extended,game-developer-extended,game-publisher-extended,game-playcount-extended">
+         <text name="game-name-extended,game-players-extended,game-genre-extended,game-developer-extended,game-publisher-extended,game-playtime-extended">
             <visible>${metadataExtended}</visible>
             <fontSize>${metaDatafontSize}</fontSize>
          </text>
@@ -412,7 +412,7 @@ based on 1080 x 1080
          <datetime name="game-lastplayed-extended">
             <size>0.22 ${metaDatafontSize}</size>
          </datetime>
-         <text name="game-playcount-extended">
+         <text name="game-playtime-extended">
             <size>0 ${metaDatafontSize}</size>
          </text>
          <!-- End: Extended Metadata -->
@@ -555,7 +555,7 @@ based on 1080 x 1080
          <datetime name="game-lastplayed-extended">
             <pos>0.2515 0.636</pos>
          </datetime>
-         <text name="game-playcount-extended">
+         <text name="game-playtime-extended">
             <pos>0.059 0.635</pos>
          </text>
          <!-- End: Extended Metadata -->
@@ -624,7 +624,7 @@ based on 1080 x 1080
          <datetime name="game-lastplayed-extended">
             <pos>0.7515 0.636</pos>
          </datetime>
-         <text name="game-playcount-extended">
+         <text name="game-playtime-extended">
             <pos>0.559 0.635</pos>
          </text>
          <!-- End: Extended Metadata -->
